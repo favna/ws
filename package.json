@@ -2,7 +2,7 @@
   "name": "@klasa/ws",
   "version": "0.0.1",
   "description": "some util thing.",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "prepublishOnly": "yarn build",
     "build": "tsc",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "@klasa/dapi-types": "^0.0.1",
     "@types/node": "^13.9.0",
     "@typescript-eslint/eslint-plugin": "^2.22.0",
     "@typescript-eslint/parser": "^2.22.0",
@@ -31,8 +32,8 @@
     "nyc": "^15.0.0",
     "source-map-support": "^0.5.13",
     "ts-node": "^8.6.2",
-    "typescript": "^3.8.3",
-    "typedoc": "^0.17.0-3"
+    "typedoc": "^0.17.0-3",
+    "typescript": "^3.8.3"
   },
   "repository": {
     "type": "git",
@@ -50,5 +51,18 @@
       "ts-node/register",
       "source-map-support/register"
     ]
+  },
+  "dependencies": {
+    "@klasa/async-queue": "^0.0.1",
+    "@klasa/bitfield": "^0.0.2",
+    "@klasa/cache": "^0.0.1",
+    "@klasa/rest": "^0.0.2",
+    "@klasa/utils": "^0.0.4",
+    "ws": "^7.2.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2",
+    "zlib-sync": "^0.1.6"
   }
 }
