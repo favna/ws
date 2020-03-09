@@ -81,15 +81,6 @@ export class WebSocketManager extends EventEmitter {
 		// Get gateway info from the api and cache it
 		this.#gatewayInfo = await this.api.get(Routes.gatewayBot()) as APIGatewayBotData;
 
-		// Debug what the api says we can spawn
-		this.debug([
-			`Session Limit [`,
-			`  Total      : ${this.#gatewayInfo.session_start_limit.total}`,
-			`  Remaining  : ${this.#gatewayInfo.session_start_limit.remaining}`,
-			`  Reset After: ${this.#gatewayInfo.session_start_limit.reset_after}ms`,
-			`]`
-		].join('\n'));
-
 		// Make a list of shards to spawn
 		const shards = [];
 
@@ -103,8 +94,18 @@ export class WebSocketManager extends EventEmitter {
 			for (let i = 0; i < this.#gatewayInfo.shards; i++) shards.push(i);
 		} else {
 			// Starting a specified number of shards
+			this.options.totalShards = this.options.shards;
 			for (let i = 0; i < this.options.shards; i++) shards.push(i);
 		}
+
+		// Debug what the api says we can spawn
+		this.debug([
+			`Session Limit [`,
+			`  Total      : ${this.#gatewayInfo.session_start_limit.total}`,
+			`  Remaining  : ${this.#gatewayInfo.session_start_limit.remaining}`,
+			`  Reset After: ${this.#gatewayInfo.session_start_limit.reset_after}ms`,
+			`]`
+		].join('\n'));
 
 		// Debug what shards we are starting
 		this.debug(`Shard Queue: ${shards.join(', ')}`);
@@ -177,7 +178,7 @@ export class WebSocketManager extends EventEmitter {
 	 * @param id The id to get/create a shard
 	 */
 	private getShard(id: number): WebSocketShard {
-		const shard = this.shards.get(id) || new WebSocketShard(this, id, this.options.totalShards ?? this.options.shards as number, this.#gatewayInfo.url);
+		const shard = this.shards.get(id) || new WebSocketShard(this, id, this.options.totalShards, this.#gatewayInfo.url);
 		this.shards.set(id, shard);
 		return shard;
 	}
@@ -201,7 +202,7 @@ export class WebSocketManager extends EventEmitter {
 	 * @param message The message to emit
 	 */
 	private debug(message: string): void {
-		this.emit(WebSocketManagerEvents.Debug, `[Manager(${this.options.totalShards ?? this.options.shards})] ${message}`);
+		this.emit(WebSocketManagerEvents.Debug, `[Manager(${this.options.totalShards})] ${message}`);
 	}
 
 }
