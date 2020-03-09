@@ -2740,7 +2740,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 203,
+									"line": 204,
 									"character": 14
 								}
 							]
@@ -2775,7 +2775,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 127,
+									"line": 128,
 									"character": 15
 								}
 							]
@@ -3008,7 +3008,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 179,
+									"line": 180,
 									"character": 17
 								}
 							]
@@ -3049,7 +3049,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 188,
+									"line": 189,
 									"character": 33
 								}
 							]
@@ -3876,7 +3876,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 144,
+									"line": 145,
 									"character": 25
 								}
 							]
@@ -4191,7 +4191,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 120,
+									"line": 121,
 									"character": 24
 								}
 							]
@@ -4245,7 +4245,7 @@
 							"sources": [
 								{
 									"fileName": "src/lib/WebSocketManager.ts",
-									"line": 135,
+									"line": 136,
 									"character": 28
 								}
 							]
