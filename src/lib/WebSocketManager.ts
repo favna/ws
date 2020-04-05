@@ -8,7 +8,7 @@ import type { APIGatewayBotData } from '@klasa/dapi-types';
 
 import { WebSocketShard, WebSocketShardStatus } from './WebSocketShard';
 import { WSOptionsDefaults } from '../util/Constants';
-import { WebSocketManagerEvents, GatewayStatus } from '../types/InternalWebSocket';
+import * as Types from '../types/InternalWebSocket';
 
 import type { IntentsResolvable } from '../util/Intents';
 
@@ -158,7 +158,7 @@ export class WebSocketManager extends EventEmitter {
 			const status = await shard.connect(this.#token!);
 
 			// If we get an invalid session, to the back of the line you go
-			if (status === GatewayStatus.InvalidSession) {
+			if (status === Types.GatewayStatus.InvalidSession) {
 				this.debug(`Invalid Session[${id}] Requeued for identify later`);
 				this.queueShard(id);
 			}
@@ -202,7 +202,154 @@ export class WebSocketManager extends EventEmitter {
 	 * @param message The message to emit
 	 */
 	private debug(message: string): void {
-		this.emit(WebSocketManagerEvents.Debug, `[Manager(${this.options.totalShards})] ${message}`);
+		this.emit(Types.WebSocketManagerEvents.Debug, `[Manager(${this.options.totalShards})] ${message}`);
 	}
+
+	// #region Overloads
+
+	/* eslint-disable no-dupe-class-members */
+	public on(event: Types.WebSocketEvents.Ready, listener: (data: Types.ReadyDispatch) => void): this
+	public on(event: Types.WebSocketEvents.Resumed, listener: (data: Types.ResumedDispatch) => void): this
+	public on(event: Types.WebSocketEvents.ChannelCreate | Types.WebSocketEvents.ChannelDelete | Types.WebSocketEvents.ChannelUpdate, listener: (data: Types.ChannelCreateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.ChannelPinsUpdate, listener: (data: Types.ChannelPinsUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildCreate | Types.WebSocketEvents.GuildUpdate, listener: (data: Types.GuildCreateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildDelete, listener: (data: Types.GuildDeleteDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildBanAdd | Types.WebSocketEvents.GuildBanRemove, listener: (data: Types.GuildBanAddDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildEmojisUpdate, listener: (data: Types.GuildEmojisUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildIntegrationsUpdate, listener: (data: Types.GuildIntegrationsUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildMemberAdd, listener: (data: Types.GuildMemberAddDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildMemberRemove, listener: (data: Types.GuildMemberRemoveDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildMemberUpdate, listener: (data: Types.GuildMemberUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public on(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this
+	public on(event: Types.WebSocketEvents.MessageDeleteBulk, listener: (data: Types.MessageDeleteBulkDispatch) => void): this
+	public on(event: Types.WebSocketEvents.MessageReactionAdd, listener: (data: Types.MessageReactionAddDispatch) => void): this
+	public on(event: Types.WebSocketEvents.MessageReactionRemove, listener: (data: Types.MessageReactionRemoveDispatch) => void): this
+	public on(event: Types.WebSocketEvents.MessageReactionRemoveAll, listener: (data: Types.MessageReactionRemoveAllDispatch) => void): this
+	public on(event: Types.WebSocketEvents.PresenceUpdate, listener: (data: Types.PresenceUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.TypingStart, listener: (data: Types.TypingStartDispatch) => void): this
+	public on(event: Types.WebSocketEvents.UserUpdate, listener: (data: Types.UserUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.VoiceStateUpdate, listener: (data: Types.VoiceStateUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.VoiceServerUpdate, listener: (data: Types.VoiceServerUpdateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.WebhooksUpdate, listener: (data: Types.WebhooksUpdateDispatch) => void): this
+	public on(event: Types.WebSocketManagerEvents.Debug, listener: (data: string) => void): this
+	public on(event: Types.WebSocketManagerEvents.Error, listener: (data: Error) => void): this
+	public on(event: Types.WebSocketEvents | Types.WebSocketManagerEvents, listener: (data: Types.DispatchPayload | string | Error) => void): this
+	public on(event: string | symbol, listener: (...args: any[]) => void): this {
+		return super.on(event, listener);
+	}
+
+	public once(event: Types.WebSocketEvents.Ready, listener: (data: Types.ReadyDispatch) => void): this
+	public once(event: Types.WebSocketEvents.Resumed, listener: (data: Types.ResumedDispatch) => void): this
+	public once(event: Types.WebSocketEvents.ChannelCreate | Types.WebSocketEvents.ChannelDelete | Types.WebSocketEvents.ChannelUpdate, listener: (data: Types.ChannelCreateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.ChannelPinsUpdate, listener: (data: Types.ChannelPinsUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildCreate | Types.WebSocketEvents.GuildUpdate, listener: (data: Types.GuildCreateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildDelete, listener: (data: Types.GuildDeleteDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildBanAdd | Types.WebSocketEvents.GuildBanRemove, listener: (data: Types.GuildBanAddDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildEmojisUpdate, listener: (data: Types.GuildEmojisUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildIntegrationsUpdate, listener: (data: Types.GuildIntegrationsUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildMemberAdd, listener: (data: Types.GuildMemberAddDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildMemberRemove, listener: (data: Types.GuildMemberRemoveDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildMemberUpdate, listener: (data: Types.GuildMemberUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public once(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this
+	public once(event: Types.WebSocketEvents.MessageDeleteBulk, listener: (data: Types.MessageDeleteBulkDispatch) => void): this
+	public once(event: Types.WebSocketEvents.MessageReactionAdd, listener: (data: Types.MessageReactionAddDispatch) => void): this
+	public once(event: Types.WebSocketEvents.MessageReactionRemove, listener: (data: Types.MessageReactionRemoveDispatch) => void): this
+	public once(event: Types.WebSocketEvents.MessageReactionRemoveAll, listener: (data: Types.MessageReactionRemoveAllDispatch) => void): this
+	public once(event: Types.WebSocketEvents.PresenceUpdate, listener: (data: Types.PresenceUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.TypingStart, listener: (data: Types.TypingStartDispatch) => void): this
+	public once(event: Types.WebSocketEvents.UserUpdate, listener: (data: Types.UserUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.VoiceStateUpdate, listener: (data: Types.VoiceStateUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.VoiceServerUpdate, listener: (data: Types.VoiceServerUpdateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.WebhooksUpdate, listener: (data: Types.WebhooksUpdateDispatch) => void): this
+	public once(event: Types.WebSocketManagerEvents.Debug, listener: (data: string) => void): this
+	public once(event: Types.WebSocketManagerEvents.Error, listener: (data: Error) => void): this
+	public once(event: Types.WebSocketEvents | Types.WebSocketManagerEvents, listener: (data: Types.DispatchPayload | string | Error) => void): this
+	public once(event: string | symbol, listener: (...args: any[]) => void): this {
+		return super.once(event, listener);
+	}
+
+	public addListener(event: Types.WebSocketEvents.Ready, listener: (data: Types.ReadyDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.Resumed, listener: (data: Types.ResumedDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.ChannelCreate | Types.WebSocketEvents.ChannelDelete
+	| Types.WebSocketEvents.ChannelUpdate, listener: (data: Types.ChannelCreateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.ChannelPinsUpdate, listener: (data: Types.ChannelPinsUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildCreate | Types.WebSocketEvents.GuildUpdate, listener: (data: Types.GuildCreateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildDelete, listener: (data: Types.GuildDeleteDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildBanAdd | Types.WebSocketEvents.GuildBanRemove, listener: (data: Types.GuildBanAddDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildEmojisUpdate, listener: (data: Types.GuildEmojisUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildIntegrationsUpdate, listener: (data: Types.GuildIntegrationsUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildMemberAdd, listener: (data: Types.GuildMemberAddDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildMemberRemove, listener: (data: Types.GuildMemberRemoveDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildMemberUpdate, listener: (data: Types.GuildMemberUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.MessageDeleteBulk, listener: (data: Types.MessageDeleteBulkDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.MessageReactionAdd, listener: (data: Types.MessageReactionAddDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.MessageReactionRemove, listener: (data: Types.MessageReactionRemoveDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.MessageReactionRemoveAll, listener: (data: Types.MessageReactionRemoveAllDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.PresenceUpdate, listener: (data: Types.PresenceUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.TypingStart, listener: (data: Types.TypingStartDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.UserUpdate, listener: (data: Types.UserUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.VoiceStateUpdate, listener: (data: Types.VoiceStateUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.VoiceServerUpdate, listener: (data: Types.VoiceServerUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.WebhooksUpdate, listener: (data: Types.WebhooksUpdateDispatch) => void): this
+	public addListener(event: Types.WebSocketManagerEvents.Debug, listener: (data: string) => void): this
+	public addListener(event: Types.WebSocketManagerEvents.Error, listener: (data: Error) => void): this
+	public addListener(event: Types.WebSocketEvents | Types.WebSocketManagerEvents, listener: (data: Types.DispatchPayload | string | Error) => void): this
+	public addListener(event: string | symbol, listener: (...args: any[]) => void): this {
+		return super.addListener(event, listener);
+	}
+
+	public removeListener(event: Types.WebSocketEvents.Ready, listener: (data: Types.ReadyDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.Resumed, listener: (data: Types.ResumedDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.ChannelCreate | Types.WebSocketEvents.ChannelDelete
+	| Types.WebSocketEvents.ChannelUpdate, listener: (data: Types.ChannelCreateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.ChannelPinsUpdate, listener: (data: Types.ChannelPinsUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildCreate | Types.WebSocketEvents.GuildUpdate, listener: (data: Types.GuildCreateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildDelete, listener: (data: Types.GuildDeleteDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildBanAdd | Types.WebSocketEvents.GuildBanRemove, listener: (data: Types.GuildBanAddDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildEmojisUpdate, listener: (data: Types.GuildEmojisUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildIntegrationsUpdate, listener: (data: Types.GuildIntegrationsUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildMemberAdd, listener: (data: Types.GuildMemberAddDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildMemberRemove, listener: (data: Types.GuildMemberRemoveDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildMemberUpdate, listener: (data: Types.GuildMemberUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.MessageDeleteBulk, listener: (data: Types.MessageDeleteBulkDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.MessageReactionAdd, listener: (data: Types.MessageReactionAddDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.MessageReactionRemove, listener: (data: Types.MessageReactionRemoveDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.MessageReactionRemoveAll, listener: (data: Types.MessageReactionRemoveAllDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.PresenceUpdate, listener: (data: Types.PresenceUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.TypingStart, listener: (data: Types.TypingStartDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.UserUpdate, listener: (data: Types.UserUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.VoiceStateUpdate, listener: (data: Types.VoiceStateUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.VoiceServerUpdate, listener: (data: Types.VoiceServerUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.WebhooksUpdate, listener: (data: Types.WebhooksUpdateDispatch) => void): this
+	public removeListener(event: Types.WebSocketManagerEvents.Debug, listener: (data: string) => void): this
+	public removeListener(event: Types.WebSocketManagerEvents.Error, listener: (data: Error) => void): this
+	public removeListener(event: Types.WebSocketEvents | Types.WebSocketManagerEvents, listener: (data: Types.DispatchPayload | string | Error) => void): this
+	public removeListener(event: string | symbol, listener: (...args: any[]) => void): this {
+		return super.removeListener(event, listener);
+	}
+	/* eslint-enable no-dupe-class-members */
+	// #endregion
 
 }

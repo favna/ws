@@ -142,101 +142,157 @@ export interface Reconnect extends BasePayload {
 // #endregion Basic payloads
 
 // #region Dispatch
-type DispatchPayload =
-	DataPayload<WebSocketEvents.Ready, {
-		v: number,
-		user_settings: {},
-		user: APIUserData,
-		session_id: string,
-		relationships: [],
-		private_channels: [],
-		presences: [],
-		guilds: APIGuildUnavailable[],
-		shard?: [number, number]
-	}>
-	| DataPayload<WebSocketEvents.Resumed, never>
-	| DataPayload<WebSocketEvents.ChannelCreate | WebSocketEvents.ChannelDelete | WebSocketEvents.ChannelUpdate, APIChannelData>
-	| DataPayload<WebSocketEvents.ChannelPinsUpdate, {
-		guild_id?: string,
-		channel_id: string,
-		last_pin_timestamp?: string
-	}>
-	| DataPayload<WebSocketEvents.GuildCreate | WebSocketEvents.GuildUpdate, APIGuildData>
-	| DataPayload<WebSocketEvents.GuildDelete, APIGuildUnavailable>
-	| DataPayload<WebSocketEvents.GuildBanAdd | WebSocketEvents.GuildBanRemove, {
-		guild_id: string,
-		user: APIUserData
-	}>
-	| DataPayload<WebSocketEvents.GuildEmojisUpdate, {
-		guild_id: string,
-		emojis: APIEmojiData[]
-	}>
-	| DataPayload<WebSocketEvents.GuildIntegrationsUpdate, { guild_id: string }>
-	| DataPayload<WebSocketEvents.GuildMemberAdd, APIGuildMemberData & { guild_id: string }>
-	| DataPayload<WebSocketEvents.GuildMemberRemove, {
-		guild_id: string,
-		user: APIUserData
-	}>
-	| DataPayload<WebSocketEvents.GuildMemberUpdate, {
-		guild_id: string,
-		roles: string[],
-		user: APIUserData,
-		nick: string | null,
-		premium_since: string | null
-	}>
-	| DataPayload<WebSocketEvents.GuildMembersChunk, {
-		guild_id: string,
-		members: APIGuildMemberData[],
-		not_found?: unknown[],
-		presences?: APIPresenceUpdateData[]
-	}>
-	| DataPayload<WebSocketEvents.GuildRoleCreate | WebSocketEvents.GuildRoleUpdate, {
-		guild_id: string,
-		role: APIRoleData
-	}>
-	| DataPayload<WebSocketEvents.GuildRoleDelete, {
-		guild_id: string,
-		role_id: string
-	}>
-	| DataPayload<WebSocketEvents.MessageCreate, APIMessageData>
-	| DataPayload<WebSocketEvents.MessageUpdate, { id: string, channel_id: string } & Partial<APIMessageData>>
-	| DataPayload<WebSocketEvents.MessageDelete, {
-		id: string,
-		channel_id: string,
-		guild_id?: string
-	}>
-	| DataPayload<WebSocketEvents.MessageDeleteBulk, {
-		ids: string[],
-		channel_id: string,
-		guild_id?: string
-	}>
-	| ReactionData<WebSocketEvents.MessageReactionAdd>
-	| Omit<ReactionData<WebSocketEvents.MessageReactionRemove>, 'members'>
-	| DataPayload<WebSocketEvents.MessageReactionRemoveAll, {
-		channel_id: string,
-		message_id: string,
-		guild_id?: string
-	}>
-	| DataPayload<WebSocketEvents.PresenceUpdate, APIPresenceUpdateData>
-	| DataPayload<WebSocketEvents.TypingStart, {
-		channel_id: string,
-		guild_id?: string,
-		user_id: string,
-		timestamp: number,
-		member?: APIGuildMemberData
-	}>
-	| DataPayload<WebSocketEvents.UserUpdate, APIUserData>
-	| DataPayload<WebSocketEvents.VoiceStateUpdate, APIVoiceStateData>
-	| DataPayload<WebSocketEvents.VoiceServerUpdate, {
-		token: string,
-		guild_id: string,
-		endpoint: string
-	}>
-	| DataPayload<WebSocketEvents.WebhooksUpdate, {
-		guild_id: string,
-		channel_id: string
-	}>
-;
+
+export type ReadyDispatch = DataPayload<WebSocketEvents.Ready, {
+	v: number,
+	user_settings: {},
+	user: APIUserData,
+	session_id: string,
+	relationships: [],
+	private_channels: [],
+	presences: [],
+	guilds: APIGuildUnavailable[],
+	shard?: [number, number]
+}>;
+
+export type ResumedDispatch = DataPayload<WebSocketEvents.Resumed, never>;
+
+export type ChannelCreateDispatch = DataPayload<WebSocketEvents.ChannelCreate | WebSocketEvents.ChannelDelete | WebSocketEvents.ChannelUpdate, APIChannelData>;
+
+export type ChannelPinsUpdateDispatch = DataPayload<WebSocketEvents.ChannelPinsUpdate, {
+	guild_id?: string,
+	channel_id: string,
+	last_pin_timestamp?: string
+}>;
+
+export type GuildCreateDispatch = DataPayload<WebSocketEvents.GuildCreate | WebSocketEvents.GuildUpdate, APIGuildData>;
+
+export type GuildDeleteDispatch = DataPayload<WebSocketEvents.GuildDelete, APIGuildUnavailable>;
+
+export type GuildBanAddDispatch = DataPayload<WebSocketEvents.GuildBanAdd | WebSocketEvents.GuildBanRemove, {
+	guild_id: string,
+	user: APIUserData
+}>;
+
+export type GuildEmojisUpdateDispatch = DataPayload<WebSocketEvents.GuildEmojisUpdate, {
+	guild_id: string,
+	emojis: APIEmojiData[]
+}>;
+
+export type GuildIntegrationsUpdateDispatch = DataPayload<WebSocketEvents.GuildIntegrationsUpdate, { guild_id: string }>;
+
+export type GuildMemberAddDispatch = DataPayload<WebSocketEvents.GuildMemberAdd, APIGuildMemberData & { guild_id: string }>;
+
+export type GuildMemberRemoveDispatch = DataPayload<WebSocketEvents.GuildMemberRemove, {
+	guild_id: string,
+	user: APIUserData
+}>;
+
+export type GuildMemberUpdateDispatch = DataPayload<WebSocketEvents.GuildMemberUpdate, {
+	guild_id: string,
+	roles: string[],
+	user: APIUserData,
+	nick: string | null,
+	premium_since: string | null
+}>;
+
+export type GuildMembersChunkDispatch = DataPayload<WebSocketEvents.GuildMembersChunk, {
+	guild_id: string,
+	members: APIGuildMemberData[],
+	not_found?: unknown[],
+	presences?: APIPresenceUpdateData[]
+}>;
+
+export type GuildRoleCreateDispatch = DataPayload<WebSocketEvents.GuildRoleCreate | WebSocketEvents.GuildRoleUpdate, {
+	guild_id: string,
+	role: APIRoleData
+}>;
+
+export type GuildRoleDeleteDispatch = DataPayload<WebSocketEvents.GuildRoleDelete, {
+	guild_id: string,
+	role_id: string
+}>;
+
+export type MessageCreateDispatch = DataPayload<WebSocketEvents.MessageCreate, APIMessageData>;
+
+export type MessageUpdateDispatch = DataPayload<WebSocketEvents.MessageUpdate, { id: string, channel_id: string } & Partial<APIMessageData>>;
+
+export type MessageDeleteDispatch = DataPayload<WebSocketEvents.MessageDelete, {
+	id: string,
+	channel_id: string,
+	guild_id?: string
+}>;
+
+export type MessageDeleteBulkDispatch = DataPayload<WebSocketEvents.MessageDeleteBulk, {
+	ids: string[],
+	channel_id: string,
+	guild_id?: string
+}>;
+
+export type MessageReactionAddDispatch = ReactionData<WebSocketEvents.MessageReactionAdd>;
+
+export type MessageReactionRemoveDispatch = Omit<ReactionData<WebSocketEvents.MessageReactionRemove>, 'members'>;
+
+export type MessageReactionRemoveAllDispatch = DataPayload<WebSocketEvents.MessageReactionRemoveAll, {
+	channel_id: string,
+	message_id: string,
+	guild_id?: string
+}>;
+
+export type PresenceUpdateDispatch = DataPayload<WebSocketEvents.PresenceUpdate, APIPresenceUpdateData>;
+
+export type TypingStartDispatch = DataPayload<WebSocketEvents.TypingStart, {
+	channel_id: string,
+	guild_id?: string,
+	user_id: string,
+	timestamp: number,
+	member?: APIGuildMemberData
+}>;
+
+export type UserUpdateDispatch = DataPayload<WebSocketEvents.UserUpdate, APIUserData>;
+
+export type VoiceStateUpdateDispatch = DataPayload<WebSocketEvents.VoiceStateUpdate, APIVoiceStateData>;
+
+export type VoiceServerUpdateDispatch = DataPayload<WebSocketEvents.VoiceServerUpdate, {
+	token: string,
+	guild_id: string,
+	endpoint: string
+}>;
+
+export type WebhooksUpdateDispatch = DataPayload<WebSocketEvents.WebhooksUpdate, {
+	guild_id: string,
+	channel_id: string
+}>;
+
+export type DispatchPayload =
+	ReadyDispatch
+	| ResumedDispatch
+	| ChannelCreateDispatch
+	| ChannelPinsUpdateDispatch
+	| GuildCreateDispatch
+	| GuildDeleteDispatch
+	| GuildBanAddDispatch
+	| GuildEmojisUpdateDispatch
+	| GuildIntegrationsUpdateDispatch
+	| GuildMemberAddDispatch
+	| GuildMemberRemoveDispatch
+	| GuildMemberUpdateDispatch
+	| GuildMembersChunkDispatch
+	| GuildRoleCreateDispatch
+	| GuildRoleDeleteDispatch
+	| MessageCreateDispatch
+	| MessageUpdateDispatch
+	| MessageDeleteDispatch
+	| MessageDeleteBulkDispatch
+	| MessageReactionAddDispatch
+	| MessageReactionRemoveDispatch
+	| MessageReactionRemoveAllDispatch
+	| PresenceUpdateDispatch
+	| TypingStartDispatch
+	| UserUpdateDispatch
+	| VoiceStateUpdateDispatch
+	| VoiceServerUpdateDispatch
+	| WebhooksUpdateDispatch;
 
 // #endregion Dispatch
 
