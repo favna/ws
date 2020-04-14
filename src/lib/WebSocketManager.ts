@@ -223,6 +223,8 @@ export class WebSocketManager extends EventEmitter {
 	public on(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
 	public on(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
 	public on(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public on(event: Types.WebSocketEvents.InviteCreate, listener: (data: Types.InviteCreateDispatch) => void): this
+	public on(event: Types.WebSocketEvents.InviteDelete, listener: (data: Types.InviteDeleteDispatch) => void): this
 	public on(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
 	public on(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
 	public on(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this
@@ -258,6 +260,8 @@ export class WebSocketManager extends EventEmitter {
 	public once(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
 	public once(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
 	public once(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public once(event: Types.WebSocketEvents.InviteCreate, listener: (data: Types.InviteCreateDispatch) => void): this
+	public once(event: Types.WebSocketEvents.InviteDelete, listener: (data: Types.InviteDeleteDispatch) => void): this
 	public once(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
 	public once(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
 	public once(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this
@@ -294,6 +298,8 @@ export class WebSocketManager extends EventEmitter {
 	public addListener(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
 	public addListener(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
 	public addListener(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.InviteCreate, listener: (data: Types.InviteCreateDispatch) => void): this
+	public addListener(event: Types.WebSocketEvents.InviteDelete, listener: (data: Types.InviteDeleteDispatch) => void): this
 	public addListener(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
 	public addListener(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
 	public addListener(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this
@@ -330,6 +336,8 @@ export class WebSocketManager extends EventEmitter {
 	public removeListener(event: Types.WebSocketEvents.GuildMembersChunk, listener: (data: Types.GuildMembersChunkDispatch) => void): this
 	public removeListener(event: Types.WebSocketEvents.GuildRoleCreate | Types.WebSocketEvents.GuildRoleUpdate, listener: (data: Types.GuildRoleCreateDispatch) => void): this
 	public removeListener(event: Types.WebSocketEvents.GuildRoleDelete, listener: (data: Types.GuildRoleDeleteDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.InviteCreate, listener: (data: Types.InviteCreateDispatch) => void): this
+	public removeListener(event: Types.WebSocketEvents.InviteDelete, listener: (data: Types.InviteDeleteDispatch) => void): this
 	public removeListener(event: Types.WebSocketEvents.MessageCreate, listener: (data: Types.MessageCreateDispatch) => void): this
 	public removeListener(event: Types.WebSocketEvents.MessageUpdate, listener: (data: Types.MessageUpdateDispatch) => void): this
 	public removeListener(event: Types.WebSocketEvents.MessageDelete, listener: (data: Types.MessageDeleteDispatch) => void): this

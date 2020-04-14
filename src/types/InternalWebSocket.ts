@@ -10,7 +10,8 @@ import {
 	APIRoleData,
 	APIUserData,
 	APIVoiceStateData,
-	APIActivityData
+	APIActivityData,
+	InviteTargetUserType,
 } from '@klasa/dapi-types';
 
 import { WSOptions } from '../lib/WebSocketManager';
@@ -89,6 +90,8 @@ export const enum WebSocketEvents {
 	GuildRoleCreate = 'GUILD_ROLE_CREATE',
 	GuildRoleUpdate = 'GUILD_ROLE_UPDATE',
 	GuildRoleDelete = 'GUILD_ROLE_DELETE',
+	InviteCreate = 'INVITE_CREATE',
+	InviteDelete = 'INVITE_DELETE',
 	MessageCreate = 'MESSAGE_CREATE',
 	MessageUpdate = 'MESSAGE_UPDATE',
 	MessageDelete = 'MESSAGE_DELETE',
@@ -192,8 +195,8 @@ export type GuildMemberUpdateDispatch = DataPayload<WebSocketEvents.GuildMemberU
 	guild_id: string,
 	roles: string[],
 	user: APIUserData,
-	nick: string | null,
-	premium_since: string | null
+	nick?: string | null,
+	premium_since?: string | null
 }>;
 
 export type GuildMembersChunkDispatch = DataPayload<WebSocketEvents.GuildMembersChunk, {
@@ -211,6 +214,26 @@ export type GuildRoleCreateDispatch = DataPayload<WebSocketEvents.GuildRoleCreat
 export type GuildRoleDeleteDispatch = DataPayload<WebSocketEvents.GuildRoleDelete, {
 	guild_id: string,
 	role_id: string
+}>;
+
+export type InviteCreateDispatch = DataPayload<WebSocketEvents.InviteCreate, {
+	channel_id: string;
+	code: string;
+	created_at: number;
+	guild_id?: string;
+	inviter?: APIUserData;
+	max_age: number;
+	max_uses: number;
+	target_user?: APIUserData;
+	target_user_type?: InviteTargetUserType;
+	temporary: boolean;
+	uses: 0;
+}>;
+
+export type InviteDeleteDispatch = DataPayload<WebSocketEvents.InviteDelete, {
+	channel_id: string;
+	guild_id?: string;
+	code: string;
 }>;
 
 export type MessageCreateDispatch = DataPayload<WebSocketEvents.MessageCreate, APIMessageData>;
@@ -280,6 +303,8 @@ export type DispatchPayload =
 	| GuildMembersChunkDispatch
 	| GuildRoleCreateDispatch
 	| GuildRoleDeleteDispatch
+	| InviteCreateDispatch
+	| InviteDeleteDispatch
 	| MessageCreateDispatch
 	| MessageUpdateDispatch
 	| MessageDeleteDispatch
