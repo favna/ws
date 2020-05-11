@@ -11,7 +11,7 @@ import {
 	APIUserData,
 	APIVoiceStateData,
 	APIActivityData,
-	InviteTargetUserType,
+	InviteTargetUserType
 } from '@klasa/dapi-types';
 
 import { WSOptions } from '../lib/WebSocketManager';
@@ -53,6 +53,7 @@ export const enum WSCloseCodes {
 	InvalidVersion,
 	InvalidIntents,
 	DisallowedIntents,
+	ReconnectRequested = 4900,
 }
 
 export const enum OpCodes {
@@ -66,7 +67,7 @@ export const enum OpCodes {
 	REQUEST_GUILD_MEMBERS = 8,
 	INVALID_SESSION = 9,
 	HELLO = 10,
-	HEARTBEAT_ACK = 11
+	HEARTBEAT_ACK = 11,
 }
 
 export const enum WebSocketEvents {
@@ -217,23 +218,23 @@ export type GuildRoleDeleteDispatch = DataPayload<WebSocketEvents.GuildRoleDelet
 }>;
 
 export type InviteCreateDispatch = DataPayload<WebSocketEvents.InviteCreate, {
-	channel_id: string;
-	code: string;
-	created_at: number;
-	guild_id?: string;
-	inviter?: APIUserData;
-	max_age: number;
-	max_uses: number;
-	target_user?: APIUserData;
-	target_user_type?: InviteTargetUserType;
-	temporary: boolean;
-	uses: 0;
+	channel_id: string,
+	code: string,
+	created_at: number,
+	guild_id?: string,
+	inviter?: APIUserData,
+	max_age: number,
+	max_uses: number,
+	target_user?: APIUserData,
+	target_user_type?: InviteTargetUserType,
+	temporary: boolean,
+	uses: 0
 }>;
 
 export type InviteDeleteDispatch = DataPayload<WebSocketEvents.InviteDelete, {
-	channel_id: string;
-	guild_id?: string;
-	code: string;
+	channel_id: string,
+	guild_id?: string,
+	code: string
 }>;
 
 export type MessageCreateDispatch = DataPayload<WebSocketEvents.MessageCreate, APIMessageData>;

@@ -349,6 +349,7 @@ export class WebSocketConnection {
 	 * @param packet The hello payload packet
 	 */
 	private hello(packet: HelloPayload): void {
+		this.debug(`HELLO[${packet.d.heartbeat_interval}]`);
 		this.setHeartbeatTimer(packet.d.heartbeat_interval);
 		this.identify();
 	}
@@ -357,6 +358,7 @@ export class WebSocketConnection {
 	 * Called when Discord asks us to heartbeat
 	 */
 	private heartbeatRequest(): void {
+		this.debug('HEARTBEAT[Request]');
 		this.queueWSPayload({ op: OpCodes.HEARTBEAT, d: this.#sequence }, true);
 	}
 
@@ -394,9 +396,9 @@ export class WebSocketConnection {
 	 * Called when Discord asks a shard connection to reconnect
 	 */
 	private reconnect(): void {
+		this.debug('RECONNECT[Discord Request]');
 		this.dispatch({ type: InternalActions.ConnectionStatusUpdate, data: WebSocketShardStatus.Reconnecting });
-		// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-		this.#connection!.close(WSCloseCodes.SessionTimeout);
+		this.destroy({ closeCode: WSCloseCodes.ReconnectRequested });
 	}
 
 	// #endregion Payloads
