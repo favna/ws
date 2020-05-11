@@ -2759,7 +2759,8 @@
 							"kindString": "Property",
 							"flags": {
 								"isPublic": true,
-								"isExported": true
+								"isExported": true,
+								"isReadonly": true
 							},
 							"comment": {
 								"shortText": "The options for this WebsocketManager"
@@ -2790,7 +2791,8 @@
 							"kindString": "Property",
 							"flags": {
 								"isPublic": true,
-								"isExported": true
+								"isExported": true,
+								"isReadonly": true
 							},
 							"comment": {
 								"shortText": "The shards of this WebsocketManager"
@@ -17844,7 +17846,8 @@
 							"flags": {
 								"isPrivate": true,
 								"isExported": true,
-								"isConstructorProperty": true
+								"isConstructorProperty": true,
+								"isReadonly": true
 							},
 							"sources": [
 								{
@@ -17866,7 +17869,8 @@
 							"flags": {
 								"isPublic": true,
 								"isExported": true,
-								"isConstructorProperty": true
+								"isConstructorProperty": true,
+								"isReadonly": true
 							},
 							"sources": [
 								{
@@ -17888,7 +17892,8 @@
 							"flags": {
 								"isPublic": true,
 								"isExported": true,
-								"isConstructorProperty": true
+								"isConstructorProperty": true,
+								"isReadonly": true
 							},
 							"sources": [
 								{
@@ -17936,7 +17941,8 @@
 							"flags": {
 								"isPrivate": true,
 								"isExported": true,
-								"isConstructorProperty": true
+								"isConstructorProperty": true,
+								"isReadonly": true
 							},
 							"sources": [
 								{
