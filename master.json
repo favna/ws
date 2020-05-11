@@ -6,26 +6,8 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 113,
-			"name": "\"package\"",
-			"kind": 1,
-			"kindString": "Module",
-			"flags": {
-				"isExported": true,
-				"isExternal": true
-			},
-			"originalName": "/home/runner/work/ws/ws/package.json",
-			"sources": [
-				{
-					"fileName": "package.json",
-					"line": 1,
-					"character": 0
-				}
-			]
-		},
-		{
 			"id": 1462,
-			"name": "\"src/index\"",
+			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -668,7 +650,7 @@
 		},
 		{
 			"id": 1369,
-			"name": "\"src/lib/WebSocketConnection\"",
+			"name": "\"lib/WebSocketConnection\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -2563,7 +2545,7 @@
 		},
 		{
 			"id": 127,
-			"name": "\"src/lib/WebSocketManager\"",
+			"name": "\"lib/WebSocketManager\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -17581,7 +17563,7 @@
 		},
 		{
 			"id": 64,
-			"name": "\"src/lib/WebSocketShard\"",
+			"name": "\"lib/WebSocketShard\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -18582,7 +18564,7 @@
 		},
 		{
 			"id": 1519,
-			"name": "\"src/lib/Worker\"",
+			"name": "\"lib/Worker\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -18707,7 +18689,7 @@
 		},
 		{
 			"id": 1014,
-			"name": "\"src/types/InternalWebSocket\"",
+			"name": "\"types/InternalWebSocket\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -27213,8 +27195,8 @@
 			]
 		},
 		{
-			"id": 114,
-			"name": "\"src/util/Constants\"",
+			"id": 113,
+			"name": "\"util/Constants\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -27222,6 +27204,27 @@
 			},
 			"originalName": "/home/runner/work/ws/ws/src/util/Constants.ts",
 			"children": [
+				{
+					"id": 114,
+					"name": "Package",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/util/Constants.ts",
+							"line": 2,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "require('../../package.json')"
+				},
 				{
 					"id": 115,
 					"name": "WebSocketID",
@@ -27233,7 +27236,7 @@
 					"sources": [
 						{
 							"fileName": "src/util/Constants.ts",
-							"line": 6,
+							"line": 7,
 							"character": 17
 						}
 					],
@@ -27264,7 +27267,7 @@
 							"sources": [
 								{
 									"fileName": "src/util/Constants.ts",
-									"line": 21,
+									"line": 22,
 									"character": 15
 								}
 							],
@@ -27285,7 +27288,7 @@
 							"sources": [
 								{
 									"fileName": "src/util/Constants.ts",
-									"line": 11,
+									"line": 12,
 									"character": 8
 								}
 							],
@@ -27306,7 +27309,7 @@
 							"sources": [
 								{
 									"fileName": "src/util/Constants.ts",
-									"line": 9,
+									"line": 10,
 									"character": 7
 								}
 							],
@@ -27327,7 +27330,7 @@
 							"sources": [
 								{
 									"fileName": "src/util/Constants.ts",
-									"line": 10,
+									"line": 11,
 									"character": 12
 								}
 							],
@@ -27357,7 +27360,7 @@
 									"sources": [
 										{
 											"fileName": "src/util/Constants.ts",
-											"line": 14,
+											"line": 15,
 											"character": 17
 										}
 									],
@@ -27387,7 +27390,7 @@
 											"sources": [
 												{
 													"fileName": "src/util/Constants.ts",
-													"line": 17,
+													"line": 18,
 													"character": 11
 												}
 											],
@@ -27408,7 +27411,7 @@
 											"sources": [
 												{
 													"fileName": "src/util/Constants.ts",
-													"line": 18,
+													"line": 19,
 													"character": 10
 												}
 											],
@@ -27429,7 +27432,7 @@
 											"sources": [
 												{
 													"fileName": "src/util/Constants.ts",
-													"line": 16,
+													"line": 17,
 													"character": 6
 												}
 											],
@@ -27495,7 +27498,7 @@
 									"sources": [
 										{
 											"fileName": "src/util/Constants.ts",
-											"line": 15,
+											"line": 16,
 											"character": 12
 										}
 									],
@@ -27524,7 +27527,7 @@
 							"sources": [
 								{
 									"fileName": "src/util/Constants.ts",
-									"line": 12,
+									"line": 13,
 									"character": 18
 								}
 							],
@@ -27556,7 +27559,7 @@
 					"sources": [
 						{
 							"fileName": "src/util/Constants.ts",
-							"line": 8,
+							"line": 9,
 							"character": 30
 						}
 					],
@@ -27571,6 +27574,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
+						114,
 						115
 					]
 				},
@@ -27592,7 +27596,7 @@
 		},
 		{
 			"id": 1,
-			"name": "\"src/util/Intents\"",
+			"name": "\"util/Intents\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -29233,14 +29237,13 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				113,
 				1462,
 				1369,
 				127,
 				64,
 				1519,
 				1014,
-				114,
+				113,
 				1
 			]
 		}
