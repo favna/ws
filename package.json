@@ -58,7 +58,7 @@
     "@klasa/bitfield": "^0.0.2",
     "@klasa/cache": "^0.0.1",
     "@klasa/utils": "^0.0.4",
-    "ws": "^7.2.3"
+    "ws": "^7.3.0"
   },
   "peerDependencies": {
     "@klasa/rest": "^0.0.4"
