@@ -1,4 +1,5 @@
-import * as Package from '../../package.json';
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const Package = require('../../package.json');
 import { Intents } from './Intents';
 
 import type { WSOptions } from '../lib/WebSocketManager';
