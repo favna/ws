@@ -1,7 +1,8 @@
 /* eslint-disable id-length,@typescript-eslint/camelcase */
 import * as WS from 'ws';
 import { URLSearchParams } from 'url';
-import { MessagePort } from 'worker_threads';
+
+import type { MessagePort } from 'worker_threads';
 
 import {
 	GatewayStatus,
@@ -537,6 +538,19 @@ export class WebSocketConnection {
 		ws.onmessage = this._onmessage.bind(this);
 		ws.onerror = this._onerror.bind(this);
 		ws.onclose = this._onclose.bind(this);
+	}
+
+	/**
+	 * Dispatches the current session data to the master
+	 */
+	public dispatchSessionData(): void {
+		this.dispatch({
+			type: InternalActions.FetchSessionData,
+			data: {
+				seq: this.#sequence,
+				session_id: this.#sessionID
+			}
+		});
 	}
 
 }

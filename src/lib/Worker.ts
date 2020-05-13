@@ -31,5 +31,9 @@ parentPort.on('message', (message: MasterWorkerMessages) => {
 			connection.queueWSPayload(message.data);
 			break;
 		}
+		case InternalActions.FetchSessionData: {
+			connection.dispatchSessionData();
+			break;
+		}
 	}
 });

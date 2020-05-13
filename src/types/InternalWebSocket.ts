@@ -36,6 +36,7 @@ export const enum InternalActions {
 	ConnectionStatusUpdate = 'CONNECTION_STATUS_UPDATE',
 	PayloadDispatch = 'PAYLOAD_DISPATCH',
 	Reconnect = 'RECONNECT',
+	FetchSessionData = 'FETCH_SESSION_DATA',
 }
 
 export const enum WSCloseCodes {
@@ -423,6 +424,11 @@ export interface WSIdentify {
 	presence?: StatusUpdateData;
 	intents?: number;
 }
+export interface SessionDetails {
+	session_id: string;
+	seq: number;
+}
+
 // #endregion Misc
 
 // #region InternalWS
@@ -452,10 +458,13 @@ export type WorkerMasterMessages = {
 } | {
 	type: InternalActions.PayloadDispatch,
 	data: SendPayload
+} | {
+	type: InternalActions.FetchSessionData,
+	data: SessionDetails
 };
 
 export type MasterWorkerMessages = {
-	type: InternalActions.Identify | InternalActions.Destroy | InternalActions.Reconnect
+	type: InternalActions.Identify | InternalActions.Destroy | InternalActions.Reconnect | InternalActions.FetchSessionData
 } | {
 	type: InternalActions.PayloadDispatch,
 	data: SendPayload

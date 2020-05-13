@@ -1,7 +1,15 @@
 import { Worker } from 'worker_threads';
 import { resolve as pathResolve } from 'path';
 import { Intents } from '../util/Intents';
-import { WebSocketManagerEvents, WorkerMasterMessages, InternalActions, GatewayStatus, MasterWorkerMessages, SendPayload } from '../types/InternalWebSocket';
+import {
+	GatewayStatus,
+	InternalActions,
+	MasterWorkerMessages,
+	SendPayload,
+	SessionDetails,
+	WebSocketManagerEvents,
+	WorkerMasterMessages
+} from '../types/InternalWebSocket';
 
 import type { WebSocketManager } from './WebSocketManager';
 
@@ -123,6 +131,25 @@ export class WebSocketShard {
 	public restart(): void {
 		if (this.workerThread) this.dispatch({ type: InternalActions.Reconnect });
 		else this.manager.scheduleShardRestart(this);
+	}
+
+	/**
+	 * Fetches the shards session details
+	 */
+	public fetchSessionData(): Promise<SessionDetails> {
+		return new Promise(resolve => {
+			const listener = (message: WorkerMasterMessages): void => {
+				if (message.type === InternalActions.FetchSessionData) {
+					// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+					this.workerThread!.off('message', listener);
+					resolve(message.data);
+				}
+			};
+
+			// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+			this.workerThread!.on('message', listener);
+			this.dispatch({ type: InternalActions.FetchSessionData });
+		});
 	}
 
 	/**
