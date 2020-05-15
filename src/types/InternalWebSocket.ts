@@ -204,8 +204,11 @@ export type GuildMemberUpdateDispatch = DataPayload<WebSocketEvents.GuildMemberU
 export type GuildMembersChunkDispatch = DataPayload<WebSocketEvents.GuildMembersChunk, {
 	guild_id: string,
 	members: APIGuildMemberData[],
+	chunk_index?: number,
+	chunk_count?: number,
 	not_found?: unknown[],
-	presences?: APIPresenceUpdateData[]
+	presences?: APIPresenceUpdateData[],
+	nonce?: string
 }>;
 
 export type GuildRoleCreateDispatch = DataPayload<WebSocketEvents.GuildRoleCreate | WebSocketEvents.GuildRoleUpdate, {
