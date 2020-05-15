@@ -6,7 +6,7 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 1473,
+			"id": 1476,
 			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -16,7 +16,7 @@
 			"originalName": "/home/runner/work/ws/ws/src/index.ts",
 			"children": [
 				{
-					"id": 1493,
+					"id": 1496,
 					"name": "ChannelCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -26,7 +26,7 @@
 					"target": 1226
 				},
 				{
-					"id": 1494,
+					"id": 1497,
 					"name": "ChannelPinsUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -36,17 +36,17 @@
 					"target": 1227
 				},
 				{
-					"id": 1521,
+					"id": 1524,
 					"name": "DispatchPayload",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1332
+					"target": 1335
 				},
 				{
-					"id": 1527,
+					"id": 1530,
 					"name": "GatewayStatus",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -56,7 +56,7 @@
 					"target": 1208
 				},
 				{
-					"id": 1497,
+					"id": 1500,
 					"name": "GuildBanAddDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -66,7 +66,7 @@
 					"target": 1234
 				},
 				{
-					"id": 1495,
+					"id": 1498,
 					"name": "GuildCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -76,7 +76,7 @@
 					"target": 1232
 				},
 				{
-					"id": 1496,
+					"id": 1499,
 					"name": "GuildDeleteDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -86,7 +86,7 @@
 					"target": 1233
 				},
 				{
-					"id": 1498,
+					"id": 1501,
 					"name": "GuildEmojisUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -96,7 +96,7 @@
 					"target": 1238
 				},
 				{
-					"id": 1499,
+					"id": 1502,
 					"name": "GuildIntegrationsUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -106,7 +106,7 @@
 					"target": 1242
 				},
 				{
-					"id": 1500,
+					"id": 1503,
 					"name": "GuildMemberAddDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -116,7 +116,7 @@
 					"target": 1245
 				},
 				{
-					"id": 1501,
+					"id": 1504,
 					"name": "GuildMemberRemoveDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -126,7 +126,7 @@
 					"target": 1248
 				},
 				{
-					"id": 1502,
+					"id": 1505,
 					"name": "GuildMemberUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -136,7 +136,7 @@
 					"target": 1252
 				},
 				{
-					"id": 1503,
+					"id": 1506,
 					"name": "GuildMembersChunkDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -146,27 +146,27 @@
 					"target": 1259
 				},
 				{
-					"id": 1504,
+					"id": 1507,
 					"name": "GuildRoleCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1265
+					"target": 1268
 				},
 				{
-					"id": 1505,
+					"id": 1508,
 					"name": "GuildRoleDeleteDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1269
+					"target": 1272
 				},
 				{
-					"id": 1487,
+					"id": 1490,
 					"name": "Heartbeat",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -176,7 +176,7 @@
 					"target": 1106
 				},
 				{
-					"id": 1488,
+					"id": 1491,
 					"name": "HeartbeatAck",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -186,7 +186,7 @@
 					"target": 1111
 				},
 				{
-					"id": 1486,
+					"id": 1489,
 					"name": "HelloPayload",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -196,7 +196,7 @@
 					"target": 1099
 				},
 				{
-					"id": 1530,
+					"id": 1533,
 					"name": "Intents",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -206,7 +206,7 @@
 					"target": 2
 				},
 				{
-					"id": 1529,
+					"id": 1532,
 					"name": "IntentsResolvable",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -216,7 +216,7 @@
 					"target": 63
 				},
 				{
-					"id": 1480,
+					"id": 1483,
 					"name": "InternalActions",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -226,7 +226,7 @@
 					"target": 1022
 				},
 				{
-					"id": 1489,
+					"id": 1492,
 					"name": "InvalidSession",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -236,107 +236,107 @@
 					"target": 1116
 				},
 				{
-					"id": 1506,
+					"id": 1509,
 					"name": "InviteCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1273
+					"target": 1276
 				},
 				{
-					"id": 1507,
+					"id": 1510,
 					"name": "InviteDeleteDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1286
+					"target": 1289
 				},
 				{
-					"id": 1525,
+					"id": 1528,
 					"name": "MasterWorkerMessages",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1372
+					"target": 1375
 				},
 				{
-					"id": 1508,
+					"id": 1511,
 					"name": "MessageCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1291
+					"target": 1294
 				},
 				{
-					"id": 1511,
+					"id": 1514,
 					"name": "MessageDeleteBulkDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1301
+					"target": 1304
 				},
 				{
-					"id": 1510,
+					"id": 1513,
 					"name": "MessageDeleteDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1296
+					"target": 1299
 				},
 				{
-					"id": 1512,
+					"id": 1515,
 					"name": "MessageReactionAddDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1306
+					"target": 1309
 				},
 				{
-					"id": 1514,
+					"id": 1517,
 					"name": "MessageReactionRemoveAllDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1308
+					"target": 1311
 				},
 				{
-					"id": 1513,
+					"id": 1516,
 					"name": "MessageReactionRemoveDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1307
+					"target": 1310
 				},
 				{
-					"id": 1509,
+					"id": 1512,
 					"name": "MessageUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1292
+					"target": 1295
 				},
 				{
-					"id": 1482,
+					"id": 1485,
 					"name": "OpCodes",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -346,17 +346,17 @@
 					"target": 1051
 				},
 				{
-					"id": 1515,
+					"id": 1518,
 					"name": "PresenceUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1313
+					"target": 1316
 				},
 				{
-					"id": 1491,
+					"id": 1494,
 					"name": "ReadyDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -366,7 +366,7 @@
 					"target": 1213
 				},
 				{
-					"id": 1490,
+					"id": 1493,
 					"name": "Reconnect",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -376,7 +376,7 @@
 					"target": 1121
 				},
 				{
-					"id": 1492,
+					"id": 1495,
 					"name": "ResumedDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -386,7 +386,7 @@
 					"target": 1225
 				},
 				{
-					"id": 1485,
+					"id": 1488,
 					"name": "SendPayload",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -396,7 +396,7 @@
 					"target": 1212
 				},
 				{
-					"id": 1523,
+					"id": 1526,
 					"name": "SessionDetails",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -406,47 +406,47 @@
 					"target": 1198
 				},
 				{
-					"id": 1516,
+					"id": 1519,
 					"name": "TypingStartDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1314
+					"target": 1317
 				},
 				{
-					"id": 1517,
+					"id": 1520,
 					"name": "UserUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1321
+					"target": 1324
 				},
 				{
-					"id": 1519,
+					"id": 1522,
 					"name": "VoiceServerUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1323
+					"target": 1326
 				},
 				{
-					"id": 1518,
+					"id": 1521,
 					"name": "VoiceStateUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1322
+					"target": 1325
 				},
 				{
-					"id": 1481,
+					"id": 1484,
 					"name": "WSCloseCodes",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -456,7 +456,7 @@
 					"target": 1035
 				},
 				{
-					"id": 1522,
+					"id": 1525,
 					"name": "WSIdentify",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -466,7 +466,7 @@
 					"target": 1188
 				},
 				{
-					"id": 1475,
+					"id": 1478,
 					"name": "WSOptions",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -476,7 +476,7 @@
 					"target": 130
 				},
 				{
-					"id": 1528,
+					"id": 1531,
 					"name": "WSOptionsDefaults",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -486,7 +486,7 @@
 					"target": 118
 				},
 				{
-					"id": 1484,
+					"id": 1487,
 					"name": "WSPayload",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -496,7 +496,7 @@
 					"target": 1211
 				},
 				{
-					"id": 1526,
+					"id": 1529,
 					"name": "WSWorkerData",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -506,17 +506,17 @@
 					"target": 1201
 				},
 				{
-					"id": 1474,
+					"id": 1477,
 					"name": "WebSocketConnection",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1389
+					"target": 1392
 				},
 				{
-					"id": 1483,
+					"id": 1486,
 					"name": "WebSocketEvents",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -526,7 +526,7 @@
 					"target": 1063
 				},
 				{
-					"id": 1476,
+					"id": 1479,
 					"name": "WebSocketManager",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -536,7 +536,7 @@
 					"target": 136
 				},
 				{
-					"id": 1479,
+					"id": 1482,
 					"name": "WebSocketManagerEvents",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -546,7 +546,7 @@
 					"target": 1017
 				},
 				{
-					"id": 1478,
+					"id": 1481,
 					"name": "WebSocketShard",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -556,7 +556,7 @@
 					"target": 71
 				},
 				{
-					"id": 1477,
+					"id": 1480,
 					"name": "WebSocketShardStatus",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -566,24 +566,24 @@
 					"target": 65
 				},
 				{
-					"id": 1520,
+					"id": 1523,
 					"name": "WebhooksUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1328
+					"target": 1331
 				},
 				{
-					"id": 1524,
+					"id": 1527,
 					"name": "WorkerMasterMessages",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1342
+					"target": 1345
 				}
 			],
 			"groups": [
@@ -591,63 +591,63 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						1493,
-						1494,
-						1521,
-						1527,
-						1497,
-						1495,
 						1496,
+						1497,
+						1524,
+						1530,
+						1500,
 						1498,
 						1499,
-						1500,
 						1501,
 						1502,
 						1503,
 						1504,
 						1505,
-						1487,
-						1488,
-						1486,
-						1530,
-						1529,
-						1480,
-						1489,
 						1506,
 						1507,
-						1525,
 						1508,
-						1511,
+						1490,
+						1491,
+						1489,
+						1533,
+						1532,
+						1483,
+						1492,
+						1509,
 						1510,
-						1512,
+						1528,
+						1511,
 						1514,
 						1513,
-						1509,
-						1482,
 						1515,
-						1491,
-						1490,
-						1492,
-						1485,
-						1523,
-						1516,
 						1517,
-						1519,
+						1516,
+						1512,
+						1485,
 						1518,
-						1481,
-						1522,
-						1475,
-						1528,
-						1484,
+						1494,
+						1493,
+						1495,
+						1488,
 						1526,
-						1474,
-						1483,
-						1476,
-						1479,
-						1478,
-						1477,
+						1519,
 						1520,
-						1524
+						1522,
+						1521,
+						1484,
+						1525,
+						1478,
+						1531,
+						1487,
+						1529,
+						1477,
+						1486,
+						1479,
+						1482,
+						1481,
+						1480,
+						1523,
+						1527
 					]
 				}
 			],
@@ -660,7 +660,7 @@
 			]
 		},
 		{
-			"id": 1378,
+			"id": 1381,
 			"name": "\"lib/WebSocketConnection\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -670,7 +670,7 @@
 			"originalName": "/home/runner/work/ws/ws/src/lib/WebSocketConnection.ts",
 			"children": [
 				{
-					"id": 1389,
+					"id": 1392,
 					"name": "WebSocketConnection",
 					"kind": 128,
 					"kindString": "Class",
@@ -679,7 +679,7 @@
 					},
 					"children": [
 						{
-							"id": 1399,
+							"id": 1402,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -690,7 +690,7 @@
 							"comment": {},
 							"signatures": [
 								{
-									"id": 1401,
+									"id": 1404,
 									"name": "new WebSocketConnection",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -700,7 +700,7 @@
 									"comment": {},
 									"parameters": [
 										{
-											"id": 1402,
+											"id": 1405,
 											"name": "parentPort",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -713,7 +713,7 @@
 											}
 										},
 										{
-											"id": 1403,
+											"id": 1406,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -729,7 +729,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 1389,
+										"id": 1392,
 										"name": "WebSocketConnection"
 									}
 								}
@@ -743,7 +743,7 @@
 							]
 						},
 						{
-							"id": 1393,
+							"id": 1396,
 							"name": "#closeSequence",
 							"kind": 1024,
 							"kindString": "Property",
@@ -767,7 +767,7 @@
 							}
 						},
 						{
-							"id": 1396,
+							"id": 1399,
 							"name": "#connection",
 							"kind": 1024,
 							"kindString": "Property",
@@ -800,7 +800,7 @@
 							}
 						},
 						{
-							"id": 1395,
+							"id": 1398,
 							"name": "#heartbeat",
 							"kind": 1024,
 							"kindString": "Property",
@@ -825,7 +825,7 @@
 							}
 						},
 						{
-							"id": 1397,
+							"id": 1400,
 							"name": "#host",
 							"kind": 1024,
 							"kindString": "Property",
@@ -849,7 +849,7 @@
 							}
 						},
 						{
-							"id": 1398,
+							"id": 1401,
 							"name": "#options",
 							"kind": 1024,
 							"kindString": "Property",
@@ -874,7 +874,7 @@
 							}
 						},
 						{
-							"id": 1394,
+							"id": 1397,
 							"name": "#ratelimitData",
 							"kind": 1024,
 							"kindString": "Property",
@@ -894,12 +894,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1379,
+								"id": 1382,
 								"name": "WSRatelimit"
 							}
 						},
 						{
-							"id": 1391,
+							"id": 1394,
 							"name": "#sequence",
 							"kind": 1024,
 							"kindString": "Property",
@@ -923,7 +923,7 @@
 							}
 						},
 						{
-							"id": 1392,
+							"id": 1395,
 							"name": "#sessionID",
 							"kind": 1024,
 							"kindString": "Property",
@@ -956,7 +956,7 @@
 							}
 						},
 						{
-							"id": 1390,
+							"id": 1393,
 							"name": "#zlib",
 							"kind": 1024,
 							"kindString": "Property",
@@ -989,7 +989,7 @@
 							}
 						},
 						{
-							"id": 1400,
+							"id": 1403,
 							"name": "parentPort",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1011,7 +1011,7 @@
 							}
 						},
 						{
-							"id": 1425,
+							"id": 1428,
 							"name": "_onclose",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1021,7 +1021,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1426,
+									"id": 1429,
 									"name": "_onclose",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1033,7 +1033,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1427,
+											"id": 1430,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1064,7 +1064,7 @@
 							]
 						},
 						{
-							"id": 1422,
+							"id": 1425,
 							"name": "_onerror",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1074,7 +1074,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1423,
+									"id": 1426,
 									"name": "_onerror",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1086,7 +1086,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1424,
+											"id": 1427,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1117,7 +1117,7 @@
 							]
 						},
 						{
-							"id": 1419,
+							"id": 1422,
 							"name": "_onmessage",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1127,7 +1127,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1420,
+									"id": 1423,
 									"name": "_onmessage",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1139,7 +1139,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1421,
+											"id": 1424,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1170,7 +1170,7 @@
 							]
 						},
 						{
-							"id": 1417,
+							"id": 1420,
 							"name": "_onopen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1180,7 +1180,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1418,
+									"id": 1421,
 									"name": "_onopen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1205,7 +1205,7 @@
 							]
 						},
 						{
-							"id": 1431,
+							"id": 1434,
 							"name": "debug",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1215,7 +1215,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1432,
+									"id": 1435,
 									"name": "debug",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1227,7 +1227,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1433,
+											"id": 1436,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1258,7 +1258,7 @@
 							]
 						},
 						{
-							"id": 1408,
+							"id": 1411,
 							"name": "destroy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1268,7 +1268,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1409,
+									"id": 1412,
 									"name": "destroy",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1280,7 +1280,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1410,
+											"id": 1413,
 											"name": "__namedParameters",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1291,7 +1291,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 1411,
+													"id": 1414,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -1300,7 +1300,7 @@
 													},
 													"children": [
 														{
-															"id": 1412,
+															"id": 1415,
 															"name": "code",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1320,7 +1320,7 @@
 															}
 														},
 														{
-															"id": 1413,
+															"id": 1416,
 															"name": "resetSession",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1345,8 +1345,8 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1412,
-																1413
+																1415,
+																1416
 															]
 														}
 													],
@@ -1377,7 +1377,7 @@
 							]
 						},
 						{
-							"id": 1434,
+							"id": 1437,
 							"name": "dispatch",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1387,7 +1387,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1435,
+									"id": 1438,
 									"name": "dispatch",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1399,7 +1399,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1436,
+											"id": 1439,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1411,7 +1411,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1342,
+												"id": 1345,
 												"name": "WorkerMasterMessages"
 											}
 										}
@@ -1431,7 +1431,7 @@
 							]
 						},
 						{
-							"id": 1468,
+							"id": 1471,
 							"name": "dispatchSessionData",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1441,7 +1441,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1469,
+									"id": 1472,
 									"name": "dispatchSessionData",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1466,7 +1466,7 @@
 							]
 						},
 						{
-							"id": 1442,
+							"id": 1445,
 							"name": "heartbeatAck",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1476,7 +1476,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1443,
+									"id": 1446,
 									"name": "heartbeatAck",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1501,7 +1501,7 @@
 							]
 						},
 						{
-							"id": 1440,
+							"id": 1443,
 							"name": "heartbeatRequest",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1511,7 +1511,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1441,
+									"id": 1444,
 									"name": "heartbeatRequest",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1536,7 +1536,7 @@
 							]
 						},
 						{
-							"id": 1437,
+							"id": 1440,
 							"name": "hello",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1546,7 +1546,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1438,
+									"id": 1441,
 									"name": "hello",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1558,7 +1558,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1439,
+											"id": 1442,
 											"name": "packet",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1590,7 +1590,7 @@
 							]
 						},
 						{
-							"id": 1455,
+							"id": 1458,
 							"name": "identify",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1600,7 +1600,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1456,
+									"id": 1459,
 									"name": "identify",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1625,7 +1625,7 @@
 							]
 						},
 						{
-							"id": 1444,
+							"id": 1447,
 							"name": "invalidSession",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1635,7 +1635,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1445,
+									"id": 1448,
 									"name": "invalidSession",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1647,7 +1647,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1446,
+											"id": 1449,
 											"name": "packet",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1679,7 +1679,7 @@
 							]
 						},
 						{
-							"id": 1457,
+							"id": 1460,
 							"name": "newSession",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1689,7 +1689,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1458,
+									"id": 1461,
 									"name": "newSession",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1714,7 +1714,7 @@
 							]
 						},
 						{
-							"id": 1466,
+							"id": 1469,
 							"name": "newWS",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1724,7 +1724,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1467,
+									"id": 1470,
 									"name": "newWS",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1749,7 +1749,7 @@
 							]
 						},
 						{
-							"id": 1428,
+							"id": 1431,
 							"name": "onPacket",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1759,7 +1759,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1429,
+									"id": 1432,
 									"name": "onPacket",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1771,7 +1771,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1430,
+											"id": 1433,
 											"name": "packet",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1803,7 +1803,7 @@
 							]
 						},
 						{
-							"id": 1461,
+							"id": 1464,
 							"name": "processRatelimitQueue",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1813,7 +1813,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1462,
+									"id": 1465,
 									"name": "processRatelimitQueue",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1838,7 +1838,7 @@
 							]
 						},
 						{
-							"id": 1404,
+							"id": 1407,
 							"name": "queueWSPayload",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1848,7 +1848,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1405,
+									"id": 1408,
 									"name": "queueWSPayload",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1860,7 +1860,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1406,
+											"id": 1409,
 											"name": "payload",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1877,7 +1877,7 @@
 											}
 										},
 										{
-											"id": 1407,
+											"id": 1410,
 											"name": "important",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1909,7 +1909,7 @@
 							]
 						},
 						{
-							"id": 1447,
+							"id": 1450,
 							"name": "reconnect",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1919,7 +1919,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1448,
+									"id": 1451,
 									"name": "reconnect",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1944,7 +1944,7 @@
 							]
 						},
 						{
-							"id": 1414,
+							"id": 1417,
 							"name": "resolveHost",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1954,7 +1954,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1415,
+									"id": 1418,
 									"name": "resolveHost",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1966,7 +1966,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1416,
+											"id": 1419,
 											"name": "host",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1997,7 +1997,7 @@
 							]
 						},
 						{
-							"id": 1459,
+							"id": 1462,
 							"name": "resume",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2007,7 +2007,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1460,
+									"id": 1463,
 									"name": "resume",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2032,7 +2032,7 @@
 							]
 						},
 						{
-							"id": 1463,
+							"id": 1466,
 							"name": "send",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2042,7 +2042,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1464,
+									"id": 1467,
 									"name": "send",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2054,7 +2054,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1465,
+											"id": 1468,
 											"name": "payload",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2085,7 +2085,7 @@
 							]
 						},
 						{
-							"id": 1452,
+							"id": 1455,
 							"name": "sendHeartbeat",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2095,7 +2095,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1453,
+									"id": 1456,
 									"name": "sendHeartbeat",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2107,7 +2107,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1454,
+											"id": 1457,
 											"name": "tag",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2139,7 +2139,7 @@
 							]
 						},
 						{
-							"id": 1449,
+							"id": 1452,
 							"name": "setHeartbeatTimer",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2149,7 +2149,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1450,
+									"id": 1453,
 									"name": "setHeartbeatTimer",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2161,7 +2161,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1451,
+											"id": 1454,
 											"name": "time",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2197,53 +2197,53 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1399
+								1402
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1393,
 								1396,
-								1395,
-								1397,
+								1399,
 								1398,
+								1400,
+								1401,
+								1397,
 								1394,
-								1391,
-								1392,
-								1390,
-								1400
+								1395,
+								1393,
+								1403
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
+								1428,
 								1425,
 								1422,
-								1419,
-								1417,
-								1431,
-								1408,
+								1420,
 								1434,
-								1468,
-								1442,
-								1440,
+								1411,
 								1437,
-								1455,
-								1444,
-								1457,
-								1466,
-								1428,
-								1461,
-								1404,
+								1471,
+								1445,
+								1443,
+								1440,
+								1458,
 								1447,
-								1414,
-								1459,
-								1463,
-								1452,
-								1449
+								1460,
+								1469,
+								1431,
+								1464,
+								1407,
+								1450,
+								1417,
+								1462,
+								1466,
+								1455,
+								1452
 							]
 						}
 					],
@@ -2256,14 +2256,14 @@
 					]
 				},
 				{
-					"id": 1386,
+					"id": 1389,
 					"name": "WSDestroyOptions",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1387,
+							"id": 1390,
 							"name": "closeCode",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2283,7 +2283,7 @@
 							}
 						},
 						{
-							"id": 1388,
+							"id": 1391,
 							"name": "resetSession",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2308,8 +2308,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1387,
-								1388
+								1390,
+								1391
 							]
 						}
 					],
@@ -2322,14 +2322,14 @@
 					]
 				},
 				{
-					"id": 1382,
+					"id": 1385,
 					"name": "WSHeartbeat",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1383,
+							"id": 1386,
 							"name": "acked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2347,7 +2347,7 @@
 							}
 						},
 						{
-							"id": 1384,
+							"id": 1387,
 							"name": "interval",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2374,7 +2374,7 @@
 							}
 						},
 						{
-							"id": 1385,
+							"id": 1388,
 							"name": "last",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2397,9 +2397,9 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1383,
-								1384,
-								1385
+								1386,
+								1387,
+								1388
 							]
 						}
 					],
@@ -2412,14 +2412,14 @@
 					]
 				},
 				{
-					"id": 1379,
+					"id": 1382,
 					"name": "WSRatelimit",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1381,
+							"id": 1384,
 							"name": "queue",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2440,7 +2440,7 @@
 							}
 						},
 						{
-							"id": 1380,
+							"id": 1383,
 							"name": "remaining",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2463,8 +2463,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1381,
-								1380
+								1384,
+								1383
 							]
 						}
 					],
@@ -2477,7 +2477,7 @@
 					]
 				},
 				{
-					"id": 1472,
+					"id": 1475,
 					"name": "UNRECOVERABLE",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2502,7 +2502,7 @@
 					"defaultValue": "[\n\tWSCloseCodes.AuthenticationFailed,\n\tWSCloseCodes.InvalidShard,\n\tWSCloseCodes.ShardingRequired,\n\tWSCloseCodes.InvalidIntents,\n\tWSCloseCodes.DisallowedIntents\n]"
 				},
 				{
-					"id": 1471,
+					"id": 1474,
 					"name": "UNRESUMABLE",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2526,7 +2526,7 @@
 					"defaultValue": "[\n\t1000,\n\t4006,\n\tWSCloseCodes.InvalidSeq\n]"
 				},
 				{
-					"id": 1470,
+					"id": 1473,
 					"name": "zlib",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2560,25 +2560,25 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1389
+						1392
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1386,
-						1382,
-						1379
+						1389,
+						1385,
+						1382
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1472,
-						1471,
-						1470
+						1475,
+						1474,
+						1473
 					]
 				}
 			],
@@ -18216,7 +18216,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1342,
+												"id": 1345,
 												"name": "WorkerMasterMessages"
 											}
 										}
@@ -18400,7 +18400,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1372,
+												"id": 1375,
 												"name": "MasterWorkerMessages"
 											}
 										}
@@ -18659,7 +18659,7 @@
 			]
 		},
 		{
-			"id": 1531,
+			"id": 1534,
 			"name": "\"lib/Worker\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -18669,7 +18669,7 @@
 			"originalName": "/home/runner/work/ws/ws/src/lib/Worker.ts",
 			"children": [
 				{
-					"id": 1536,
+					"id": 1539,
 					"name": "connection",
 					"kind": 32,
 					"kindString": "Variable",
@@ -18685,13 +18685,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1389,
+						"id": 1392,
 						"name": "WebSocketConnection"
 					},
 					"defaultValue": "new WebSocketConnection(parentPort, typedWorkerData)"
 				},
 				{
-					"id": 1532,
+					"id": 1535,
 					"name": "typedWorkerData",
 					"kind": 32,
 					"kindString": "Variable",
@@ -18713,21 +18713,21 @@
 					"defaultValue": "workerData as WSWorkerData"
 				},
 				{
-					"id": 1533,
+					"id": 1536,
 					"name": "checkMainThread",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"signatures": [
 						{
-							"id": 1534,
+							"id": 1537,
 							"name": "checkMainThread",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 1535,
+									"id": 1538,
 									"name": "port",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -18763,15 +18763,15 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1536,
-						1532
+						1539,
+						1535
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1533
+						1536
 					]
 				}
 			],
@@ -18813,7 +18813,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 482,
+									"line": 485,
 									"character": 15
 								}
 							]
@@ -18829,7 +18829,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 481,
+									"line": 484,
 									"character": 6
 								}
 							]
@@ -18848,7 +18848,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 480,
+							"line": 483,
 							"character": 31
 						}
 					]
@@ -20375,7 +20375,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 388,
+									"line": 391,
 									"character": 2
 								}
 							],
@@ -20393,7 +20393,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 386,
+									"line": 389,
 									"character": 3
 								}
 							],
@@ -20412,7 +20412,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 387,
+									"line": 390,
 									"character": 2
 								}
 							],
@@ -20432,7 +20432,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 389,
+									"line": 392,
 									"character": 2
 								}
 							],
@@ -20457,7 +20457,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 385,
+							"line": 388,
 							"character": 21
 						}
 					],
@@ -20531,7 +20531,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 395,
+									"line": 398,
 									"character": 2
 								}
 							],
@@ -20554,7 +20554,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 393,
+									"line": 396,
 									"character": 3
 								}
 							],
@@ -20578,7 +20578,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 387,
+									"line": 390,
 									"character": 2
 								}
 							],
@@ -20601,7 +20601,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 397,
+									"line": 400,
 									"character": 9
 								}
 							],
@@ -20619,7 +20619,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 394,
+									"line": 397,
 									"character": 2
 								}
 							],
@@ -20655,7 +20655,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 392,
+							"line": 395,
 							"character": 21
 						}
 					],
@@ -20738,7 +20738,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 387,
+									"line": 390,
 									"character": 2
 								}
 							],
@@ -20876,7 +20876,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 387,
+									"line": 390,
 									"character": 2
 								}
 							],
@@ -21060,7 +21060,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 387,
+									"line": 390,
 									"character": 2
 								}
 							],
@@ -21143,7 +21143,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 334,
+									"line": 337,
 									"character": 2
 								}
 							],
@@ -21167,7 +21167,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 344,
+													"line": 347,
 													"character": 9
 												}
 											],
@@ -21187,7 +21187,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 341,
+													"line": 344,
 													"character": 17
 												}
 											],
@@ -21207,7 +21207,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 343,
+													"line": 346,
 													"character": 10
 												}
 											],
@@ -21226,7 +21226,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 336,
+													"line": 339,
 													"character": 12
 												}
 											],
@@ -21248,7 +21248,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 338,
+																	"line": 341,
 																	"character": 11
 																}
 															],
@@ -21266,7 +21266,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 337,
+																	"line": 340,
 																	"character": 6
 																}
 															],
@@ -21284,7 +21284,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 339,
+																	"line": 342,
 																	"character": 9
 																}
 															],
@@ -21308,7 +21308,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 336,
+															"line": 339,
 															"character": 13
 														}
 													]
@@ -21326,7 +21326,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 342,
+													"line": 345,
 													"character": 7
 												}
 											],
@@ -21353,7 +21353,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 335,
+													"line": 338,
 													"character": 7
 												}
 											],
@@ -21380,7 +21380,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 334,
+											"line": 337,
 											"character": 3
 										}
 									]
@@ -21396,7 +21396,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 333,
+									"line": 336,
 									"character": 3
 								}
 							],
@@ -21420,7 +21420,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 332,
+							"line": 335,
 							"character": 18
 						}
 					]
@@ -21496,7 +21496,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 387,
+									"line": 390,
 									"character": 2
 								}
 							],
@@ -21634,7 +21634,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 387,
+									"line": 390,
 									"character": 2
 								}
 							],
@@ -21717,7 +21717,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 359,
+									"line": 362,
 									"character": 2
 								}
 							],
@@ -21739,7 +21739,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 360,
+													"line": 363,
 													"character": 10
 												}
 											],
@@ -21769,7 +21769,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 362,
+													"line": 365,
 													"character": 7
 												}
 											],
@@ -21789,7 +21789,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 363,
+													"line": 366,
 													"character": 11
 												}
 											],
@@ -21809,7 +21809,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 361,
+													"line": 364,
 													"character": 7
 												}
 											],
@@ -21829,7 +21829,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 364,
+													"line": 367,
 													"character": 10
 												}
 											],
@@ -21867,7 +21867,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 359,
+											"line": 362,
 											"character": 3
 										}
 									]
@@ -21883,7 +21883,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 358,
+									"line": 361,
 									"character": 3
 								}
 							],
@@ -21907,7 +21907,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 357,
+							"line": 360,
 							"character": 29
 						}
 					]
@@ -21928,7 +21928,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 350,
+									"line": 353,
 									"character": 2
 								}
 							],
@@ -21950,7 +21950,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 353,
+													"line": 356,
 													"character": 5
 												}
 											],
@@ -21968,7 +21968,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 352,
+													"line": 355,
 													"character": 12
 												}
 											],
@@ -21986,7 +21986,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 351,
+													"line": 354,
 													"character": 7
 												}
 											],
@@ -22010,7 +22010,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 350,
+											"line": 353,
 											"character": 3
 										}
 									]
@@ -22026,7 +22026,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 349,
+									"line": 352,
 									"character": 3
 								}
 							],
@@ -22050,7 +22050,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 348,
+							"line": 351,
 							"character": 16
 						}
 					]
@@ -22075,7 +22075,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 429,
+									"line": 432,
 									"character": 4
 								}
 							],
@@ -22095,7 +22095,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 428,
+									"line": 431,
 									"character": 11
 								}
 							],
@@ -22118,7 +22118,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 427,
+							"line": 430,
 							"character": 31
 						}
 					]
@@ -22139,7 +22139,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 380,
+									"line": 383,
 									"character": 2
 								}
 							],
@@ -22158,7 +22158,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 379,
+									"line": 382,
 									"character": 3
 								}
 							],
@@ -22182,7 +22182,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 378,
+							"line": 381,
 							"character": 22
 						}
 					]
@@ -22203,7 +22203,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 413,
+									"line": 416,
 									"character": 4
 								}
 							],
@@ -22221,7 +22221,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 411,
+									"line": 414,
 									"character": 5
 								}
 							],
@@ -22248,7 +22248,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 410,
+									"line": 413,
 									"character": 6
 								}
 							],
@@ -22275,7 +22275,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 412,
+									"line": 415,
 									"character": 7
 								}
 							],
@@ -22321,7 +22321,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 409,
+							"line": 412,
 							"character": 26
 						}
 					]
@@ -22342,7 +22342,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 370,
+									"line": 373,
 									"character": 2
 								}
 							],
@@ -22364,7 +22364,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 372,
+													"line": 375,
 													"character": 12
 												}
 											],
@@ -22391,7 +22391,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 371,
+													"line": 374,
 													"character": 10
 												}
 											],
@@ -22409,7 +22409,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 374,
+													"line": 377,
 													"character": 11
 												}
 											],
@@ -22427,7 +22427,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 373,
+													"line": 376,
 													"character": 11
 												}
 											],
@@ -22452,7 +22452,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 370,
+											"line": 373,
 											"character": 3
 										}
 									]
@@ -22468,7 +22468,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 369,
+									"line": 372,
 									"character": 3
 								}
 							],
@@ -22492,7 +22492,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 368,
+							"line": 371,
 							"character": 26
 						}
 					]
@@ -22513,7 +22513,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 329,
+									"line": 332,
 									"character": 2
 								}
 							],
@@ -22531,7 +22531,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 328,
+									"line": 331,
 									"character": 3
 								}
 							],
@@ -22555,7 +22555,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 327,
+							"line": 330,
 							"character": 21
 						}
 					]
@@ -22581,7 +22581,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 425,
+									"line": 428,
 									"character": 8
 								}
 							],
@@ -22602,7 +22602,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 422,
+									"line": 425,
 									"character": 16
 								}
 							],
@@ -22623,7 +22623,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 424,
+									"line": 427,
 									"character": 9
 								}
 							],
@@ -22644,7 +22644,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 417,
+									"line": 420,
 									"character": 11
 								}
 							],
@@ -22670,7 +22670,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 419,
+													"line": 422,
 													"character": 10
 												}
 											],
@@ -22690,7 +22690,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 418,
+													"line": 421,
 													"character": 5
 												}
 											],
@@ -22710,7 +22710,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 420,
+													"line": 423,
 													"character": 8
 												}
 											],
@@ -22734,7 +22734,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 417,
+											"line": 420,
 											"character": 12
 										}
 									]
@@ -22753,7 +22753,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 423,
+									"line": 426,
 									"character": 6
 								}
 							],
@@ -22788,7 +22788,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 416,
+							"line": 419,
 							"character": 27
 						}
 					]
@@ -22813,7 +22813,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 474,
+									"line": 477,
 									"character": 11
 								}
 							],
@@ -22833,7 +22833,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 475,
+									"line": 478,
 									"character": 15
 								}
 							],
@@ -22853,7 +22853,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 477,
+									"line": 480,
 									"character": 8
 								}
 							],
@@ -22893,7 +22893,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 477,
+															"line": 480,
 															"character": 39
 														}
 													],
@@ -22924,7 +22924,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 477,
+													"line": 480,
 													"character": 31
 												}
 											]
@@ -22944,7 +22944,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 476,
+									"line": 479,
 									"character": 6
 								}
 							],
@@ -22969,7 +22969,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 473,
+							"line": 476,
 							"character": 29
 						}
 					]
@@ -23144,7 +23144,7 @@
 					}
 				},
 				{
-					"id": 1332,
+					"id": 1335,
 					"name": "DispatchPayload",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23154,7 +23154,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 292,
+							"line": 295,
 							"character": 27
 						}
 					],
@@ -23228,87 +23228,87 @@
 							},
 							{
 								"type": "reference",
-								"id": 1265,
+								"id": 1268,
 								"name": "GuildRoleCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1269,
+								"id": 1272,
 								"name": "GuildRoleDeleteDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1273,
+								"id": 1276,
 								"name": "InviteCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1286,
+								"id": 1289,
 								"name": "InviteDeleteDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1291,
+								"id": 1294,
 								"name": "MessageCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1292,
+								"id": 1295,
 								"name": "MessageUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1296,
+								"id": 1299,
 								"name": "MessageDeleteDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1301,
+								"id": 1304,
 								"name": "MessageDeleteBulkDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1306,
+								"id": 1309,
 								"name": "MessageReactionAddDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1307,
+								"id": 1310,
 								"name": "MessageReactionRemoveDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1308,
+								"id": 1311,
 								"name": "MessageReactionRemoveAllDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1313,
+								"id": 1316,
 								"name": "PresenceUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1314,
+								"id": 1317,
 								"name": "TypingStartDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1321,
+								"id": 1324,
 								"name": "UserUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1322,
+								"id": 1325,
 								"name": "VoiceStateUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1323,
+								"id": 1326,
 								"name": "VoiceServerUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1328,
+								"id": 1331,
 								"name": "WebhooksUpdateDispatch"
 							}
 						]
@@ -24084,6 +24084,48 @@
 									},
 									"children": [
 										{
+											"id": 1264,
+											"name": "chunk_count",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "src/types/InternalWebSocket.ts",
+													"line": 208,
+													"character": 12
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 1263,
+											"name": "chunk_index",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "src/types/InternalWebSocket.ts",
+													"line": 207,
+													"character": 12
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
 											"id": 1261,
 											"name": "guild_id",
 											"kind": 32,
@@ -24127,7 +24169,28 @@
 											}
 										},
 										{
-											"id": 1263,
+											"id": 1267,
+											"name": "nonce",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "src/types/InternalWebSocket.ts",
+													"line": 211,
+													"character": 6
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 1265,
 											"name": "not_found",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24138,7 +24201,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 207,
+													"line": 209,
 													"character": 10
 												}
 											],
@@ -24151,7 +24214,7 @@
 											}
 										},
 										{
-											"id": 1264,
+											"id": 1266,
 											"name": "presences",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24162,7 +24225,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 208,
+													"line": 210,
 													"character": 10
 												}
 											],
@@ -24180,10 +24243,13 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
+												1264,
+												1263,
 												1261,
 												1262,
-												1263,
-												1264
+												1267,
+												1265,
+												1266
 											]
 										}
 									],
@@ -24201,7 +24267,7 @@
 					}
 				},
 				{
-					"id": 1265,
+					"id": 1268,
 					"name": "GuildRoleCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24211,7 +24277,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 211,
+							"line": 214,
 							"character": 35
 						}
 					],
@@ -24237,7 +24303,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1266,
+									"id": 1269,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24246,7 +24312,7 @@
 									},
 									"children": [
 										{
-											"id": 1267,
+											"id": 1270,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24256,7 +24322,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 212,
+													"line": 215,
 													"character": 9
 												}
 											],
@@ -24266,7 +24332,7 @@
 											}
 										},
 										{
-											"id": 1268,
+											"id": 1271,
 											"name": "role",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24276,7 +24342,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 213,
+													"line": 216,
 													"character": 5
 												}
 											],
@@ -24291,15 +24357,15 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1267,
-												1268
+												1270,
+												1271
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 211,
+											"line": 214,
 											"character": 116
 										}
 									]
@@ -24310,7 +24376,7 @@
 					}
 				},
 				{
-					"id": 1269,
+					"id": 1272,
 					"name": "GuildRoleDeleteDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24320,7 +24386,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 216,
+							"line": 219,
 							"character": 35
 						}
 					],
@@ -24336,7 +24402,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1270,
+									"id": 1273,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24345,7 +24411,7 @@
 									},
 									"children": [
 										{
-											"id": 1271,
+											"id": 1274,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24355,7 +24421,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 217,
+													"line": 220,
 													"character": 9
 												}
 											],
@@ -24365,7 +24431,7 @@
 											}
 										},
 										{
-											"id": 1272,
+											"id": 1275,
 											"name": "role_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24375,7 +24441,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 218,
+													"line": 221,
 													"character": 8
 												}
 											],
@@ -24390,15 +24456,15 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1271,
-												1272
+												1274,
+												1275
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 216,
+											"line": 219,
 											"character": 82
 										}
 									]
@@ -24409,7 +24475,7 @@
 					}
 				},
 				{
-					"id": 1273,
+					"id": 1276,
 					"name": "InviteCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24419,7 +24485,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 221,
+							"line": 224,
 							"character": 32
 						}
 					],
@@ -24435,7 +24501,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1274,
+									"id": 1277,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24444,7 +24510,7 @@
 									},
 									"children": [
 										{
-											"id": 1275,
+											"id": 1278,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24454,7 +24520,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 222,
+													"line": 225,
 													"character": 11
 												}
 											],
@@ -24464,7 +24530,7 @@
 											}
 										},
 										{
-											"id": 1276,
+											"id": 1279,
 											"name": "code",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24474,7 +24540,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 223,
+													"line": 226,
 													"character": 5
 												}
 											],
@@ -24484,7 +24550,7 @@
 											}
 										},
 										{
-											"id": 1277,
+											"id": 1280,
 											"name": "created_at",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24494,7 +24560,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 224,
+													"line": 227,
 													"character": 11
 												}
 											],
@@ -24504,7 +24570,7 @@
 											}
 										},
 										{
-											"id": 1278,
+											"id": 1281,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24515,7 +24581,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 225,
+													"line": 228,
 													"character": 9
 												}
 											],
@@ -24525,7 +24591,7 @@
 											}
 										},
 										{
-											"id": 1279,
+											"id": 1282,
 											"name": "inviter",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24536,7 +24602,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 226,
+													"line": 229,
 													"character": 8
 												}
 											],
@@ -24546,7 +24612,7 @@
 											}
 										},
 										{
-											"id": 1280,
+											"id": 1283,
 											"name": "max_age",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24556,7 +24622,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 227,
+													"line": 230,
 													"character": 8
 												}
 											],
@@ -24566,7 +24632,7 @@
 											}
 										},
 										{
-											"id": 1281,
+											"id": 1284,
 											"name": "max_uses",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24576,7 +24642,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 228,
+													"line": 231,
 													"character": 9
 												}
 											],
@@ -24586,7 +24652,7 @@
 											}
 										},
 										{
-											"id": 1282,
+											"id": 1285,
 											"name": "target_user",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24597,7 +24663,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 229,
+													"line": 232,
 													"character": 12
 												}
 											],
@@ -24607,7 +24673,7 @@
 											}
 										},
 										{
-											"id": 1283,
+											"id": 1286,
 											"name": "target_user_type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24618,7 +24684,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 230,
+													"line": 233,
 													"character": 17
 												}
 											],
@@ -24628,7 +24694,7 @@
 											}
 										},
 										{
-											"id": 1284,
+											"id": 1287,
 											"name": "temporary",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24638,7 +24704,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 231,
+													"line": 234,
 													"character": 10
 												}
 											],
@@ -24648,7 +24714,7 @@
 											}
 										},
 										{
-											"id": 1285,
+											"id": 1288,
 											"name": "uses",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24658,7 +24724,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 232,
+													"line": 235,
 													"character": 5
 												}
 											],
@@ -24673,9 +24739,6 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1275,
-												1276,
-												1277,
 												1278,
 												1279,
 												1280,
@@ -24683,14 +24746,17 @@
 												1282,
 												1283,
 												1284,
-												1285
+												1285,
+												1286,
+												1287,
+												1288
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 221,
+											"line": 224,
 											"character": 76
 										}
 									]
@@ -24701,7 +24767,7 @@
 					}
 				},
 				{
-					"id": 1286,
+					"id": 1289,
 					"name": "InviteDeleteDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24711,7 +24777,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 235,
+							"line": 238,
 							"character": 32
 						}
 					],
@@ -24727,7 +24793,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1287,
+									"id": 1290,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24736,7 +24802,7 @@
 									},
 									"children": [
 										{
-											"id": 1288,
+											"id": 1291,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24746,7 +24812,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 236,
+													"line": 239,
 													"character": 11
 												}
 											],
@@ -24756,7 +24822,7 @@
 											}
 										},
 										{
-											"id": 1290,
+											"id": 1293,
 											"name": "code",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24766,7 +24832,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 238,
+													"line": 241,
 													"character": 5
 												}
 											],
@@ -24776,7 +24842,7 @@
 											}
 										},
 										{
-											"id": 1289,
+											"id": 1292,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24787,7 +24853,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 237,
+													"line": 240,
 													"character": 9
 												}
 											],
@@ -24802,16 +24868,16 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1288,
-												1290,
-												1289
+												1291,
+												1293,
+												1292
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 235,
+											"line": 238,
 											"character": 76
 										}
 									]
@@ -24822,7 +24888,7 @@
 					}
 				},
 				{
-					"id": 1372,
+					"id": 1375,
 					"name": "MasterWorkerMessages",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24832,7 +24898,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 466,
+							"line": 469,
 							"character": 32
 						}
 					],
@@ -24842,7 +24908,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1373,
+									"id": 1376,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24851,7 +24917,7 @@
 									},
 									"children": [
 										{
-											"id": 1374,
+											"id": 1377,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24861,7 +24927,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 467,
+													"line": 470,
 													"character": 5
 												}
 											],
@@ -24897,14 +24963,14 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1374
+												1377
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 466,
+											"line": 469,
 											"character": 34
 										}
 									]
@@ -24913,7 +24979,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1375,
+									"id": 1378,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24922,7 +24988,7 @@
 									},
 									"children": [
 										{
-											"id": 1377,
+											"id": 1380,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24932,7 +24998,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 470,
+													"line": 473,
 													"character": 5
 												}
 											],
@@ -24943,7 +25009,7 @@
 											}
 										},
 										{
-											"id": 1376,
+											"id": 1379,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24953,7 +25019,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 469,
+													"line": 472,
 													"character": 5
 												}
 											],
@@ -24969,15 +25035,15 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1377,
-												1376
+												1380,
+												1379
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 468,
+											"line": 471,
 											"character": 3
 										}
 									]
@@ -24987,7 +25053,7 @@
 					}
 				},
 				{
-					"id": 1291,
+					"id": 1294,
 					"name": "MessageCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24997,7 +25063,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 241,
+							"line": 244,
 							"character": 33
 						}
 					],
@@ -25019,7 +25085,7 @@
 					}
 				},
 				{
-					"id": 1301,
+					"id": 1304,
 					"name": "MessageDeleteBulkDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25029,7 +25095,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 251,
+							"line": 254,
 							"character": 37
 						}
 					],
@@ -25045,7 +25111,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1302,
+									"id": 1305,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -25054,7 +25120,7 @@
 									},
 									"children": [
 										{
-											"id": 1304,
+											"id": 1307,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25064,7 +25130,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 253,
+													"line": 256,
 													"character": 11
 												}
 											],
@@ -25074,7 +25140,7 @@
 											}
 										},
 										{
-											"id": 1305,
+											"id": 1308,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25085,7 +25151,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 254,
+													"line": 257,
 													"character": 9
 												}
 											],
@@ -25095,7 +25161,7 @@
 											}
 										},
 										{
-											"id": 1303,
+											"id": 1306,
 											"name": "ids",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25105,7 +25171,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 252,
+													"line": 255,
 													"character": 4
 												}
 											],
@@ -25123,16 +25189,16 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1304,
-												1305,
-												1303
+												1307,
+												1308,
+												1306
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 251,
+											"line": 254,
 											"character": 86
 										}
 									]
@@ -25143,7 +25209,7 @@
 					}
 				},
 				{
-					"id": 1296,
+					"id": 1299,
 					"name": "MessageDeleteDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25153,7 +25219,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 245,
+							"line": 248,
 							"character": 33
 						}
 					],
@@ -25169,7 +25235,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1297,
+									"id": 1300,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -25178,7 +25244,7 @@
 									},
 									"children": [
 										{
-											"id": 1299,
+											"id": 1302,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25188,7 +25254,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 247,
+													"line": 250,
 													"character": 11
 												}
 											],
@@ -25198,7 +25264,7 @@
 											}
 										},
 										{
-											"id": 1300,
+											"id": 1303,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25209,7 +25275,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 248,
+													"line": 251,
 													"character": 9
 												}
 											],
@@ -25219,7 +25285,7 @@
 											}
 										},
 										{
-											"id": 1298,
+											"id": 1301,
 											"name": "id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25229,7 +25295,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 246,
+													"line": 249,
 													"character": 3
 												}
 											],
@@ -25244,16 +25310,16 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1299,
-												1300,
-												1298
+												1302,
+												1303,
+												1301
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 245,
+											"line": 248,
 											"character": 78
 										}
 									]
@@ -25264,7 +25330,7 @@
 					}
 				},
 				{
-					"id": 1306,
+					"id": 1309,
 					"name": "MessageReactionAddDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25274,13 +25340,13 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 257,
+							"line": 260,
 							"character": 38
 						}
 					],
 					"type": {
 						"type": "reference",
-						"id": 1333,
+						"id": 1336,
 						"typeArguments": [
 							{
 								"type": "reference",
@@ -25292,7 +25358,7 @@
 					}
 				},
 				{
-					"id": 1308,
+					"id": 1311,
 					"name": "MessageReactionRemoveAllDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25302,7 +25368,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 261,
+							"line": 264,
 							"character": 44
 						}
 					],
@@ -25318,7 +25384,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1309,
+									"id": 1312,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -25327,7 +25393,7 @@
 									},
 									"children": [
 										{
-											"id": 1310,
+											"id": 1313,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25337,7 +25403,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 262,
+													"line": 265,
 													"character": 11
 												}
 											],
@@ -25347,7 +25413,7 @@
 											}
 										},
 										{
-											"id": 1312,
+											"id": 1315,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25358,7 +25424,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 264,
+													"line": 267,
 													"character": 9
 												}
 											],
@@ -25368,7 +25434,7 @@
 											}
 										},
 										{
-											"id": 1311,
+											"id": 1314,
 											"name": "message_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25378,7 +25444,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 263,
+													"line": 266,
 													"character": 11
 												}
 											],
@@ -25393,16 +25459,16 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1310,
-												1312,
-												1311
+												1313,
+												1315,
+												1314
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 261,
+											"line": 264,
 											"character": 100
 										}
 									]
@@ -25413,7 +25479,7 @@
 					}
 				},
 				{
-					"id": 1307,
+					"id": 1310,
 					"name": "MessageReactionRemoveDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25423,7 +25489,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 259,
+							"line": 262,
 							"character": 41
 						}
 					],
@@ -25432,7 +25498,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1333,
+								"id": 1336,
 								"typeArguments": [
 									{
 										"type": "reference",
@@ -25451,7 +25517,7 @@
 					}
 				},
 				{
-					"id": 1292,
+					"id": 1295,
 					"name": "MessageUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25461,7 +25527,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 243,
+							"line": 246,
 							"character": 33
 						}
 					],
@@ -25480,7 +25546,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1293,
+											"id": 1296,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -25489,7 +25555,7 @@
 											},
 											"children": [
 												{
-													"id": 1295,
+													"id": 1298,
 													"name": "channel_id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25499,7 +25565,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 243,
+															"line": 246,
 															"character": 103
 														}
 													],
@@ -25509,7 +25575,7 @@
 													}
 												},
 												{
-													"id": 1294,
+													"id": 1297,
 													"name": "id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25519,7 +25585,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 243,
+															"line": 246,
 															"character": 83
 														}
 													],
@@ -25534,15 +25600,15 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1295,
-														1294
+														1298,
+														1297
 													]
 												}
 											],
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 243,
+													"line": 246,
 													"character": 78
 												}
 											]
@@ -25565,7 +25631,7 @@
 					}
 				},
 				{
-					"id": 1313,
+					"id": 1316,
 					"name": "PresenceUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25575,7 +25641,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 267,
+							"line": 270,
 							"character": 34
 						}
 					],
@@ -25597,14 +25663,14 @@
 					}
 				},
 				{
-					"id": 1333,
+					"id": 1336,
 					"name": "ReactionData",
 					"kind": 4194304,
 					"kindString": "Type alias",
 					"flags": {},
 					"typeParameter": [
 						{
-							"id": 1334,
+							"id": 1337,
 							"name": "E",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -25619,7 +25685,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 400,
+							"line": 403,
 							"character": 17
 						}
 					],
@@ -25639,14 +25705,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1335,
+									"id": 1338,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 1337,
+											"id": 1340,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25654,7 +25720,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 402,
+													"line": 405,
 													"character": 11
 												}
 											],
@@ -25664,7 +25730,7 @@
 											}
 										},
 										{
-											"id": 1341,
+											"id": 1344,
 											"name": "emoji",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25672,7 +25738,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 406,
+													"line": 409,
 													"character": 6
 												}
 											],
@@ -25682,7 +25748,7 @@
 											}
 										},
 										{
-											"id": 1339,
+											"id": 1342,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25692,7 +25758,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 404,
+													"line": 407,
 													"character": 9
 												}
 											],
@@ -25702,7 +25768,7 @@
 											}
 										},
 										{
-											"id": 1340,
+											"id": 1343,
 											"name": "member",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25712,7 +25778,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 405,
+													"line": 408,
 													"character": 7
 												}
 											],
@@ -25722,7 +25788,7 @@
 											}
 										},
 										{
-											"id": 1338,
+											"id": 1341,
 											"name": "message_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25730,7 +25796,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 403,
+													"line": 406,
 													"character": 11
 												}
 											],
@@ -25740,7 +25806,7 @@
 											}
 										},
 										{
-											"id": 1336,
+											"id": 1339,
 											"name": "user_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25748,7 +25814,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 401,
+													"line": 404,
 													"character": 8
 												}
 											],
@@ -25763,19 +25829,19 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1337,
-												1341,
-												1339,
 												1340,
-												1338,
-												1336
+												1344,
+												1342,
+												1343,
+												1341,
+												1339
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 400,
+											"line": 403,
 											"character": 61
 										}
 									]
@@ -26140,7 +26206,7 @@
 					}
 				},
 				{
-					"id": 1314,
+					"id": 1317,
 					"name": "TypingStartDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26150,7 +26216,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 269,
+							"line": 272,
 							"character": 31
 						}
 					],
@@ -26166,7 +26232,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1315,
+									"id": 1318,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26175,7 +26241,7 @@
 									},
 									"children": [
 										{
-											"id": 1316,
+											"id": 1319,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26185,7 +26251,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 270,
+													"line": 273,
 													"character": 11
 												}
 											],
@@ -26195,7 +26261,7 @@
 											}
 										},
 										{
-											"id": 1317,
+											"id": 1320,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26206,7 +26272,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 271,
+													"line": 274,
 													"character": 9
 												}
 											],
@@ -26216,7 +26282,7 @@
 											}
 										},
 										{
-											"id": 1320,
+											"id": 1323,
 											"name": "member",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26227,7 +26293,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 274,
+													"line": 277,
 													"character": 7
 												}
 											],
@@ -26237,7 +26303,7 @@
 											}
 										},
 										{
-											"id": 1319,
+											"id": 1322,
 											"name": "timestamp",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26247,7 +26313,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 273,
+													"line": 276,
 													"character": 10
 												}
 											],
@@ -26257,7 +26323,7 @@
 											}
 										},
 										{
-											"id": 1318,
+											"id": 1321,
 											"name": "user_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26267,7 +26333,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 272,
+													"line": 275,
 													"character": 8
 												}
 											],
@@ -26282,18 +26348,18 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1316,
-												1317,
-												1320,
 												1319,
-												1318
+												1320,
+												1323,
+												1322,
+												1321
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 269,
+											"line": 272,
 											"character": 74
 										}
 									]
@@ -26304,7 +26370,7 @@
 					}
 				},
 				{
-					"id": 1321,
+					"id": 1324,
 					"name": "UserUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26314,7 +26380,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 277,
+							"line": 280,
 							"character": 30
 						}
 					],
@@ -26336,7 +26402,7 @@
 					}
 				},
 				{
-					"id": 1323,
+					"id": 1326,
 					"name": "VoiceServerUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26346,7 +26412,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 281,
+							"line": 284,
 							"character": 37
 						}
 					],
@@ -26362,7 +26428,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1324,
+									"id": 1327,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26371,7 +26437,7 @@
 									},
 									"children": [
 										{
-											"id": 1327,
+											"id": 1330,
 											"name": "endpoint",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26381,7 +26447,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 284,
+													"line": 287,
 													"character": 9
 												}
 											],
@@ -26391,7 +26457,7 @@
 											}
 										},
 										{
-											"id": 1326,
+											"id": 1329,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26401,7 +26467,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 283,
+													"line": 286,
 													"character": 9
 												}
 											],
@@ -26411,7 +26477,7 @@
 											}
 										},
 										{
-											"id": 1325,
+											"id": 1328,
 											"name": "token",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26421,7 +26487,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 282,
+													"line": 285,
 													"character": 6
 												}
 											],
@@ -26436,16 +26502,16 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1327,
-												1326,
-												1325
+												1330,
+												1329,
+												1328
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 281,
+											"line": 284,
 											"character": 86
 										}
 									]
@@ -26456,7 +26522,7 @@
 					}
 				},
 				{
-					"id": 1322,
+					"id": 1325,
 					"name": "VoiceStateUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26466,7 +26532,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 279,
+							"line": 282,
 							"character": 36
 						}
 					],
@@ -26532,14 +26598,14 @@
 							},
 							{
 								"type": "reference",
-								"id": 1332,
+								"id": 1335,
 								"name": "DispatchPayload"
 							}
 						]
 					}
 				},
 				{
-					"id": 1328,
+					"id": 1331,
 					"name": "WebhooksUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26549,7 +26615,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 287,
+							"line": 290,
 							"character": 34
 						}
 					],
@@ -26565,7 +26631,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1329,
+									"id": 1332,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26574,7 +26640,7 @@
 									},
 									"children": [
 										{
-											"id": 1331,
+											"id": 1334,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26584,7 +26650,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 289,
+													"line": 292,
 													"character": 11
 												}
 											],
@@ -26594,7 +26660,7 @@
 											}
 										},
 										{
-											"id": 1330,
+											"id": 1333,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26604,7 +26670,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 288,
+													"line": 291,
 													"character": 9
 												}
 											],
@@ -26619,15 +26685,15 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1331,
-												1330
+												1334,
+												1333
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 287,
+											"line": 290,
 											"character": 80
 										}
 									]
@@ -26638,7 +26704,7 @@
 					}
 				},
 				{
-					"id": 1342,
+					"id": 1345,
 					"name": "WorkerMasterMessages",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26648,85 +26714,13 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 435,
+							"line": 438,
 							"character": 32
 						}
 					],
 					"type": {
 						"type": "union",
 						"types": [
-							{
-								"type": "reflection",
-								"declaration": {
-									"id": 1343,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {
-										"isExported": true
-									},
-									"children": [
-										{
-											"id": 1345,
-											"name": "data",
-											"kind": 32,
-											"kindString": "Variable",
-											"flags": {
-												"isExported": true
-											},
-											"sources": [
-												{
-													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 437,
-													"character": 5
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 1344,
-											"name": "type",
-											"kind": 32,
-											"kindString": "Variable",
-											"flags": {
-												"isExported": true
-											},
-											"sources": [
-												{
-													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 436,
-													"character": 5
-												}
-											],
-											"type": {
-												"type": "reference",
-												"id": 1023,
-												"name": "Debug"
-											}
-										}
-									],
-									"groups": [
-										{
-											"title": "Variables",
-											"kind": 32,
-											"children": [
-												1345,
-												1344
-											]
-										}
-									],
-									"sources": [
-										{
-											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 435,
-											"character": 34
-										}
-									]
-								}
-							},
 							{
 								"type": "reflection",
 								"declaration": {
@@ -26754,9 +26748,8 @@
 												}
 											],
 											"type": {
-												"type": "reference",
-												"id": 1332,
-												"name": "DispatchPayload"
+												"type": "intrinsic",
+												"name": "string"
 											}
 										},
 										{
@@ -26776,8 +26769,8 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1024,
-												"name": "Dispatch"
+												"id": 1023,
+												"name": "Debug"
 											}
 										}
 									],
@@ -26795,7 +26788,7 @@
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
 											"line": 438,
-											"character": 3
+											"character": 34
 										}
 									]
 								}
@@ -26812,6 +26805,27 @@
 									},
 									"children": [
 										{
+											"id": 1351,
+											"name": "data",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "src/types/InternalWebSocket.ts",
+													"line": 443,
+													"character": 5
+												}
+											],
+											"type": {
+												"type": "reference",
+												"id": 1335,
+												"name": "DispatchPayload"
+											}
+										},
+										{
 											"id": 1350,
 											"name": "type",
 											"kind": 32,
@@ -26823,6 +26837,58 @@
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
 													"line": 442,
+													"character": 5
+												}
+											],
+											"type": {
+												"type": "reference",
+												"id": 1024,
+												"name": "Dispatch"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												1351,
+												1350
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "src/types/InternalWebSocket.ts",
+											"line": 441,
+											"character": 3
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 1352,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 1353,
+											"name": "type",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "src/types/InternalWebSocket.ts",
+													"line": 445,
 													"character": 5
 												}
 											],
@@ -26848,86 +26914,14 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1350
+												1353
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 441,
-											"character": 3
-										}
-									]
-								}
-							},
-							{
-								"type": "reflection",
-								"declaration": {
-									"id": 1351,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {
-										"isExported": true
-									},
-									"children": [
-										{
-											"id": 1353,
-											"name": "data",
-											"kind": 32,
-											"kindString": "Variable",
-											"flags": {
-												"isExported": true
-											},
-											"sources": [
-												{
-													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 445,
-													"character": 5
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "number"
-											}
-										},
-										{
-											"id": 1352,
-											"name": "type",
-											"kind": 32,
-											"kindString": "Variable",
-											"flags": {
-												"isExported": true
-											},
-											"sources": [
-												{
-													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 444,
-													"character": 5
-												}
-											],
-											"type": {
-												"type": "reference",
-												"id": 1027,
-												"name": "UpdatePing"
-											}
-										}
-									],
-									"groups": [
-										{
-											"title": "Variables",
-											"kind": 32,
-											"children": [
-												1353,
-												1352
-											]
-										}
-									],
-									"sources": [
-										{
-											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 443,
+											"line": 444,
 											"character": 3
 										}
 									]
@@ -26960,9 +26954,8 @@
 												}
 											],
 											"type": {
-												"type": "reference",
-												"id": 1208,
-												"name": "GatewayStatus"
+												"type": "intrinsic",
+												"name": "number"
 											}
 										},
 										{
@@ -26982,8 +26975,8 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1029,
-												"name": "GatewayStatus"
+												"id": 1027,
+												"name": "UpdatePing"
 											}
 										}
 									],
@@ -27033,75 +27026,9 @@
 												}
 											],
 											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 1360,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"isExported": true
-													},
-													"children": [
-														{
-															"id": 1361,
-															"name": "code",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true
-															},
-															"sources": [
-																{
-																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 452,
-																	"character": 6
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "number"
-															}
-														},
-														{
-															"id": 1362,
-															"name": "reason",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true
-															},
-															"sources": [
-																{
-																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 453,
-																	"character": 8
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "string"
-															}
-														}
-													],
-													"groups": [
-														{
-															"title": "Variables",
-															"kind": 32,
-															"children": [
-																1361,
-																1362
-															]
-														}
-													],
-													"sources": [
-														{
-															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 451,
-															"character": 6
-														}
-													]
-												}
+												"type": "reference",
+												"id": 1208,
+												"name": "GatewayStatus"
 											}
 										},
 										{
@@ -27121,8 +27048,8 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1030,
-												"name": "CannotReconnect"
+												"id": 1029,
+												"name": "GatewayStatus"
 											}
 										}
 									],
@@ -27148,7 +27075,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1363,
+									"id": 1360,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27157,7 +27084,7 @@
 									},
 									"children": [
 										{
-											"id": 1365,
+											"id": 1362,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27167,18 +27094,84 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 457,
+													"line": 454,
 													"character": 5
 												}
 											],
 											"type": {
-												"type": "reference",
-												"id": 65,
-												"name": "WebSocketShardStatus"
+												"type": "reflection",
+												"declaration": {
+													"id": 1363,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 1364,
+															"name": "code",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/types/InternalWebSocket.ts",
+																	"line": 455,
+																	"character": 6
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														},
+														{
+															"id": 1365,
+															"name": "reason",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/types/InternalWebSocket.ts",
+																	"line": 456,
+																	"character": 8
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																1364,
+																1365
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "src/types/InternalWebSocket.ts",
+															"line": 454,
+															"character": 6
+														}
+													]
+												}
 											}
 										},
 										{
-											"id": 1364,
+											"id": 1361,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27188,14 +27181,14 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 456,
+													"line": 453,
 													"character": 5
 												}
 											],
 											"type": {
 												"type": "reference",
-												"id": 1031,
-												"name": "ConnectionStatusUpdate"
+												"id": 1030,
+												"name": "CannotReconnect"
 											}
 										}
 									],
@@ -27204,15 +27197,15 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1365,
-												1364
+												1362,
+												1361
 											]
 										}
 									],
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 455,
+											"line": 452,
 											"character": 3
 										}
 									]
@@ -27246,8 +27239,8 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1212,
-												"name": "SendPayload"
+												"id": 65,
+												"name": "WebSocketShardStatus"
 											}
 										},
 										{
@@ -27267,8 +27260,8 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1032,
-												"name": "PayloadDispatch"
+												"id": 1031,
+												"name": "ConnectionStatusUpdate"
 											}
 										}
 									],
@@ -27319,8 +27312,8 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1198,
-												"name": "SessionDetails"
+												"id": 1212,
+												"name": "SendPayload"
 											}
 										},
 										{
@@ -27340,8 +27333,8 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1034,
-												"name": "FetchSessionData"
+												"id": 1032,
+												"name": "PayloadDispatch"
 											}
 										}
 									],
@@ -27359,6 +27352,79 @@
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
 											"line": 461,
+											"character": 3
+										}
+									]
+								}
+							},
+							{
+								"type": "reflection",
+								"declaration": {
+									"id": 1372,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 1374,
+											"name": "data",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "src/types/InternalWebSocket.ts",
+													"line": 466,
+													"character": 5
+												}
+											],
+											"type": {
+												"type": "reference",
+												"id": 1198,
+												"name": "SessionDetails"
+											}
+										},
+										{
+											"id": 1373,
+											"name": "type",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "src/types/InternalWebSocket.ts",
+													"line": 465,
+													"character": 5
+												}
+											],
+											"type": {
+												"type": "reference",
+												"id": 1034,
+												"name": "FetchSessionData"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												1374,
+												1373
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "src/types/InternalWebSocket.ts",
+											"line": 464,
 											"character": 3
 										}
 									]
@@ -27410,7 +27476,7 @@
 					"children": [
 						1226,
 						1227,
-						1332,
+						1335,
 						1234,
 						1232,
 						1233,
@@ -27420,30 +27486,30 @@
 						1248,
 						1252,
 						1259,
-						1265,
-						1269,
-						1273,
-						1286,
-						1372,
-						1291,
-						1301,
-						1296,
-						1306,
-						1308,
-						1307,
-						1292,
-						1313,
-						1333,
+						1268,
+						1272,
+						1276,
+						1289,
+						1375,
+						1294,
+						1304,
+						1299,
+						1309,
+						1311,
+						1310,
+						1295,
+						1316,
+						1336,
 						1213,
 						1225,
 						1212,
-						1314,
-						1321,
-						1323,
-						1322,
+						1317,
+						1324,
+						1326,
+						1325,
 						1211,
-						1328,
-						1342
+						1331,
+						1345
 					]
 				}
 			],
@@ -29498,11 +29564,11 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				1473,
-				1378,
+				1476,
+				1381,
 				129,
 				64,
-				1531,
+				1534,
 				1016,
 				115,
 				1
