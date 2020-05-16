@@ -101,6 +101,7 @@ export const enum WebSocketEvents {
 	MessageReactionAdd = 'MESSAGE_REACTION_ADD',
 	MessageReactionRemove = 'MESSAGE_REACTION_REMOVE',
 	MessageReactionRemoveAll = 'MESSAGE_REACTION_REMOVE_ALL',
+	MessageReactionRemoveEmoji = 'MESSAGE_REACTION_REMOVE_EMOJI',
 	PresenceUpdate = 'PRESENCE_UPDATE',
 	TypingStart = 'TYPING_START',
 	UserUpdate = 'USER_UPDATE',
@@ -148,6 +149,9 @@ export interface Reconnect extends BasePayload {
 
 // #region Dispatch
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#ready
+ */
 export type ReadyDispatch = DataPayload<WebSocketEvents.Ready, {
 	v: number,
 	user_settings: {},
@@ -160,39 +164,85 @@ export type ReadyDispatch = DataPayload<WebSocketEvents.Ready, {
 	shard?: [number, number]
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#resumed
+ */
 export type ResumedDispatch = DataPayload<WebSocketEvents.Resumed, never>;
 
-export type ChannelCreateDispatch = DataPayload<WebSocketEvents.ChannelCreate | WebSocketEvents.ChannelDelete | WebSocketEvents.ChannelUpdate, APIChannelData>;
+/* eslint-disable @typescript-eslint/indent */
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#channel-create
+ * https://discord.com/developers/docs/topics/gateway#channel-update
+ * https://discord.com/developers/docs/topics/gateway#channel-delete
+ */
+export type ChannelCreateDispatch = DataPayload<
+	WebSocketEvents.ChannelCreate
+	| WebSocketEvents.ChannelDelete
+	| WebSocketEvents.ChannelUpdate,
+	APIChannelData
+>;
+
+/* eslint-enable @typescript-eslint/indent */
+
+/**
+ * https://discord.com/developers/docs/topics/gateway#channel-pins-update
+ */
 export type ChannelPinsUpdateDispatch = DataPayload<WebSocketEvents.ChannelPinsUpdate, {
 	guild_id?: string,
 	channel_id: string,
 	last_pin_timestamp?: string
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-create
+ * https://discord.com/developers/docs/topics/gateway#guild-update
+ */
 export type GuildCreateDispatch = DataPayload<WebSocketEvents.GuildCreate | WebSocketEvents.GuildUpdate, APIGuildData>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-delete
+ */
 export type GuildDeleteDispatch = DataPayload<WebSocketEvents.GuildDelete, APIGuildUnavailable>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-ban-add
+ * https://discord.com/developers/docs/topics/gateway#guild-ban-remove
+ */
 export type GuildBanAddDispatch = DataPayload<WebSocketEvents.GuildBanAdd | WebSocketEvents.GuildBanRemove, {
 	guild_id: string,
 	user: APIUserData
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-emojis-update
+ */
 export type GuildEmojisUpdateDispatch = DataPayload<WebSocketEvents.GuildEmojisUpdate, {
 	guild_id: string,
 	emojis: APIEmojiData[]
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-integrations-update
+ */
 export type GuildIntegrationsUpdateDispatch = DataPayload<WebSocketEvents.GuildIntegrationsUpdate, { guild_id: string }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-member-add
+ */
 export type GuildMemberAddDispatch = DataPayload<WebSocketEvents.GuildMemberAdd, APIGuildMemberData & { guild_id: string }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-member-remove
+ */
 export type GuildMemberRemoveDispatch = DataPayload<WebSocketEvents.GuildMemberRemove, {
 	guild_id: string,
 	user: APIUserData
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-member-update
+ */
 export type GuildMemberUpdateDispatch = DataPayload<WebSocketEvents.GuildMemberUpdate, {
 	guild_id: string,
 	roles: string[],
@@ -201,6 +251,9 @@ export type GuildMemberUpdateDispatch = DataPayload<WebSocketEvents.GuildMemberU
 	premium_since?: string | null
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-members-chunk
+ */
 export type GuildMembersChunkDispatch = DataPayload<WebSocketEvents.GuildMembersChunk, {
 	guild_id: string,
 	members: APIGuildMemberData[],
@@ -211,16 +264,26 @@ export type GuildMembersChunkDispatch = DataPayload<WebSocketEvents.GuildMembers
 	nonce?: string
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-role-create
+ * https://discord.com/developers/docs/topics/gateway#guild-role-update
+ */
 export type GuildRoleCreateDispatch = DataPayload<WebSocketEvents.GuildRoleCreate | WebSocketEvents.GuildRoleUpdate, {
 	guild_id: string,
 	role: APIRoleData
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#guild-role-delete
+ */
 export type GuildRoleDeleteDispatch = DataPayload<WebSocketEvents.GuildRoleDelete, {
 	guild_id: string,
 	role_id: string
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#invite-create
+ */
 export type InviteCreateDispatch = DataPayload<WebSocketEvents.InviteCreate, {
 	channel_id: string,
 	code: string,
@@ -235,40 +298,73 @@ export type InviteCreateDispatch = DataPayload<WebSocketEvents.InviteCreate, {
 	uses: 0
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#invite-delete
+ */
 export type InviteDeleteDispatch = DataPayload<WebSocketEvents.InviteDelete, {
 	channel_id: string,
 	guild_id?: string,
 	code: string
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-create
+ */
 export type MessageCreateDispatch = DataPayload<WebSocketEvents.MessageCreate, APIMessageData>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-update
+ */
 export type MessageUpdateDispatch = DataPayload<WebSocketEvents.MessageUpdate, { id: string, channel_id: string } & Partial<APIMessageData>>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-delete
+ */
 export type MessageDeleteDispatch = DataPayload<WebSocketEvents.MessageDelete, {
 	id: string,
 	channel_id: string,
 	guild_id?: string
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-delete-bulk
+ */
 export type MessageDeleteBulkDispatch = DataPayload<WebSocketEvents.MessageDeleteBulk, {
 	ids: string[],
 	channel_id: string,
 	guild_id?: string
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-reaction-add
+ */
 export type MessageReactionAddDispatch = ReactionData<WebSocketEvents.MessageReactionAdd>;
 
-export type MessageReactionRemoveDispatch = Omit<ReactionData<WebSocketEvents.MessageReactionRemove>, 'members'>;
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-reaction-remove
+ */
+export type MessageReactionRemoveDispatch = ReactionData<WebSocketEvents.MessageReactionRemove, 'member'>;
 
-export type MessageReactionRemoveAllDispatch = DataPayload<WebSocketEvents.MessageReactionRemoveAll, {
-	channel_id: string,
-	message_id: string,
-	guild_id?: string
-}>;
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-reaction-remove-all
+ */
+export type MessageReactionRemoveAllDispatch = DataPayload<WebSocketEvents.MessageReactionRemoveAll, MessageReactionRemoveData>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#message-reaction-remove-emoji
+ */
+export type MessageReactionRemoveEmojiDispatch = DataPayload<WebSocketEvents.MessageReactionRemoveEmoji, MessageReactionRemoveData & {
+	emoji: APIEmojiPartial
+}>
+
+/**
+ * https://discord.com/developers/docs/topics/gateway#presence-update
+ */
 export type PresenceUpdateDispatch = DataPayload<WebSocketEvents.PresenceUpdate, APIPresenceUpdateData>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#typing-start
+ */
 export type TypingStartDispatch = DataPayload<WebSocketEvents.TypingStart, {
 	channel_id: string,
 	guild_id?: string,
@@ -277,16 +373,28 @@ export type TypingStartDispatch = DataPayload<WebSocketEvents.TypingStart, {
 	member?: APIGuildMemberData
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#user-update
+ */
 export type UserUpdateDispatch = DataPayload<WebSocketEvents.UserUpdate, APIUserData>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#voice-state-update
+ */
 export type VoiceStateUpdateDispatch = DataPayload<WebSocketEvents.VoiceStateUpdate, APIVoiceStateData>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#voice-server-update
+ */
 export type VoiceServerUpdateDispatch = DataPayload<WebSocketEvents.VoiceServerUpdate, {
 	token: string,
 	guild_id: string,
 	endpoint: string
 }>;
 
+/**
+ * https://discord.com/developers/docs/topics/gateway#webhooks-update
+ */
 export type WebhooksUpdateDispatch = DataPayload<WebSocketEvents.WebhooksUpdate, {
 	guild_id: string,
 	channel_id: string
@@ -317,6 +425,7 @@ export type DispatchPayload =
 	| MessageReactionAddDispatch
 	| MessageReactionRemoveDispatch
 	| MessageReactionRemoveAllDispatch
+	| MessageReactionRemoveEmojiDispatch
 	| PresenceUpdateDispatch
 	| TypingStartDispatch
 	| UserUpdateDispatch
@@ -400,14 +509,20 @@ interface DataPayload<Event extends WebSocketEvents, D = unknown> extends BasePa
 	shard_id: number;
 }
 
-type ReactionData<E extends WebSocketEvents> = DataPayload<E, {
+type ReactionData<E extends WebSocketEvents, O extends string = never> = DataPayload<E, Omit<{
 	user_id: string,
 	channel_id: string,
 	message_id: string,
 	guild_id?: string,
 	member?: APIGuildMemberData,
 	emoji: APIEmojiPartial
-}>
+}, O>>
+
+interface MessageReactionRemoveData {
+	channel_id: string;
+	message_id: string;
+	guild_id?: string;
+}
 
 interface StatusUpdateData {
 	since: number | null;
