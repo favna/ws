@@ -6,7 +6,7 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 1481,
+			"id": 1482,
 			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -16,18 +16,8 @@
 			"originalName": "/home/runner/work/ws/ws/src/index.ts",
 			"children": [
 				{
-					"id": 1501,
-					"name": "ChannelCreateDispatch",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1231
-				},
-				{
 					"id": 1502,
-					"name": "ChannelPinsUpdateDispatch",
+					"name": "ChannelCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
@@ -36,48 +26,48 @@
 					"target": 1232
 				},
 				{
-					"id": 1530,
+					"id": 1503,
+					"name": "ChannelPinsUpdateDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1233
+				},
+				{
+					"id": 1531,
 					"name": "DispatchPayload",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1339
+					"target": 1340
 				},
 				{
-					"id": 1536,
+					"id": 1537,
 					"name": "GatewayStatus",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1213
+					"target": 1214
 				},
 				{
-					"id": 1505,
+					"id": 1506,
 					"name": "GuildBanAddDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1239
-				},
-				{
-					"id": 1503,
-					"name": "GuildCreateDispatch",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1237
+					"target": 1240
 				},
 				{
 					"id": 1504,
-					"name": "GuildDeleteDispatch",
+					"name": "GuildCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
@@ -86,117 +76,127 @@
 					"target": 1238
 				},
 				{
-					"id": 1506,
+					"id": 1505,
+					"name": "GuildDeleteDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1239
+				},
+				{
+					"id": 1507,
 					"name": "GuildEmojisUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1243
+					"target": 1244
 				},
 				{
-					"id": 1507,
+					"id": 1508,
 					"name": "GuildIntegrationsUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1247
+					"target": 1248
 				},
 				{
-					"id": 1508,
+					"id": 1509,
 					"name": "GuildMemberAddDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1250
+					"target": 1251
 				},
 				{
-					"id": 1509,
+					"id": 1510,
 					"name": "GuildMemberRemoveDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1253
+					"target": 1254
 				},
 				{
-					"id": 1510,
+					"id": 1511,
 					"name": "GuildMemberUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1257
+					"target": 1258
 				},
 				{
-					"id": 1511,
+					"id": 1512,
 					"name": "GuildMembersChunkDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1264
+					"target": 1265
 				},
 				{
-					"id": 1512,
+					"id": 1513,
 					"name": "GuildRoleCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1273
+					"target": 1274
 				},
 				{
-					"id": 1513,
+					"id": 1514,
 					"name": "GuildRoleDeleteDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1277
+					"target": 1278
 				},
 				{
-					"id": 1495,
+					"id": 1496,
 					"name": "Heartbeat",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1107
+					"target": 1108
 				},
 				{
-					"id": 1496,
+					"id": 1497,
 					"name": "HeartbeatAck",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1112
+					"target": 1113
 				},
 				{
-					"id": 1494,
+					"id": 1495,
 					"name": "HelloPayload",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1100
+					"target": 1101
 				},
 				{
-					"id": 1539,
+					"id": 1540,
 					"name": "Intents",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -206,7 +206,7 @@
 					"target": 2
 				},
 				{
-					"id": 1538,
+					"id": 1539,
 					"name": "IntentsResolvable",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -216,108 +216,88 @@
 					"target": 63
 				},
 				{
-					"id": 1488,
+					"id": 1489,
 					"name": "InternalActions",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1022
+					"target": 1023
 				},
 				{
-					"id": 1497,
+					"id": 1498,
 					"name": "InvalidSession",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1117
+					"target": 1118
 				},
 				{
-					"id": 1514,
+					"id": 1515,
 					"name": "InviteCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1281
+					"target": 1282
 				},
 				{
-					"id": 1515,
+					"id": 1516,
 					"name": "InviteDeleteDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1294
+					"target": 1295
 				},
 				{
-					"id": 1534,
+					"id": 1535,
 					"name": "MasterWorkerMessages",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1380
+					"target": 1381
 				},
 				{
-					"id": 1516,
+					"id": 1517,
 					"name": "MessageCreateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1299
+					"target": 1300
 				},
 				{
-					"id": 1519,
+					"id": 1520,
 					"name": "MessageDeleteBulkDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1309
+					"target": 1310
 				},
 				{
-					"id": 1518,
+					"id": 1519,
 					"name": "MessageDeleteDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1304
-				},
-				{
-					"id": 1520,
-					"name": "MessageReactionAddDispatch",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1314
-				},
-				{
-					"id": 1522,
-					"name": "MessageReactionRemoveAllDispatch",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1316
+					"target": 1305
 				},
 				{
 					"id": 1521,
-					"name": "MessageReactionRemoveDispatch",
+					"name": "MessageReactionAddDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
@@ -327,7 +307,7 @@
 				},
 				{
 					"id": 1523,
-					"name": "MessageReactionRemoveEmojiDispatch",
+					"name": "MessageReactionRemoveAllDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
@@ -336,88 +316,48 @@
 					"target": 1317
 				},
 				{
-					"id": 1517,
+					"id": 1522,
+					"name": "MessageReactionRemoveDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1316
+				},
+				{
+					"id": 1524,
+					"name": "MessageReactionRemoveEmojiDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1318
+				},
+				{
+					"id": 1518,
 					"name": "MessageUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1300
+					"target": 1301
 				},
 				{
-					"id": 1490,
+					"id": 1491,
 					"name": "OpCodes",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1051
-				},
-				{
-					"id": 1524,
-					"name": "PresenceUpdateDispatch",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1320
-				},
-				{
-					"id": 1499,
-					"name": "ReadyDispatch",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1218
-				},
-				{
-					"id": 1498,
-					"name": "Reconnect",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1122
-				},
-				{
-					"id": 1500,
-					"name": "ResumedDispatch",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1230
-				},
-				{
-					"id": 1493,
-					"name": "SendPayload",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1217
-				},
-				{
-					"id": 1532,
-					"name": "SessionDetails",
-					"kind": 16777216,
-					"kindString": "Reference",
-					"flags": {
-						"isExported": true
-					},
-					"target": 1203
+					"target": 1052
 				},
 				{
 					"id": 1525,
-					"name": "TypingStartDispatch",
+					"name": "PresenceUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
@@ -426,28 +366,68 @@
 					"target": 1321
 				},
 				{
-					"id": 1526,
-					"name": "UserUpdateDispatch",
+					"id": 1500,
+					"name": "ReadyDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1328
+					"target": 1219
 				},
 				{
-					"id": 1528,
-					"name": "VoiceServerUpdateDispatch",
+					"id": 1499,
+					"name": "Reconnect",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1330
+					"target": 1123
+				},
+				{
+					"id": 1501,
+					"name": "ResumedDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1231
+				},
+				{
+					"id": 1494,
+					"name": "SendPayload",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1218
+				},
+				{
+					"id": 1533,
+					"name": "SessionDetails",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1204
+				},
+				{
+					"id": 1526,
+					"name": "TypingStartDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1322
 				},
 				{
 					"id": 1527,
-					"name": "VoiceStateUpdateDispatch",
+					"name": "UserUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
@@ -456,27 +436,47 @@
 					"target": 1329
 				},
 				{
-					"id": 1489,
+					"id": 1529,
+					"name": "VoiceServerUpdateDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1331
+				},
+				{
+					"id": 1528,
+					"name": "VoiceStateUpdateDispatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1330
+				},
+				{
+					"id": 1490,
 					"name": "WSCloseCodes",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1035
+					"target": 1036
 				},
 				{
-					"id": 1531,
+					"id": 1532,
 					"name": "WSIdentify",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1193
+					"target": 1194
 				},
 				{
-					"id": 1483,
+					"id": 1484,
 					"name": "WSOptions",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -486,7 +486,7 @@
 					"target": 130
 				},
 				{
-					"id": 1537,
+					"id": 1538,
 					"name": "WSOptionsDefaults",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -496,47 +496,47 @@
 					"target": 118
 				},
 				{
-					"id": 1492,
+					"id": 1493,
 					"name": "WSPayload",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1216
+					"target": 1217
 				},
 				{
-					"id": 1535,
+					"id": 1536,
 					"name": "WSWorkerData",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1206
+					"target": 1207
 				},
 				{
-					"id": 1482,
+					"id": 1483,
 					"name": "WebSocketConnection",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1397
+					"target": 1398
 				},
 				{
-					"id": 1491,
+					"id": 1492,
 					"name": "WebSocketEvents",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1063
+					"target": 1064
 				},
 				{
-					"id": 1484,
+					"id": 1485,
 					"name": "WebSocketManager",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -546,17 +546,17 @@
 					"target": 136
 				},
 				{
-					"id": 1487,
+					"id": 1488,
 					"name": "WebSocketManagerEvents",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1017
+					"target": 1018
 				},
 				{
-					"id": 1486,
+					"id": 1487,
 					"name": "WebSocketShard",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -566,7 +566,7 @@
 					"target": 71
 				},
 				{
-					"id": 1485,
+					"id": 1486,
 					"name": "WebSocketShardStatus",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -576,24 +576,24 @@
 					"target": 65
 				},
 				{
-					"id": 1529,
+					"id": 1530,
 					"name": "WebhooksUpdateDispatch",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1335
+					"target": 1336
 				},
 				{
-					"id": 1533,
+					"id": 1534,
 					"name": "WorkerMasterMessages",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1350
+					"target": 1351
 				}
 			],
 			"groups": [
@@ -601,14 +601,13 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						1501,
 						1502,
-						1530,
-						1536,
-						1505,
 						1503,
-						1504,
+						1531,
+						1537,
 						1506,
+						1504,
+						1505,
 						1507,
 						1508,
 						1509,
@@ -616,49 +615,50 @@
 						1511,
 						1512,
 						1513,
-						1495,
-						1496,
-						1494,
-						1539,
-						1538,
-						1488,
-						1497,
 						1514,
+						1496,
+						1497,
+						1495,
+						1540,
+						1539,
+						1489,
+						1498,
 						1515,
-						1534,
 						1516,
-						1519,
-						1518,
+						1535,
+						1517,
 						1520,
-						1522,
+						1519,
 						1521,
 						1523,
-						1517,
-						1490,
+						1522,
 						1524,
-						1499,
-						1498,
-						1500,
-						1493,
-						1532,
-						1525,
-						1526,
-						1528,
-						1527,
-						1489,
-						1531,
-						1483,
-						1537,
-						1492,
-						1535,
-						1482,
+						1518,
 						1491,
+						1525,
+						1500,
+						1499,
+						1501,
+						1494,
+						1533,
+						1526,
+						1527,
+						1529,
+						1528,
+						1490,
+						1532,
 						1484,
+						1538,
+						1493,
+						1536,
+						1483,
+						1492,
+						1485,
+						1488,
 						1487,
 						1486,
-						1485,
-						1529,
-						1533
+						1530,
+						1534
 					]
 				}
 			],
@@ -671,7 +671,7 @@
 			]
 		},
 		{
-			"id": 1386,
+			"id": 1387,
 			"name": "\"lib/WebSocketConnection\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -681,7 +681,7 @@
 			"originalName": "/home/runner/work/ws/ws/src/lib/WebSocketConnection.ts",
 			"children": [
 				{
-					"id": 1397,
+					"id": 1398,
 					"name": "WebSocketConnection",
 					"kind": 128,
 					"kindString": "Class",
@@ -690,7 +690,7 @@
 					},
 					"children": [
 						{
-							"id": 1407,
+							"id": 1408,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -701,7 +701,7 @@
 							"comment": {},
 							"signatures": [
 								{
-									"id": 1409,
+									"id": 1410,
 									"name": "new WebSocketConnection",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -711,7 +711,7 @@
 									"comment": {},
 									"parameters": [
 										{
-											"id": 1410,
+											"id": 1411,
 											"name": "parentPort",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -724,7 +724,7 @@
 											}
 										},
 										{
-											"id": 1411,
+											"id": 1412,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -733,14 +733,14 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1206,
+												"id": 1207,
 												"name": "WSWorkerData"
 											}
 										}
 									],
 									"type": {
 										"type": "reference",
-										"id": 1397,
+										"id": 1398,
 										"name": "WebSocketConnection"
 									}
 								}
@@ -754,7 +754,7 @@
 							]
 						},
 						{
-							"id": 1401,
+							"id": 1402,
 							"name": "#closeSequence",
 							"kind": 1024,
 							"kindString": "Property",
@@ -778,7 +778,7 @@
 							}
 						},
 						{
-							"id": 1404,
+							"id": 1405,
 							"name": "#connection",
 							"kind": 1024,
 							"kindString": "Property",
@@ -811,7 +811,7 @@
 							}
 						},
 						{
-							"id": 1403,
+							"id": 1404,
 							"name": "#heartbeat",
 							"kind": 1024,
 							"kindString": "Property",
@@ -831,12 +831,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1127,
+								"id": 1128,
 								"name": "WSHeartbeat"
 							}
 						},
 						{
-							"id": 1405,
+							"id": 1406,
 							"name": "#host",
 							"kind": 1024,
 							"kindString": "Property",
@@ -860,7 +860,7 @@
 							}
 						},
 						{
-							"id": 1406,
+							"id": 1407,
 							"name": "#options",
 							"kind": 1024,
 							"kindString": "Property",
@@ -880,12 +880,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1206,
+								"id": 1207,
 								"name": "WSWorkerData"
 							}
 						},
 						{
-							"id": 1402,
+							"id": 1403,
 							"name": "#ratelimitData",
 							"kind": 1024,
 							"kindString": "Property",
@@ -905,12 +905,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1387,
+								"id": 1388,
 								"name": "WSRatelimit"
 							}
 						},
 						{
-							"id": 1399,
+							"id": 1400,
 							"name": "#sequence",
 							"kind": 1024,
 							"kindString": "Property",
@@ -934,7 +934,7 @@
 							}
 						},
 						{
-							"id": 1400,
+							"id": 1401,
 							"name": "#sessionID",
 							"kind": 1024,
 							"kindString": "Property",
@@ -967,7 +967,7 @@
 							}
 						},
 						{
-							"id": 1398,
+							"id": 1399,
 							"name": "#zlib",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1000,7 +1000,7 @@
 							}
 						},
 						{
-							"id": 1408,
+							"id": 1409,
 							"name": "parentPort",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1022,7 +1022,7 @@
 							}
 						},
 						{
-							"id": 1433,
+							"id": 1434,
 							"name": "_onclose",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1032,7 +1032,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1434,
+									"id": 1435,
 									"name": "_onclose",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1044,7 +1044,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1435,
+											"id": 1436,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1075,7 +1075,7 @@
 							]
 						},
 						{
-							"id": 1430,
+							"id": 1431,
 							"name": "_onerror",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1085,7 +1085,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1431,
+									"id": 1432,
 									"name": "_onerror",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1097,7 +1097,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1432,
+											"id": 1433,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1128,7 +1128,7 @@
 							]
 						},
 						{
-							"id": 1427,
+							"id": 1428,
 							"name": "_onmessage",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1138,7 +1138,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1428,
+									"id": 1429,
 									"name": "_onmessage",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1150,7 +1150,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1429,
+											"id": 1430,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1181,7 +1181,7 @@
 							]
 						},
 						{
-							"id": 1425,
+							"id": 1426,
 							"name": "_onopen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1191,7 +1191,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1426,
+									"id": 1427,
 									"name": "_onopen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1216,7 +1216,7 @@
 							]
 						},
 						{
-							"id": 1439,
+							"id": 1440,
 							"name": "debug",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1226,7 +1226,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1440,
+									"id": 1441,
 									"name": "debug",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1238,7 +1238,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1441,
+											"id": 1442,
 											"name": "message",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1269,7 +1269,7 @@
 							]
 						},
 						{
-							"id": 1416,
+							"id": 1417,
 							"name": "destroy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1279,7 +1279,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1417,
+									"id": 1418,
 									"name": "destroy",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1291,7 +1291,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1418,
+											"id": 1419,
 											"name": "__namedParameters",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1302,7 +1302,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 1419,
+													"id": 1420,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -1311,7 +1311,7 @@
 													},
 													"children": [
 														{
-															"id": 1420,
+															"id": 1421,
 															"name": "code",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1331,7 +1331,7 @@
 															}
 														},
 														{
-															"id": 1421,
+															"id": 1422,
 															"name": "resetSession",
 															"kind": 32,
 															"kindString": "Variable",
@@ -1356,8 +1356,8 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1420,
-																1421
+																1421,
+																1422
 															]
 														}
 													],
@@ -1388,7 +1388,7 @@
 							]
 						},
 						{
-							"id": 1442,
+							"id": 1443,
 							"name": "dispatch",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1398,7 +1398,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1443,
+									"id": 1444,
 									"name": "dispatch",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1410,7 +1410,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1444,
+											"id": 1445,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1422,7 +1422,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1350,
+												"id": 1351,
 												"name": "WorkerMasterMessages"
 											}
 										}
@@ -1442,7 +1442,7 @@
 							]
 						},
 						{
-							"id": 1476,
+							"id": 1477,
 							"name": "dispatchSessionData",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1452,7 +1452,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1477,
+									"id": 1478,
 									"name": "dispatchSessionData",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1477,7 +1477,7 @@
 							]
 						},
 						{
-							"id": 1450,
+							"id": 1451,
 							"name": "heartbeatAck",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1487,7 +1487,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1451,
+									"id": 1452,
 									"name": "heartbeatAck",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1512,7 +1512,7 @@
 							]
 						},
 						{
-							"id": 1448,
+							"id": 1449,
 							"name": "heartbeatRequest",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1522,7 +1522,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1449,
+									"id": 1450,
 									"name": "heartbeatRequest",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1547,7 +1547,7 @@
 							]
 						},
 						{
-							"id": 1445,
+							"id": 1446,
 							"name": "hello",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1557,7 +1557,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1446,
+									"id": 1447,
 									"name": "hello",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1569,7 +1569,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1447,
+											"id": 1448,
 											"name": "packet",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1581,7 +1581,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1100,
+												"id": 1101,
 												"name": "HelloPayload"
 											}
 										}
@@ -1601,7 +1601,7 @@
 							]
 						},
 						{
-							"id": 1463,
+							"id": 1464,
 							"name": "identify",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1611,7 +1611,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1464,
+									"id": 1465,
 									"name": "identify",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1636,7 +1636,7 @@
 							]
 						},
 						{
-							"id": 1452,
+							"id": 1453,
 							"name": "invalidSession",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1646,7 +1646,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1453,
+									"id": 1454,
 									"name": "invalidSession",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1658,7 +1658,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1454,
+											"id": 1455,
 											"name": "packet",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1670,7 +1670,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1117,
+												"id": 1118,
 												"name": "InvalidSession"
 											}
 										}
@@ -1690,7 +1690,7 @@
 							]
 						},
 						{
-							"id": 1465,
+							"id": 1466,
 							"name": "newSession",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1700,7 +1700,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1466,
+									"id": 1467,
 									"name": "newSession",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1725,7 +1725,7 @@
 							]
 						},
 						{
-							"id": 1474,
+							"id": 1475,
 							"name": "newWS",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1735,7 +1735,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1475,
+									"id": 1476,
 									"name": "newWS",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1760,7 +1760,7 @@
 							]
 						},
 						{
-							"id": 1436,
+							"id": 1437,
 							"name": "onPacket",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1770,7 +1770,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1437,
+									"id": 1438,
 									"name": "onPacket",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1782,7 +1782,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1438,
+											"id": 1439,
 											"name": "packet",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1794,7 +1794,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1216,
+												"id": 1217,
 												"name": "WSPayload"
 											}
 										}
@@ -1814,7 +1814,7 @@
 							]
 						},
 						{
-							"id": 1469,
+							"id": 1470,
 							"name": "processRatelimitQueue",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1824,7 +1824,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1470,
+									"id": 1471,
 									"name": "processRatelimitQueue",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1849,7 +1849,7 @@
 							]
 						},
 						{
-							"id": 1412,
+							"id": 1413,
 							"name": "queueWSPayload",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1859,7 +1859,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1413,
+									"id": 1414,
 									"name": "queueWSPayload",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1871,7 +1871,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1414,
+											"id": 1415,
 											"name": "payload",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1883,12 +1883,12 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1217,
+												"id": 1218,
 												"name": "SendPayload"
 											}
 										},
 										{
-											"id": 1415,
+											"id": 1416,
 											"name": "important",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1920,7 +1920,7 @@
 							]
 						},
 						{
-							"id": 1455,
+							"id": 1456,
 							"name": "reconnect",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1930,7 +1930,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1456,
+									"id": 1457,
 									"name": "reconnect",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1955,7 +1955,7 @@
 							]
 						},
 						{
-							"id": 1422,
+							"id": 1423,
 							"name": "resolveHost",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1965,7 +1965,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1423,
+									"id": 1424,
 									"name": "resolveHost",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1977,7 +1977,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1424,
+											"id": 1425,
 											"name": "host",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2008,7 +2008,7 @@
 							]
 						},
 						{
-							"id": 1467,
+							"id": 1468,
 							"name": "resume",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2018,7 +2018,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1468,
+									"id": 1469,
 									"name": "resume",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2043,7 +2043,7 @@
 							]
 						},
 						{
-							"id": 1471,
+							"id": 1472,
 							"name": "send",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2053,7 +2053,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1472,
+									"id": 1473,
 									"name": "send",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2065,7 +2065,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1473,
+											"id": 1474,
 											"name": "payload",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2096,7 +2096,7 @@
 							]
 						},
 						{
-							"id": 1460,
+							"id": 1461,
 							"name": "sendHeartbeat",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2106,7 +2106,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1461,
+									"id": 1462,
 									"name": "sendHeartbeat",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2118,7 +2118,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1462,
+											"id": 1463,
 											"name": "tag",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2150,7 +2150,7 @@
 							]
 						},
 						{
-							"id": 1457,
+							"id": 1458,
 							"name": "setHeartbeatTimer",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2160,7 +2160,7 @@
 							},
 							"signatures": [
 								{
-									"id": 1458,
+									"id": 1459,
 									"name": "setHeartbeatTimer",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2172,7 +2172,7 @@
 									},
 									"parameters": [
 										{
-											"id": 1459,
+											"id": 1460,
 											"name": "time",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2208,53 +2208,53 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1407
+								1408
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1401,
-								1404,
-								1403,
-								1405,
-								1406,
 								1402,
-								1399,
+								1405,
+								1404,
+								1406,
+								1407,
+								1403,
 								1400,
-								1398,
-								1408
+								1401,
+								1399,
+								1409
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								1433,
-								1430,
-								1427,
-								1425,
-								1439,
-								1416,
-								1442,
-								1476,
-								1450,
-								1448,
-								1445,
-								1463,
-								1452,
-								1465,
-								1474,
-								1436,
-								1469,
-								1412,
-								1455,
-								1422,
-								1467,
-								1471,
-								1460,
-								1457
+								1434,
+								1431,
+								1428,
+								1426,
+								1440,
+								1417,
+								1443,
+								1477,
+								1451,
+								1449,
+								1446,
+								1464,
+								1453,
+								1466,
+								1475,
+								1437,
+								1470,
+								1413,
+								1456,
+								1423,
+								1468,
+								1472,
+								1461,
+								1458
 							]
 						}
 					],
@@ -2267,14 +2267,14 @@
 					]
 				},
 				{
-					"id": 1394,
+					"id": 1395,
 					"name": "WSDestroyOptions",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1395,
+							"id": 1396,
 							"name": "closeCode",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2294,7 +2294,7 @@
 							}
 						},
 						{
-							"id": 1396,
+							"id": 1397,
 							"name": "resetSession",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2319,8 +2319,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1395,
-								1396
+								1396,
+								1397
 							]
 						}
 					],
@@ -2333,14 +2333,14 @@
 					]
 				},
 				{
-					"id": 1390,
+					"id": 1391,
 					"name": "WSHeartbeat",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1391,
+							"id": 1392,
 							"name": "acked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2358,7 +2358,7 @@
 							}
 						},
 						{
-							"id": 1392,
+							"id": 1393,
 							"name": "interval",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2385,7 +2385,7 @@
 							}
 						},
 						{
-							"id": 1393,
+							"id": 1394,
 							"name": "last",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2408,9 +2408,9 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1391,
 								1392,
-								1393
+								1393,
+								1394
 							]
 						}
 					],
@@ -2423,14 +2423,14 @@
 					]
 				},
 				{
-					"id": 1387,
+					"id": 1388,
 					"name": "WSRatelimit",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1389,
+							"id": 1390,
 							"name": "queue",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2451,7 +2451,7 @@
 							}
 						},
 						{
-							"id": 1388,
+							"id": 1389,
 							"name": "remaining",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2474,8 +2474,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1389,
-								1388
+								1390,
+								1389
 							]
 						}
 					],
@@ -2488,7 +2488,7 @@
 					]
 				},
 				{
-					"id": 1480,
+					"id": 1481,
 					"name": "UNRECOVERABLE",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2506,14 +2506,14 @@
 						"type": "array",
 						"elementType": {
 							"type": "reference",
-							"id": 1035,
+							"id": 1036,
 							"name": "WSCloseCodes"
 						}
 					},
 					"defaultValue": "[\n\tWSCloseCodes.AuthenticationFailed,\n\tWSCloseCodes.InvalidShard,\n\tWSCloseCodes.ShardingRequired,\n\tWSCloseCodes.InvalidIntents,\n\tWSCloseCodes.DisallowedIntents\n]"
 				},
 				{
-					"id": 1479,
+					"id": 1480,
 					"name": "UNRESUMABLE",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2537,7 +2537,7 @@
 					"defaultValue": "[\n\t1000,\n\t4006,\n\tWSCloseCodes.InvalidSeq\n]"
 				},
 				{
-					"id": 1478,
+					"id": 1479,
 					"name": "zlib",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2571,25 +2571,25 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1397
+						1398
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1394,
-						1390,
-						1387
+						1395,
+						1391,
+						1388
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
+						1481,
 						1480,
-						1479,
-						1478
+						1479
 					]
 				}
 			],
@@ -2906,6 +2906,41 @@
 							}
 						},
 						{
+							"id": 1016,
+							"name": "errorMonitor",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isStatic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "This symbol shall be used to install a listener for only monitoring `'error'`\nevents. Listeners installed using this symbol are called before the regular\n`'error'` listeners are called.",
+								"text": "Installing a listener using this symbol does not change the behavior once an\n`'error'` event is emitted, therefore the process will still crash if no\nregular `'error'` listener is installed.\n"
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/events.d.ts",
+									"line": 55,
+									"character": 40
+								}
+							],
+							"type": {
+								"type": "typeOperator",
+								"operator": "keyof",
+								"target": {
+									"type": "intrinsic",
+									"name": "symbol"
+								}
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 1016,
+								"name": "EventEmitter.errorMonitor"
+							}
+						},
+						{
 							"id": 147,
 							"name": "token",
 							"kind": 262144,
@@ -2987,7 +3022,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1064,
+												"id": 1065,
 												"name": "Ready"
 											}
 										},
@@ -3078,7 +3113,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1065,
+												"id": 1066,
 												"name": "Resumed"
 											}
 										},
@@ -3172,17 +3207,17 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1066,
+														"id": 1067,
 														"name": "ChannelCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1068,
+														"id": 1069,
 														"name": "ChannelDelete"
 													},
 													{
 														"type": "reference",
-														"id": 1067,
+														"id": 1068,
 														"name": "ChannelUpdate"
 													}
 												]
@@ -3275,7 +3310,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1069,
+												"id": 1070,
 												"name": "ChannelPinsUpdate"
 											}
 										},
@@ -3369,12 +3404,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1070,
+														"id": 1071,
 														"name": "GuildCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1071,
+														"id": 1072,
 														"name": "GuildUpdate"
 													}
 												]
@@ -3467,7 +3502,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1072,
+												"id": 1073,
 												"name": "GuildDelete"
 											}
 										},
@@ -3561,12 +3596,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1073,
+														"id": 1074,
 														"name": "GuildBanAdd"
 													},
 													{
 														"type": "reference",
-														"id": 1074,
+														"id": 1075,
 														"name": "GuildBanRemove"
 													}
 												]
@@ -3659,7 +3694,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1075,
+												"id": 1076,
 												"name": "GuildEmojisUpdate"
 											}
 										},
@@ -3750,7 +3785,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1076,
+												"id": 1077,
 												"name": "GuildIntegrationsUpdate"
 											}
 										},
@@ -3841,7 +3876,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1077,
+												"id": 1078,
 												"name": "GuildMemberAdd"
 											}
 										},
@@ -3932,7 +3967,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1078,
+												"id": 1079,
 												"name": "GuildMemberRemove"
 											}
 										},
@@ -4023,7 +4058,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1079,
+												"id": 1080,
 												"name": "GuildMemberUpdate"
 											}
 										},
@@ -4114,7 +4149,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1080,
+												"id": 1081,
 												"name": "GuildMembersChunk"
 											}
 										},
@@ -4208,12 +4243,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1081,
+														"id": 1082,
 														"name": "GuildRoleCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1082,
+														"id": 1083,
 														"name": "GuildRoleUpdate"
 													}
 												]
@@ -4306,7 +4341,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1083,
+												"id": 1084,
 												"name": "GuildRoleDelete"
 											}
 										},
@@ -4397,7 +4432,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1084,
+												"id": 1085,
 												"name": "InviteCreate"
 											}
 										},
@@ -4488,7 +4523,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1085,
+												"id": 1086,
 												"name": "InviteDelete"
 											}
 										},
@@ -4579,7 +4614,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1086,
+												"id": 1087,
 												"name": "MessageCreate"
 											}
 										},
@@ -4670,7 +4705,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1087,
+												"id": 1088,
 												"name": "MessageUpdate"
 											}
 										},
@@ -4761,7 +4796,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1088,
+												"id": 1089,
 												"name": "MessageDelete"
 											}
 										},
@@ -4852,7 +4887,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1089,
+												"id": 1090,
 												"name": "MessageDeleteBulk"
 											}
 										},
@@ -4943,7 +4978,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1090,
+												"id": 1091,
 												"name": "MessageReactionAdd"
 											}
 										},
@@ -5034,7 +5069,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1091,
+												"id": 1092,
 												"name": "MessageReactionRemove"
 											}
 										},
@@ -5125,7 +5160,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1092,
+												"id": 1093,
 												"name": "MessageReactionRemoveAll"
 											}
 										},
@@ -5216,7 +5251,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1094,
+												"id": 1095,
 												"name": "PresenceUpdate"
 											}
 										},
@@ -5307,7 +5342,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1095,
+												"id": 1096,
 												"name": "TypingStart"
 											}
 										},
@@ -5398,7 +5433,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1096,
+												"id": 1097,
 												"name": "UserUpdate"
 											}
 										},
@@ -5489,7 +5524,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1097,
+												"id": 1098,
 												"name": "VoiceStateUpdate"
 											}
 										},
@@ -5580,7 +5615,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1098,
+												"id": 1099,
 												"name": "VoiceServerUpdate"
 											}
 										},
@@ -5671,7 +5706,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1099,
+												"id": 1100,
 												"name": "WebhooksUpdate"
 											}
 										},
@@ -5762,7 +5797,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1018,
+												"id": 1019,
 												"name": "Debug"
 											}
 										},
@@ -5853,7 +5888,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1019,
+												"id": 1020,
 												"name": "Error"
 											}
 										},
@@ -5947,12 +5982,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1063,
+														"id": 1064,
 														"name": "WebSocketEvents"
 													},
 													{
 														"type": "reference",
-														"id": 1017,
+														"id": 1018,
 														"name": "WebSocketManagerEvents"
 													}
 												]
@@ -6868,7 +6903,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1064,
+												"id": 1065,
 												"name": "Ready"
 											}
 										},
@@ -6959,7 +6994,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1065,
+												"id": 1066,
 												"name": "Resumed"
 											}
 										},
@@ -7053,17 +7088,17 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1066,
+														"id": 1067,
 														"name": "ChannelCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1068,
+														"id": 1069,
 														"name": "ChannelDelete"
 													},
 													{
 														"type": "reference",
-														"id": 1067,
+														"id": 1068,
 														"name": "ChannelUpdate"
 													}
 												]
@@ -7156,7 +7191,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1069,
+												"id": 1070,
 												"name": "ChannelPinsUpdate"
 											}
 										},
@@ -7250,12 +7285,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1070,
+														"id": 1071,
 														"name": "GuildCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1071,
+														"id": 1072,
 														"name": "GuildUpdate"
 													}
 												]
@@ -7348,7 +7383,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1072,
+												"id": 1073,
 												"name": "GuildDelete"
 											}
 										},
@@ -7442,12 +7477,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1073,
+														"id": 1074,
 														"name": "GuildBanAdd"
 													},
 													{
 														"type": "reference",
-														"id": 1074,
+														"id": 1075,
 														"name": "GuildBanRemove"
 													}
 												]
@@ -7540,7 +7575,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1075,
+												"id": 1076,
 												"name": "GuildEmojisUpdate"
 											}
 										},
@@ -7631,7 +7666,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1076,
+												"id": 1077,
 												"name": "GuildIntegrationsUpdate"
 											}
 										},
@@ -7722,7 +7757,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1077,
+												"id": 1078,
 												"name": "GuildMemberAdd"
 											}
 										},
@@ -7813,7 +7848,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1078,
+												"id": 1079,
 												"name": "GuildMemberRemove"
 											}
 										},
@@ -7904,7 +7939,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1079,
+												"id": 1080,
 												"name": "GuildMemberUpdate"
 											}
 										},
@@ -7995,7 +8030,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1080,
+												"id": 1081,
 												"name": "GuildMembersChunk"
 											}
 										},
@@ -8089,12 +8124,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1081,
+														"id": 1082,
 														"name": "GuildRoleCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1082,
+														"id": 1083,
 														"name": "GuildRoleUpdate"
 													}
 												]
@@ -8187,7 +8222,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1083,
+												"id": 1084,
 												"name": "GuildRoleDelete"
 											}
 										},
@@ -8278,7 +8313,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1084,
+												"id": 1085,
 												"name": "InviteCreate"
 											}
 										},
@@ -8369,7 +8404,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1085,
+												"id": 1086,
 												"name": "InviteDelete"
 											}
 										},
@@ -8460,7 +8495,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1086,
+												"id": 1087,
 												"name": "MessageCreate"
 											}
 										},
@@ -8551,7 +8586,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1087,
+												"id": 1088,
 												"name": "MessageUpdate"
 											}
 										},
@@ -8642,7 +8677,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1088,
+												"id": 1089,
 												"name": "MessageDelete"
 											}
 										},
@@ -8733,7 +8768,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1089,
+												"id": 1090,
 												"name": "MessageDeleteBulk"
 											}
 										},
@@ -8824,7 +8859,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1090,
+												"id": 1091,
 												"name": "MessageReactionAdd"
 											}
 										},
@@ -8915,7 +8950,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1091,
+												"id": 1092,
 												"name": "MessageReactionRemove"
 											}
 										},
@@ -9006,7 +9041,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1092,
+												"id": 1093,
 												"name": "MessageReactionRemoveAll"
 											}
 										},
@@ -9097,7 +9132,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1094,
+												"id": 1095,
 												"name": "PresenceUpdate"
 											}
 										},
@@ -9188,7 +9223,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1095,
+												"id": 1096,
 												"name": "TypingStart"
 											}
 										},
@@ -9279,7 +9314,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1096,
+												"id": 1097,
 												"name": "UserUpdate"
 											}
 										},
@@ -9370,7 +9405,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1097,
+												"id": 1098,
 												"name": "VoiceStateUpdate"
 											}
 										},
@@ -9461,7 +9496,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1098,
+												"id": 1099,
 												"name": "VoiceServerUpdate"
 											}
 										},
@@ -9552,7 +9587,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1099,
+												"id": 1100,
 												"name": "WebhooksUpdate"
 											}
 										},
@@ -9643,7 +9678,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1018,
+												"id": 1019,
 												"name": "Debug"
 											}
 										},
@@ -9734,7 +9769,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1019,
+												"id": 1020,
 												"name": "Error"
 											}
 										},
@@ -9828,12 +9863,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1063,
+														"id": 1064,
 														"name": "WebSocketEvents"
 													},
 													{
 														"type": "reference",
-														"id": 1017,
+														"id": 1018,
 														"name": "WebSocketManagerEvents"
 													}
 												]
@@ -10127,7 +10162,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1064,
+												"id": 1065,
 												"name": "Ready"
 											}
 										},
@@ -10218,7 +10253,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1065,
+												"id": 1066,
 												"name": "Resumed"
 											}
 										},
@@ -10312,17 +10347,17 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1066,
+														"id": 1067,
 														"name": "ChannelCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1068,
+														"id": 1069,
 														"name": "ChannelDelete"
 													},
 													{
 														"type": "reference",
-														"id": 1067,
+														"id": 1068,
 														"name": "ChannelUpdate"
 													}
 												]
@@ -10415,7 +10450,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1069,
+												"id": 1070,
 												"name": "ChannelPinsUpdate"
 											}
 										},
@@ -10509,12 +10544,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1070,
+														"id": 1071,
 														"name": "GuildCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1071,
+														"id": 1072,
 														"name": "GuildUpdate"
 													}
 												]
@@ -10607,7 +10642,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1072,
+												"id": 1073,
 												"name": "GuildDelete"
 											}
 										},
@@ -10701,12 +10736,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1073,
+														"id": 1074,
 														"name": "GuildBanAdd"
 													},
 													{
 														"type": "reference",
-														"id": 1074,
+														"id": 1075,
 														"name": "GuildBanRemove"
 													}
 												]
@@ -10799,7 +10834,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1075,
+												"id": 1076,
 												"name": "GuildEmojisUpdate"
 											}
 										},
@@ -10890,7 +10925,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1076,
+												"id": 1077,
 												"name": "GuildIntegrationsUpdate"
 											}
 										},
@@ -10981,7 +11016,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1077,
+												"id": 1078,
 												"name": "GuildMemberAdd"
 											}
 										},
@@ -11072,7 +11107,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1078,
+												"id": 1079,
 												"name": "GuildMemberRemove"
 											}
 										},
@@ -11163,7 +11198,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1079,
+												"id": 1080,
 												"name": "GuildMemberUpdate"
 											}
 										},
@@ -11254,7 +11289,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1080,
+												"id": 1081,
 												"name": "GuildMembersChunk"
 											}
 										},
@@ -11348,12 +11383,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1081,
+														"id": 1082,
 														"name": "GuildRoleCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1082,
+														"id": 1083,
 														"name": "GuildRoleUpdate"
 													}
 												]
@@ -11446,7 +11481,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1083,
+												"id": 1084,
 												"name": "GuildRoleDelete"
 											}
 										},
@@ -11537,7 +11572,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1084,
+												"id": 1085,
 												"name": "InviteCreate"
 											}
 										},
@@ -11628,7 +11663,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1085,
+												"id": 1086,
 												"name": "InviteDelete"
 											}
 										},
@@ -11719,7 +11754,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1086,
+												"id": 1087,
 												"name": "MessageCreate"
 											}
 										},
@@ -11810,7 +11845,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1087,
+												"id": 1088,
 												"name": "MessageUpdate"
 											}
 										},
@@ -11901,7 +11936,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1088,
+												"id": 1089,
 												"name": "MessageDelete"
 											}
 										},
@@ -11992,7 +12027,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1089,
+												"id": 1090,
 												"name": "MessageDeleteBulk"
 											}
 										},
@@ -12083,7 +12118,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1090,
+												"id": 1091,
 												"name": "MessageReactionAdd"
 											}
 										},
@@ -12174,7 +12209,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1091,
+												"id": 1092,
 												"name": "MessageReactionRemove"
 											}
 										},
@@ -12265,7 +12300,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1092,
+												"id": 1093,
 												"name": "MessageReactionRemoveAll"
 											}
 										},
@@ -12356,7 +12391,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1094,
+												"id": 1095,
 												"name": "PresenceUpdate"
 											}
 										},
@@ -12447,7 +12482,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1095,
+												"id": 1096,
 												"name": "TypingStart"
 											}
 										},
@@ -12538,7 +12573,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1096,
+												"id": 1097,
 												"name": "UserUpdate"
 											}
 										},
@@ -12629,7 +12664,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1097,
+												"id": 1098,
 												"name": "VoiceStateUpdate"
 											}
 										},
@@ -12720,7 +12755,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1098,
+												"id": 1099,
 												"name": "VoiceServerUpdate"
 											}
 										},
@@ -12811,7 +12846,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1099,
+												"id": 1100,
 												"name": "WebhooksUpdate"
 											}
 										},
@@ -12902,7 +12937,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1018,
+												"id": 1019,
 												"name": "Debug"
 											}
 										},
@@ -12993,7 +13028,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1019,
+												"id": 1020,
 												"name": "Error"
 											}
 										},
@@ -13087,12 +13122,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1063,
+														"id": 1064,
 														"name": "WebSocketEvents"
 													},
 													{
 														"type": "reference",
-														"id": 1017,
+														"id": 1018,
 														"name": "WebSocketManagerEvents"
 													}
 												]
@@ -13833,7 +13868,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1064,
+												"id": 1065,
 												"name": "Ready"
 											}
 										},
@@ -13924,7 +13959,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1065,
+												"id": 1066,
 												"name": "Resumed"
 											}
 										},
@@ -14018,17 +14053,17 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1066,
+														"id": 1067,
 														"name": "ChannelCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1068,
+														"id": 1069,
 														"name": "ChannelDelete"
 													},
 													{
 														"type": "reference",
-														"id": 1067,
+														"id": 1068,
 														"name": "ChannelUpdate"
 													}
 												]
@@ -14121,7 +14156,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1069,
+												"id": 1070,
 												"name": "ChannelPinsUpdate"
 											}
 										},
@@ -14215,12 +14250,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1070,
+														"id": 1071,
 														"name": "GuildCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1071,
+														"id": 1072,
 														"name": "GuildUpdate"
 													}
 												]
@@ -14313,7 +14348,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1072,
+												"id": 1073,
 												"name": "GuildDelete"
 											}
 										},
@@ -14407,12 +14442,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1073,
+														"id": 1074,
 														"name": "GuildBanAdd"
 													},
 													{
 														"type": "reference",
-														"id": 1074,
+														"id": 1075,
 														"name": "GuildBanRemove"
 													}
 												]
@@ -14505,7 +14540,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1075,
+												"id": 1076,
 												"name": "GuildEmojisUpdate"
 											}
 										},
@@ -14596,7 +14631,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1076,
+												"id": 1077,
 												"name": "GuildIntegrationsUpdate"
 											}
 										},
@@ -14687,7 +14722,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1077,
+												"id": 1078,
 												"name": "GuildMemberAdd"
 											}
 										},
@@ -14778,7 +14813,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1078,
+												"id": 1079,
 												"name": "GuildMemberRemove"
 											}
 										},
@@ -14869,7 +14904,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1079,
+												"id": 1080,
 												"name": "GuildMemberUpdate"
 											}
 										},
@@ -14960,7 +14995,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1080,
+												"id": 1081,
 												"name": "GuildMembersChunk"
 											}
 										},
@@ -15054,12 +15089,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1081,
+														"id": 1082,
 														"name": "GuildRoleCreate"
 													},
 													{
 														"type": "reference",
-														"id": 1082,
+														"id": 1083,
 														"name": "GuildRoleUpdate"
 													}
 												]
@@ -15152,7 +15187,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1083,
+												"id": 1084,
 												"name": "GuildRoleDelete"
 											}
 										},
@@ -15243,7 +15278,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1084,
+												"id": 1085,
 												"name": "InviteCreate"
 											}
 										},
@@ -15334,7 +15369,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1085,
+												"id": 1086,
 												"name": "InviteDelete"
 											}
 										},
@@ -15425,7 +15460,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1086,
+												"id": 1087,
 												"name": "MessageCreate"
 											}
 										},
@@ -15516,7 +15551,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1087,
+												"id": 1088,
 												"name": "MessageUpdate"
 											}
 										},
@@ -15607,7 +15642,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1088,
+												"id": 1089,
 												"name": "MessageDelete"
 											}
 										},
@@ -15698,7 +15733,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1089,
+												"id": 1090,
 												"name": "MessageDeleteBulk"
 											}
 										},
@@ -15789,7 +15824,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1090,
+												"id": 1091,
 												"name": "MessageReactionAdd"
 											}
 										},
@@ -15880,7 +15915,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1091,
+												"id": 1092,
 												"name": "MessageReactionRemove"
 											}
 										},
@@ -15971,7 +16006,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1092,
+												"id": 1093,
 												"name": "MessageReactionRemoveAll"
 											}
 										},
@@ -16062,7 +16097,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1094,
+												"id": 1095,
 												"name": "PresenceUpdate"
 											}
 										},
@@ -16153,7 +16188,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1095,
+												"id": 1096,
 												"name": "TypingStart"
 											}
 										},
@@ -16244,7 +16279,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1096,
+												"id": 1097,
 												"name": "UserUpdate"
 											}
 										},
@@ -16335,7 +16370,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1097,
+												"id": 1098,
 												"name": "VoiceStateUpdate"
 											}
 										},
@@ -16426,7 +16461,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1098,
+												"id": 1099,
 												"name": "VoiceServerUpdate"
 											}
 										},
@@ -16517,7 +16552,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1099,
+												"id": 1100,
 												"name": "WebhooksUpdate"
 											}
 										},
@@ -16608,7 +16643,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1018,
+												"id": 1019,
 												"name": "Debug"
 											}
 										},
@@ -16699,7 +16734,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1019,
+												"id": 1020,
 												"name": "Error"
 											}
 										},
@@ -16793,12 +16828,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1063,
+														"id": 1064,
 														"name": "WebSocketEvents"
 													},
 													{
 														"type": "reference",
-														"id": 1017,
+														"id": 1018,
 														"name": "WebSocketManagerEvents"
 													}
 												]
@@ -17374,7 +17409,8 @@
 								143,
 								138,
 								137,
-								1015
+								1015,
+								1016
 							]
 						},
 						{
@@ -18227,7 +18263,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1350,
+												"id": 1351,
 												"name": "WorkerMasterMessages"
 											}
 										}
@@ -18325,7 +18361,7 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"id": 1213,
+												"id": 1214,
 												"name": "GatewayStatus"
 											}
 										],
@@ -18411,7 +18447,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1380,
+												"id": 1381,
 												"name": "MasterWorkerMessages"
 											}
 										}
@@ -18456,7 +18492,7 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"id": 1203,
+												"id": 1204,
 												"name": "SessionDetails"
 											}
 										],
@@ -18542,7 +18578,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 1217,
+												"id": 1218,
 												"name": "SendPayload"
 											}
 										}
@@ -18670,7 +18706,7 @@
 			]
 		},
 		{
-			"id": 1540,
+			"id": 1541,
 			"name": "\"lib/Worker\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -18680,7 +18716,7 @@
 			"originalName": "/home/runner/work/ws/ws/src/lib/Worker.ts",
 			"children": [
 				{
-					"id": 1545,
+					"id": 1546,
 					"name": "connection",
 					"kind": 32,
 					"kindString": "Variable",
@@ -18696,13 +18732,13 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1397,
+						"id": 1398,
 						"name": "WebSocketConnection"
 					},
 					"defaultValue": "new WebSocketConnection(parentPort, typedWorkerData)"
 				},
 				{
-					"id": 1541,
+					"id": 1542,
 					"name": "typedWorkerData",
 					"kind": 32,
 					"kindString": "Variable",
@@ -18718,27 +18754,27 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1206,
+						"id": 1207,
 						"name": "WSWorkerData"
 					},
 					"defaultValue": "workerData as WSWorkerData"
 				},
 				{
-					"id": 1542,
+					"id": 1543,
 					"name": "checkMainThread",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"signatures": [
 						{
-							"id": 1543,
+							"id": 1544,
 							"name": "checkMainThread",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 1544,
+									"id": 1545,
 									"name": "port",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -18774,15 +18810,15 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1545,
-						1541
+						1546,
+						1542
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1542
+						1543
 					]
 				}
 			],
@@ -18795,7 +18831,7 @@
 			]
 		},
 		{
-			"id": 1016,
+			"id": 1017,
 			"name": "\"types/InternalWebSocket\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -18805,7 +18841,7 @@
 			"originalName": "/home/runner/work/ws/ws/src/types/InternalWebSocket.ts",
 			"children": [
 				{
-					"id": 1213,
+					"id": 1214,
 					"name": "GatewayStatus",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -18814,7 +18850,7 @@
 					},
 					"children": [
 						{
-							"id": 1215,
+							"id": 1216,
 							"name": "InvalidSession",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18830,7 +18866,7 @@
 							]
 						},
 						{
-							"id": 1214,
+							"id": 1215,
 							"name": "Ready",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18851,8 +18887,8 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								1215,
-								1214
+								1216,
+								1215
 							]
 						}
 					],
@@ -18865,7 +18901,7 @@
 					]
 				},
 				{
-					"id": 1022,
+					"id": 1023,
 					"name": "InternalActions",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -18874,7 +18910,7 @@
 					},
 					"children": [
 						{
-							"id": 1030,
+							"id": 1031,
 							"name": "CannotReconnect",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18891,7 +18927,7 @@
 							"defaultValue": "\"CANNOT_RECONNECT\""
 						},
 						{
-							"id": 1031,
+							"id": 1032,
 							"name": "ConnectionStatusUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18908,7 +18944,7 @@
 							"defaultValue": "\"CONNECTION_STATUS_UPDATE\""
 						},
 						{
-							"id": 1023,
+							"id": 1024,
 							"name": "Debug",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18925,7 +18961,7 @@
 							"defaultValue": "\"DEBUG\""
 						},
 						{
-							"id": 1025,
+							"id": 1026,
 							"name": "Destroy",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18942,7 +18978,7 @@
 							"defaultValue": "\"DESTROY\""
 						},
 						{
-							"id": 1024,
+							"id": 1025,
 							"name": "Dispatch",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18959,7 +18995,7 @@
 							"defaultValue": "\"DISPATCH\""
 						},
 						{
-							"id": 1034,
+							"id": 1035,
 							"name": "FetchSessionData",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18976,7 +19012,7 @@
 							"defaultValue": "\"FETCH_SESSION_DATA\""
 						},
 						{
-							"id": 1029,
+							"id": 1030,
 							"name": "GatewayStatus",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -18993,7 +19029,7 @@
 							"defaultValue": "\"GATEWAY_STATUS\""
 						},
 						{
-							"id": 1026,
+							"id": 1027,
 							"name": "Identify",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19010,7 +19046,7 @@
 							"defaultValue": "\"IDENTIFY\""
 						},
 						{
-							"id": 1032,
+							"id": 1033,
 							"name": "PayloadDispatch",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19027,7 +19063,7 @@
 							"defaultValue": "\"PAYLOAD_DISPATCH\""
 						},
 						{
-							"id": 1033,
+							"id": 1034,
 							"name": "Reconnect",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19044,7 +19080,7 @@
 							"defaultValue": "\"RECONNECT\""
 						},
 						{
-							"id": 1028,
+							"id": 1029,
 							"name": "ScheduleIdentify",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19061,7 +19097,7 @@
 							"defaultValue": "\"SCHEDULE_IDENTIFY\""
 						},
 						{
-							"id": 1027,
+							"id": 1028,
 							"name": "UpdatePing",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19083,18 +19119,18 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								1030,
 								1031,
-								1023,
-								1025,
+								1032,
 								1024,
+								1026,
+								1025,
+								1035,
+								1030,
+								1027,
+								1033,
 								1034,
 								1029,
-								1026,
-								1032,
-								1033,
-								1028,
-								1027
+								1028
 							]
 						}
 					],
@@ -19107,7 +19143,7 @@
 					]
 				},
 				{
-					"id": 1051,
+					"id": 1052,
 					"name": "OpCodes",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -19116,7 +19152,7 @@
 					},
 					"children": [
 						{
-							"id": 1052,
+							"id": 1053,
 							"name": "DISPATCH",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19133,7 +19169,7 @@
 							"defaultValue": "0"
 						},
 						{
-							"id": 1053,
+							"id": 1054,
 							"name": "HEARTBEAT",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19150,7 +19186,7 @@
 							"defaultValue": "1"
 						},
 						{
-							"id": 1062,
+							"id": 1063,
 							"name": "HEARTBEAT_ACK",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19167,7 +19203,7 @@
 							"defaultValue": "11"
 						},
 						{
-							"id": 1061,
+							"id": 1062,
 							"name": "HELLO",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19184,7 +19220,7 @@
 							"defaultValue": "10"
 						},
 						{
-							"id": 1054,
+							"id": 1055,
 							"name": "IDENTIFY",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19201,7 +19237,7 @@
 							"defaultValue": "2"
 						},
 						{
-							"id": 1060,
+							"id": 1061,
 							"name": "INVALID_SESSION",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19218,7 +19254,7 @@
 							"defaultValue": "9"
 						},
 						{
-							"id": 1058,
+							"id": 1059,
 							"name": "RECONNECT",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19235,7 +19271,7 @@
 							"defaultValue": "7"
 						},
 						{
-							"id": 1059,
+							"id": 1060,
 							"name": "REQUEST_GUILD_MEMBERS",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19252,7 +19288,7 @@
 							"defaultValue": "8"
 						},
 						{
-							"id": 1057,
+							"id": 1058,
 							"name": "RESUME",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19269,7 +19305,7 @@
 							"defaultValue": "6"
 						},
 						{
-							"id": 1055,
+							"id": 1056,
 							"name": "STATUS_UPDATE",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19286,7 +19322,7 @@
 							"defaultValue": "3"
 						},
 						{
-							"id": 1056,
+							"id": 1057,
 							"name": "VOICE_STATE_UPDATE",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19308,17 +19344,17 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								1052,
 								1053,
-								1062,
-								1061,
 								1054,
+								1063,
+								1062,
+								1055,
+								1061,
+								1059,
 								1060,
 								1058,
-								1059,
-								1057,
-								1055,
-								1056
+								1056,
+								1057
 							]
 						}
 					],
@@ -19331,7 +19367,7 @@
 					]
 				},
 				{
-					"id": 1035,
+					"id": 1036,
 					"name": "WSCloseCodes",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -19340,7 +19376,7 @@
 					},
 					"children": [
 						{
-							"id": 1041,
+							"id": 1042,
 							"name": "AlreadyAuthenticated",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19356,7 +19392,7 @@
 							]
 						},
 						{
-							"id": 1040,
+							"id": 1041,
 							"name": "AuthenticationFailed",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19372,7 +19408,7 @@
 							]
 						},
 						{
-							"id": 1038,
+							"id": 1039,
 							"name": "DecodeError",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19388,7 +19424,7 @@
 							]
 						},
 						{
-							"id": 1049,
+							"id": 1050,
 							"name": "DisallowedIntents",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19404,7 +19440,7 @@
 							]
 						},
 						{
-							"id": 1048,
+							"id": 1049,
 							"name": "InvalidIntents",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19420,7 +19456,7 @@
 							]
 						},
 						{
-							"id": 1042,
+							"id": 1043,
 							"name": "InvalidSeq",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19437,7 +19473,7 @@
 							"defaultValue": "4007"
 						},
 						{
-							"id": 1045,
+							"id": 1046,
 							"name": "InvalidShard",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19453,7 +19489,7 @@
 							]
 						},
 						{
-							"id": 1047,
+							"id": 1048,
 							"name": "InvalidVersion",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19469,7 +19505,7 @@
 							]
 						},
 						{
-							"id": 1039,
+							"id": 1040,
 							"name": "NotAuthenticated",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19485,7 +19521,7 @@
 							]
 						},
 						{
-							"id": 1043,
+							"id": 1044,
 							"name": "RateLimited",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19501,7 +19537,7 @@
 							]
 						},
 						{
-							"id": 1050,
+							"id": 1051,
 							"name": "ReconnectRequested",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19518,7 +19554,7 @@
 							"defaultValue": "4900"
 						},
 						{
-							"id": 1044,
+							"id": 1045,
 							"name": "SessionTimeout",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19534,7 +19570,7 @@
 							]
 						},
 						{
-							"id": 1046,
+							"id": 1047,
 							"name": "ShardingRequired",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19550,7 +19586,7 @@
 							]
 						},
 						{
-							"id": 1036,
+							"id": 1037,
 							"name": "UnknownError",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19567,7 +19603,7 @@
 							"defaultValue": "4000"
 						},
 						{
-							"id": 1037,
+							"id": 1038,
 							"name": "UnknownOpCode",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19588,21 +19624,21 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								1041,
-								1040,
-								1038,
-								1049,
-								1048,
 								1042,
+								1041,
+								1039,
+								1050,
+								1049,
+								1043,
+								1046,
+								1048,
+								1040,
+								1044,
+								1051,
 								1045,
 								1047,
-								1039,
-								1043,
-								1050,
-								1044,
-								1046,
-								1036,
-								1037
+								1037,
+								1038
 							]
 						}
 					],
@@ -19615,7 +19651,7 @@
 					]
 				},
 				{
-					"id": 1063,
+					"id": 1064,
 					"name": "WebSocketEvents",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -19624,7 +19660,7 @@
 					},
 					"children": [
 						{
-							"id": 1066,
+							"id": 1067,
 							"name": "ChannelCreate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19641,7 +19677,7 @@
 							"defaultValue": "\"CHANNEL_CREATE\""
 						},
 						{
-							"id": 1068,
+							"id": 1069,
 							"name": "ChannelDelete",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19658,7 +19694,7 @@
 							"defaultValue": "\"CHANNEL_DELETE\""
 						},
 						{
-							"id": 1069,
+							"id": 1070,
 							"name": "ChannelPinsUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19675,7 +19711,7 @@
 							"defaultValue": "\"CHANNEL_PINS_UPDATE\""
 						},
 						{
-							"id": 1067,
+							"id": 1068,
 							"name": "ChannelUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19692,7 +19728,7 @@
 							"defaultValue": "\"CHANNEL_UPDATE\""
 						},
 						{
-							"id": 1073,
+							"id": 1074,
 							"name": "GuildBanAdd",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19709,7 +19745,7 @@
 							"defaultValue": "\"GUILD_BAN_ADD\""
 						},
 						{
-							"id": 1074,
+							"id": 1075,
 							"name": "GuildBanRemove",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19726,7 +19762,7 @@
 							"defaultValue": "\"GUILD_BAN_REMOVE\""
 						},
 						{
-							"id": 1070,
+							"id": 1071,
 							"name": "GuildCreate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19743,7 +19779,7 @@
 							"defaultValue": "\"GUILD_CREATE\""
 						},
 						{
-							"id": 1072,
+							"id": 1073,
 							"name": "GuildDelete",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19760,7 +19796,7 @@
 							"defaultValue": "\"GUILD_DELETE\""
 						},
 						{
-							"id": 1075,
+							"id": 1076,
 							"name": "GuildEmojisUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19777,7 +19813,7 @@
 							"defaultValue": "\"GUILD_EMOJIS_UPDATE\""
 						},
 						{
-							"id": 1076,
+							"id": 1077,
 							"name": "GuildIntegrationsUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19794,7 +19830,7 @@
 							"defaultValue": "\"GUILD_INTEGRATIONS_UPDATE\""
 						},
 						{
-							"id": 1077,
+							"id": 1078,
 							"name": "GuildMemberAdd",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19811,7 +19847,7 @@
 							"defaultValue": "\"GUILD_MEMBER_ADD\""
 						},
 						{
-							"id": 1078,
+							"id": 1079,
 							"name": "GuildMemberRemove",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19828,7 +19864,7 @@
 							"defaultValue": "\"GUILD_MEMBER_REMOVE\""
 						},
 						{
-							"id": 1079,
+							"id": 1080,
 							"name": "GuildMemberUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19845,7 +19881,7 @@
 							"defaultValue": "\"GUILD_MEMBER_UPDATE\""
 						},
 						{
-							"id": 1080,
+							"id": 1081,
 							"name": "GuildMembersChunk",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19862,7 +19898,7 @@
 							"defaultValue": "\"GUILD_MEMBERS_CHUNK\""
 						},
 						{
-							"id": 1081,
+							"id": 1082,
 							"name": "GuildRoleCreate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19879,7 +19915,7 @@
 							"defaultValue": "\"GUILD_ROLE_CREATE\""
 						},
 						{
-							"id": 1083,
+							"id": 1084,
 							"name": "GuildRoleDelete",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19896,7 +19932,7 @@
 							"defaultValue": "\"GUILD_ROLE_DELETE\""
 						},
 						{
-							"id": 1082,
+							"id": 1083,
 							"name": "GuildRoleUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19913,7 +19949,7 @@
 							"defaultValue": "\"GUILD_ROLE_UPDATE\""
 						},
 						{
-							"id": 1071,
+							"id": 1072,
 							"name": "GuildUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19930,7 +19966,7 @@
 							"defaultValue": "\"GUILD_UPDATE\""
 						},
 						{
-							"id": 1084,
+							"id": 1085,
 							"name": "InviteCreate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19947,7 +19983,7 @@
 							"defaultValue": "\"INVITE_CREATE\""
 						},
 						{
-							"id": 1085,
+							"id": 1086,
 							"name": "InviteDelete",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19964,7 +20000,7 @@
 							"defaultValue": "\"INVITE_DELETE\""
 						},
 						{
-							"id": 1086,
+							"id": 1087,
 							"name": "MessageCreate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19981,7 +20017,7 @@
 							"defaultValue": "\"MESSAGE_CREATE\""
 						},
 						{
-							"id": 1088,
+							"id": 1089,
 							"name": "MessageDelete",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -19998,7 +20034,7 @@
 							"defaultValue": "\"MESSAGE_DELETE\""
 						},
 						{
-							"id": 1089,
+							"id": 1090,
 							"name": "MessageDeleteBulk",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20015,7 +20051,7 @@
 							"defaultValue": "\"MESSAGE_DELETE_BULK\""
 						},
 						{
-							"id": 1090,
+							"id": 1091,
 							"name": "MessageReactionAdd",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20032,7 +20068,7 @@
 							"defaultValue": "\"MESSAGE_REACTION_ADD\""
 						},
 						{
-							"id": 1091,
+							"id": 1092,
 							"name": "MessageReactionRemove",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20049,7 +20085,7 @@
 							"defaultValue": "\"MESSAGE_REACTION_REMOVE\""
 						},
 						{
-							"id": 1092,
+							"id": 1093,
 							"name": "MessageReactionRemoveAll",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20066,7 +20102,7 @@
 							"defaultValue": "\"MESSAGE_REACTION_REMOVE_ALL\""
 						},
 						{
-							"id": 1093,
+							"id": 1094,
 							"name": "MessageReactionRemoveEmoji",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20083,7 +20119,7 @@
 							"defaultValue": "\"MESSAGE_REACTION_REMOVE_EMOJI\""
 						},
 						{
-							"id": 1087,
+							"id": 1088,
 							"name": "MessageUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20100,7 +20136,7 @@
 							"defaultValue": "\"MESSAGE_UPDATE\""
 						},
 						{
-							"id": 1094,
+							"id": 1095,
 							"name": "PresenceUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20117,7 +20153,7 @@
 							"defaultValue": "\"PRESENCE_UPDATE\""
 						},
 						{
-							"id": 1064,
+							"id": 1065,
 							"name": "Ready",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20134,7 +20170,7 @@
 							"defaultValue": "\"READY\""
 						},
 						{
-							"id": 1065,
+							"id": 1066,
 							"name": "Resumed",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20151,7 +20187,7 @@
 							"defaultValue": "\"RESUMED\""
 						},
 						{
-							"id": 1095,
+							"id": 1096,
 							"name": "TypingStart",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20168,7 +20204,7 @@
 							"defaultValue": "\"TYPING_START\""
 						},
 						{
-							"id": 1096,
+							"id": 1097,
 							"name": "UserUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20185,7 +20221,7 @@
 							"defaultValue": "\"USER_UPDATE\""
 						},
 						{
-							"id": 1098,
+							"id": 1099,
 							"name": "VoiceServerUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20202,7 +20238,7 @@
 							"defaultValue": "\"VOICE_SERVER_UPDATE\""
 						},
 						{
-							"id": 1097,
+							"id": 1098,
 							"name": "VoiceStateUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20219,7 +20255,7 @@
 							"defaultValue": "\"VOICE_STATE_UPDATE\""
 						},
 						{
-							"id": 1099,
+							"id": 1100,
 							"name": "WebhooksUpdate",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20241,42 +20277,42 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								1066,
-								1068,
-								1069,
 								1067,
-								1073,
-								1074,
+								1069,
 								1070,
-								1072,
+								1068,
+								1074,
 								1075,
+								1071,
+								1073,
 								1076,
 								1077,
 								1078,
 								1079,
 								1080,
 								1081,
-								1083,
 								1082,
-								1071,
 								1084,
+								1083,
+								1072,
 								1085,
 								1086,
-								1088,
+								1087,
 								1089,
 								1090,
 								1091,
 								1092,
 								1093,
-								1087,
 								1094,
-								1064,
-								1065,
+								1088,
 								1095,
+								1065,
+								1066,
 								1096,
-								1098,
 								1097,
-								1099
+								1099,
+								1098,
+								1100
 							]
 						}
 					],
@@ -20289,7 +20325,7 @@
 					]
 				},
 				{
-					"id": 1017,
+					"id": 1018,
 					"name": "WebSocketManagerEvents",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -20298,7 +20334,7 @@
 					},
 					"children": [
 						{
-							"id": 1021,
+							"id": 1022,
 							"name": "ClientWSDebug",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20315,7 +20351,7 @@
 							"defaultValue": "\"wsDebug\""
 						},
 						{
-							"id": 1018,
+							"id": 1019,
 							"name": "Debug",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20332,7 +20368,7 @@
 							"defaultValue": "\"debug\""
 						},
 						{
-							"id": 1019,
+							"id": 1020,
 							"name": "Error",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20349,7 +20385,7 @@
 							"defaultValue": "\"error\""
 						},
 						{
-							"id": 1020,
+							"id": 1021,
 							"name": "ShardOnline",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -20371,10 +20407,10 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								1021,
-								1018,
+								1022,
 								1019,
-								1020
+								1020,
+								1021
 							]
 						}
 					],
@@ -20387,14 +20423,14 @@
 					]
 				},
 				{
-					"id": 1171,
+					"id": 1172,
 					"name": "BasePayload",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1174,
+							"id": 1175,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20414,7 +20450,7 @@
 							}
 						},
 						{
-							"id": 1172,
+							"id": 1173,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20428,12 +20464,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1051,
+								"id": 1052,
 								"name": "OpCodes"
 							}
 						},
 						{
-							"id": 1173,
+							"id": 1174,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20451,7 +20487,7 @@
 							}
 						},
 						{
-							"id": 1175,
+							"id": 1176,
 							"name": "t",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20476,10 +20512,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1174,
-								1172,
+								1175,
 								1173,
-								1175
+								1174,
+								1176
 							]
 						}
 					],
@@ -20493,57 +20529,57 @@
 					"extendedBy": [
 						{
 							"type": "reference",
-							"id": 1100,
+							"id": 1101,
 							"name": "HelloPayload"
 						},
 						{
 							"type": "reference",
-							"id": 1107,
+							"id": 1108,
 							"name": "Heartbeat"
 						},
 						{
 							"type": "reference",
-							"id": 1112,
+							"id": 1113,
 							"name": "HeartbeatAck"
 						},
 						{
 							"type": "reference",
-							"id": 1117,
+							"id": 1118,
 							"name": "InvalidSession"
 						},
 						{
 							"type": "reference",
-							"id": 1122,
+							"id": 1123,
 							"name": "Reconnect"
 						},
 						{
 							"type": "reference",
-							"id": 1176,
+							"id": 1177,
 							"name": "DataPayload"
 						}
 					]
 				},
 				{
-					"id": 1176,
+					"id": 1177,
 					"name": "DataPayload",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"typeParameter": [
 						{
-							"id": 1177,
+							"id": 1178,
 							"name": "Event",
 							"kind": 131072,
 							"kindString": "Type parameter",
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"id": 1063,
+								"id": 1064,
 								"name": "WebSocketEvents"
 							}
 						},
 						{
-							"id": 1178,
+							"id": 1179,
 							"name": "D",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -20552,7 +20588,7 @@
 					],
 					"children": [
 						{
-							"id": 1181,
+							"id": 1182,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20570,12 +20606,12 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1174,
+								"id": 1175,
 								"name": "BasePayload.d"
 							}
 						},
 						{
-							"id": 1179,
+							"id": 1180,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20589,17 +20625,17 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1052,
+								"id": 1053,
 								"name": "DISPATCH"
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1172,
+								"id": 1173,
 								"name": "BasePayload.op"
 							}
 						},
 						{
-							"id": 1183,
+							"id": 1184,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20617,12 +20653,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1106,
+								"id": 1107,
 								"name": "BasePayload.s"
 							}
 						},
 						{
-							"id": 1182,
+							"id": 1183,
 							"name": "shard_id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20640,7 +20676,7 @@
 							}
 						},
 						{
-							"id": 1180,
+							"id": 1181,
 							"name": "t",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20657,13 +20693,13 @@
 								"name": "Event",
 								"constraint": {
 									"type": "reference",
-									"id": 1063,
+									"id": 1064,
 									"name": "WebSocketEvents"
 								}
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1175,
+								"id": 1176,
 								"name": "BasePayload.t"
 							}
 						}
@@ -20673,11 +20709,11 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1181,
-								1179,
-								1183,
 								1182,
-								1180
+								1180,
+								1184,
+								1183,
+								1181
 							]
 						}
 					],
@@ -20691,13 +20727,13 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 1171,
+							"id": 1172,
 							"name": "BasePayload"
 						}
 					]
 				},
 				{
-					"id": 1107,
+					"id": 1108,
 					"name": "Heartbeat",
 					"kind": 256,
 					"kindString": "Interface",
@@ -20706,7 +20742,7 @@
 					},
 					"children": [
 						{
-							"id": 1110,
+							"id": 1111,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20726,12 +20762,12 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1174,
+								"id": 1175,
 								"name": "BasePayload.d"
 							}
 						},
 						{
-							"id": 1108,
+							"id": 1109,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20747,17 +20783,17 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1053,
+								"id": 1054,
 								"name": "HEARTBEAT"
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1172,
+								"id": 1173,
 								"name": "BasePayload.op"
 							}
 						},
 						{
-							"id": 1111,
+							"id": 1112,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20777,12 +20813,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1106,
+								"id": 1107,
 								"name": "BasePayload.s"
 							}
 						},
 						{
-							"id": 1109,
+							"id": 1110,
 							"name": "t",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20802,7 +20838,7 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1175,
+								"id": 1176,
 								"name": "BasePayload.t"
 							}
 						}
@@ -20812,10 +20848,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1110,
-								1108,
 								1111,
-								1109
+								1109,
+								1112,
+								1110
 							]
 						}
 					],
@@ -20829,13 +20865,13 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 1171,
+							"id": 1172,
 							"name": "BasePayload"
 						}
 					]
 				},
 				{
-					"id": 1112,
+					"id": 1113,
 					"name": "HeartbeatAck",
 					"kind": 256,
 					"kindString": "Interface",
@@ -20844,7 +20880,7 @@
 					},
 					"children": [
 						{
-							"id": 1115,
+							"id": 1116,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20864,12 +20900,12 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1174,
+								"id": 1175,
 								"name": "BasePayload.d"
 							}
 						},
 						{
-							"id": 1113,
+							"id": 1114,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20885,17 +20921,17 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1062,
+								"id": 1063,
 								"name": "HEARTBEAT_ACK"
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1172,
+								"id": 1173,
 								"name": "BasePayload.op"
 							}
 						},
 						{
-							"id": 1116,
+							"id": 1117,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20915,12 +20951,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1106,
+								"id": 1107,
 								"name": "BasePayload.s"
 							}
 						},
 						{
-							"id": 1114,
+							"id": 1115,
 							"name": "t",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20940,7 +20976,7 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1175,
+								"id": 1176,
 								"name": "BasePayload.t"
 							}
 						}
@@ -20950,10 +20986,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1115,
-								1113,
 								1116,
-								1114
+								1114,
+								1117,
+								1115
 							]
 						}
 					],
@@ -20967,13 +21003,13 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 1171,
+							"id": 1172,
 							"name": "BasePayload"
 						}
 					]
 				},
 				{
-					"id": 1100,
+					"id": 1101,
 					"name": "HelloPayload",
 					"kind": 256,
 					"kindString": "Interface",
@@ -20982,7 +21018,7 @@
 					},
 					"children": [
 						{
-							"id": 1103,
+							"id": 1104,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -20999,7 +21035,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 1104,
+									"id": 1105,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -21008,7 +21044,7 @@
 									},
 									"children": [
 										{
-											"id": 1105,
+											"id": 1106,
 											"name": "heartbeat_interval",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21033,7 +21069,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1105
+												1106
 											]
 										}
 									],
@@ -21048,12 +21084,12 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1174,
+								"id": 1175,
 								"name": "BasePayload.d"
 							}
 						},
 						{
-							"id": 1101,
+							"id": 1102,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21069,17 +21105,17 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1061,
+								"id": 1062,
 								"name": "HELLO"
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1172,
+								"id": 1173,
 								"name": "BasePayload.op"
 							}
 						},
 						{
-							"id": 1106,
+							"id": 1107,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21099,12 +21135,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1106,
+								"id": 1107,
 								"name": "BasePayload.s"
 							}
 						},
 						{
-							"id": 1102,
+							"id": 1103,
 							"name": "t",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21124,7 +21160,7 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1175,
+								"id": 1176,
 								"name": "BasePayload.t"
 							}
 						}
@@ -21134,10 +21170,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1103,
-								1101,
-								1106,
-								1102
+								1104,
+								1102,
+								1107,
+								1103
 							]
 						}
 					],
@@ -21151,20 +21187,20 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 1171,
+							"id": 1172,
 							"name": "BasePayload"
 						}
 					]
 				},
 				{
-					"id": 1130,
+					"id": 1131,
 					"name": "Identify",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1132,
+							"id": 1133,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21179,14 +21215,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 1133,
+									"id": 1134,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 1143,
+											"id": 1144,
 											"name": "intents",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21206,7 +21242,7 @@
 											}
 										},
 										{
-											"id": 1140,
+											"id": 1141,
 											"name": "large_threshold",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21226,7 +21262,7 @@
 											}
 										},
 										{
-											"id": 1142,
+											"id": 1143,
 											"name": "presence",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21242,12 +21278,12 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1188,
+												"id": 1189,
 												"name": "StatusUpdateData"
 											}
 										},
 										{
-											"id": 1135,
+											"id": 1136,
 											"name": "properties",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21262,14 +21298,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 1136,
+													"id": 1137,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 1138,
+															"id": 1139,
 															"name": "$browser",
 															"kind": 32,
 															"kindString": "Variable",
@@ -21287,7 +21323,7 @@
 															}
 														},
 														{
-															"id": 1137,
+															"id": 1138,
 															"name": "$os",
 															"kind": 32,
 															"kindString": "Variable",
@@ -21305,7 +21341,7 @@
 															}
 														},
 														{
-															"id": 1139,
+															"id": 1140,
 															"name": "device",
 															"kind": 32,
 															"kindString": "Variable",
@@ -21328,9 +21364,9 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
+																1139,
 																1138,
-																1137,
-																1139
+																1140
 															]
 														}
 													],
@@ -21345,7 +21381,7 @@
 											}
 										},
 										{
-											"id": 1141,
+											"id": 1142,
 											"name": "shard",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21374,7 +21410,7 @@
 											}
 										},
 										{
-											"id": 1134,
+											"id": 1135,
 											"name": "token",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21397,12 +21433,12 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1143,
-												1140,
-												1142,
-												1135,
+												1144,
 												1141,
-												1134
+												1143,
+												1136,
+												1142,
+												1135
 											]
 										}
 									],
@@ -21417,7 +21453,7 @@
 							}
 						},
 						{
-							"id": 1131,
+							"id": 1132,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21431,7 +21467,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1054,
+								"id": 1055,
 								"name": "IDENTIFY"
 							}
 						}
@@ -21441,8 +21477,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1132,
-								1131
+								1133,
+								1132
 							]
 						}
 					],
@@ -21455,7 +21491,7 @@
 					]
 				},
 				{
-					"id": 1117,
+					"id": 1118,
 					"name": "InvalidSession",
 					"kind": 256,
 					"kindString": "Interface",
@@ -21464,7 +21500,7 @@
 					},
 					"children": [
 						{
-							"id": 1120,
+							"id": 1121,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21484,12 +21520,12 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1174,
+								"id": 1175,
 								"name": "BasePayload.d"
 							}
 						},
 						{
-							"id": 1118,
+							"id": 1119,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21505,17 +21541,17 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1060,
+								"id": 1061,
 								"name": "INVALID_SESSION"
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1172,
+								"id": 1173,
 								"name": "BasePayload.op"
 							}
 						},
 						{
-							"id": 1121,
+							"id": 1122,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21535,12 +21571,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1106,
+								"id": 1107,
 								"name": "BasePayload.s"
 							}
 						},
 						{
-							"id": 1119,
+							"id": 1120,
 							"name": "t",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21560,7 +21596,7 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1175,
+								"id": 1176,
 								"name": "BasePayload.t"
 							}
 						}
@@ -21570,10 +21606,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1120,
-								1118,
 								1121,
-								1119
+								1119,
+								1122,
+								1120
 							]
 						}
 					],
@@ -21587,20 +21623,20 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 1171,
+							"id": 1172,
 							"name": "BasePayload"
 						}
 					]
 				},
 				{
-					"id": 1184,
+					"id": 1185,
 					"name": "MessageReactionRemoveData",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1185,
+							"id": 1186,
 							"name": "channel_id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21618,7 +21654,7 @@
 							}
 						},
 						{
-							"id": 1187,
+							"id": 1188,
 							"name": "guild_id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21638,7 +21674,7 @@
 							}
 						},
 						{
-							"id": 1186,
+							"id": 1187,
 							"name": "message_id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21661,9 +21697,9 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1185,
-								1187,
-								1186
+								1186,
+								1188,
+								1187
 							]
 						}
 					],
@@ -21676,7 +21712,7 @@
 					]
 				},
 				{
-					"id": 1122,
+					"id": 1123,
 					"name": "Reconnect",
 					"kind": 256,
 					"kindString": "Interface",
@@ -21685,7 +21721,7 @@
 					},
 					"children": [
 						{
-							"id": 1125,
+							"id": 1126,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21705,12 +21741,12 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1174,
+								"id": 1175,
 								"name": "BasePayload.d"
 							}
 						},
 						{
-							"id": 1123,
+							"id": 1124,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21726,17 +21762,17 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1058,
+								"id": 1059,
 								"name": "RECONNECT"
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1172,
+								"id": 1173,
 								"name": "BasePayload.op"
 							}
 						},
 						{
-							"id": 1126,
+							"id": 1127,
 							"name": "s",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21756,12 +21792,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1106,
+								"id": 1107,
 								"name": "BasePayload.s"
 							}
 						},
 						{
-							"id": 1124,
+							"id": 1125,
 							"name": "t",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21781,7 +21817,7 @@
 							},
 							"overwrites": {
 								"type": "reference",
-								"id": 1175,
+								"id": 1176,
 								"name": "BasePayload.t"
 							}
 						}
@@ -21791,10 +21827,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1125,
-								1123,
 								1126,
-								1124
+								1124,
+								1127,
+								1125
 							]
 						}
 					],
@@ -21808,20 +21844,20 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 1171,
+							"id": 1172,
 							"name": "BasePayload"
 						}
 					]
 				},
 				{
-					"id": 1151,
+					"id": 1152,
 					"name": "RequestGuildMembers",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1153,
+							"id": 1154,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -21836,14 +21872,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 1154,
+									"id": 1155,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 1155,
+											"id": 1156,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21873,7 +21909,7 @@
 											}
 										},
 										{
-											"id": 1157,
+											"id": 1158,
 											"name": "limit",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21891,7 +21927,7 @@
 											}
 										},
 										{
-											"id": 1158,
+											"id": 1159,
 											"name": "presences",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21911,7 +21947,7 @@
 											}
 										},
 										{
-											"id": 1156,
+											"id": 1157,
 											"name": "query",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21931,7 +21967,7 @@
 											}
 										},
 										{
-											"id": 1159,
+											"id": 1160,
 											"name": "user_ids",
 											"kind": 32,
 											"kindString": "Variable",
@@ -21968,11 +22004,11 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1155,
-												1157,
-												1158,
 												1156,
-												1159
+												1158,
+												1159,
+												1157,
+												1160
 											]
 										}
 									],
@@ -21987,7 +22023,7 @@
 							}
 						},
 						{
-							"id": 1152,
+							"id": 1153,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22001,7 +22037,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1059,
+								"id": 1060,
 								"name": "REQUEST_GUILD_MEMBERS"
 							}
 						}
@@ -22011,8 +22047,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1153,
-								1152
+								1154,
+								1153
 							]
 						}
 					],
@@ -22025,14 +22061,14 @@
 					]
 				},
 				{
-					"id": 1144,
+					"id": 1145,
 					"name": "Resume",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1146,
+							"id": 1147,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22047,14 +22083,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 1147,
+									"id": 1148,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 1150,
+											"id": 1151,
 											"name": "seq",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22072,7 +22108,7 @@
 											}
 										},
 										{
-											"id": 1149,
+											"id": 1150,
 											"name": "session_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22090,7 +22126,7 @@
 											}
 										},
 										{
-											"id": 1148,
+											"id": 1149,
 											"name": "token",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22113,9 +22149,9 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
+												1151,
 												1150,
-												1149,
-												1148
+												1149
 											]
 										}
 									],
@@ -22130,7 +22166,7 @@
 							}
 						},
 						{
-							"id": 1145,
+							"id": 1146,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22144,7 +22180,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1057,
+								"id": 1058,
 								"name": "RESUME"
 							}
 						}
@@ -22154,8 +22190,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1146,
-								1145
+								1147,
+								1146
 							]
 						}
 					],
@@ -22168,7 +22204,7 @@
 					]
 				},
 				{
-					"id": 1203,
+					"id": 1204,
 					"name": "SessionDetails",
 					"kind": 256,
 					"kindString": "Interface",
@@ -22177,7 +22213,7 @@
 					},
 					"children": [
 						{
-							"id": 1205,
+							"id": 1206,
 							"name": "seq",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22197,7 +22233,7 @@
 							}
 						},
 						{
-							"id": 1204,
+							"id": 1205,
 							"name": "session_id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22222,8 +22258,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1205,
-								1204
+								1206,
+								1205
 							]
 						}
 					],
@@ -22236,14 +22272,14 @@
 					]
 				},
 				{
-					"id": 1168,
+					"id": 1169,
 					"name": "StatusUpdate",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1170,
+							"id": 1171,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22257,12 +22293,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1188,
+								"id": 1189,
 								"name": "StatusUpdateData"
 							}
 						},
 						{
-							"id": 1169,
+							"id": 1170,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22276,7 +22312,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1055,
+								"id": 1056,
 								"name": "STATUS_UPDATE"
 							}
 						}
@@ -22286,8 +22322,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1170,
-								1169
+								1171,
+								1170
 							]
 						}
 					],
@@ -22300,14 +22336,14 @@
 					]
 				},
 				{
-					"id": 1188,
+					"id": 1189,
 					"name": "StatusUpdateData",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1192,
+							"id": 1193,
 							"name": "afk",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22325,7 +22361,7 @@
 							}
 						},
 						{
-							"id": 1190,
+							"id": 1191,
 							"name": "game",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22352,7 +22388,7 @@
 							}
 						},
 						{
-							"id": 1189,
+							"id": 1190,
 							"name": "since",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22379,7 +22415,7 @@
 							}
 						},
 						{
-							"id": 1191,
+							"id": 1192,
 							"name": "status",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22423,10 +22459,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1192,
+								1193,
+								1191,
 								1190,
-								1189,
-								1191
+								1192
 							]
 						}
 					],
@@ -22439,14 +22475,14 @@
 					]
 				},
 				{
-					"id": 1160,
+					"id": 1161,
 					"name": "VoiceStateUpdate",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1162,
+							"id": 1163,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22461,14 +22497,14 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 1163,
+									"id": 1164,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 1165,
+											"id": 1166,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22495,7 +22531,7 @@
 											}
 										},
 										{
-											"id": 1164,
+											"id": 1165,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22513,7 +22549,7 @@
 											}
 										},
 										{
-											"id": 1167,
+											"id": 1168,
 											"name": "self_deaf",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22531,7 +22567,7 @@
 											}
 										},
 										{
-											"id": 1166,
+											"id": 1167,
 											"name": "self_mute",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22554,10 +22590,10 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
+												1166,
 												1165,
-												1164,
-												1167,
-												1166
+												1168,
+												1167
 											]
 										}
 									],
@@ -22572,7 +22608,7 @@
 							}
 						},
 						{
-							"id": 1161,
+							"id": 1162,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22586,7 +22622,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1056,
+								"id": 1057,
 								"name": "VOICE_STATE_UPDATE"
 							}
 						}
@@ -22596,8 +22632,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1162,
-								1161
+								1163,
+								1162
 							]
 						}
 					],
@@ -22610,14 +22646,14 @@
 					]
 				},
 				{
-					"id": 1127,
+					"id": 1128,
 					"name": "WSHeartbeat",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {},
 					"children": [
 						{
-							"id": 1129,
+							"id": 1130,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22635,7 +22671,7 @@
 							}
 						},
 						{
-							"id": 1128,
+							"id": 1129,
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22649,7 +22685,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1053,
+								"id": 1054,
 								"name": "HEARTBEAT"
 							}
 						}
@@ -22659,8 +22695,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1129,
-								1128
+								1130,
+								1129
 							]
 						}
 					],
@@ -22673,7 +22709,7 @@
 					]
 				},
 				{
-					"id": 1193,
+					"id": 1194,
 					"name": "WSIdentify",
 					"kind": 256,
 					"kindString": "Interface",
@@ -22682,7 +22718,7 @@
 					},
 					"children": [
 						{
-							"id": 1202,
+							"id": 1203,
 							"name": "intents",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22703,7 +22739,7 @@
 							}
 						},
 						{
-							"id": 1199,
+							"id": 1200,
 							"name": "large_threshold",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22724,7 +22760,7 @@
 							}
 						},
 						{
-							"id": 1201,
+							"id": 1202,
 							"name": "presence",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22741,12 +22777,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1188,
+								"id": 1189,
 								"name": "StatusUpdateData"
 							}
 						},
 						{
-							"id": 1194,
+							"id": 1195,
 							"name": "properties",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22763,7 +22799,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 1195,
+									"id": 1196,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -22772,7 +22808,7 @@
 									},
 									"children": [
 										{
-											"id": 1197,
+											"id": 1198,
 											"name": "$browser",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22792,7 +22828,7 @@
 											}
 										},
 										{
-											"id": 1196,
+											"id": 1197,
 											"name": "$os",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22812,7 +22848,7 @@
 											}
 										},
 										{
-											"id": 1198,
+											"id": 1199,
 											"name": "device",
 											"kind": 32,
 											"kindString": "Variable",
@@ -22837,9 +22873,9 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
+												1198,
 												1197,
-												1196,
-												1198
+												1199
 											]
 										}
 									],
@@ -22854,7 +22890,7 @@
 							}
 						},
 						{
-							"id": 1200,
+							"id": 1201,
 							"name": "shard",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22889,11 +22925,11 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
+								1203,
+								1200,
 								1202,
-								1199,
-								1201,
-								1194,
-								1200
+								1195,
+								1201
 							]
 						}
 					],
@@ -22906,7 +22942,7 @@
 					]
 				},
 				{
-					"id": 1206,
+					"id": 1207,
 					"name": "WSWorkerData",
 					"kind": 256,
 					"kindString": "Interface",
@@ -22915,7 +22951,7 @@
 					},
 					"children": [
 						{
-							"id": 1207,
+							"id": 1208,
 							"name": "gatewayURL",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22935,7 +22971,7 @@
 							}
 						},
 						{
-							"id": 1208,
+							"id": 1209,
 							"name": "gatewayVersion",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22955,7 +22991,7 @@
 							}
 						},
 						{
-							"id": 1210,
+							"id": 1211,
 							"name": "options",
 							"kind": 1024,
 							"kindString": "Property",
@@ -22986,7 +23022,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1211,
+											"id": 1212,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -22995,7 +23031,7 @@
 											},
 											"children": [
 												{
-													"id": 1212,
+													"id": 1213,
 													"name": "shard",
 													"kind": 32,
 													"kindString": "Variable",
@@ -23029,7 +23065,7 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1212
+														1213
 													]
 												}
 											],
@@ -23046,7 +23082,7 @@
 							}
 						},
 						{
-							"id": 1209,
+							"id": 1210,
 							"name": "token",
 							"kind": 1024,
 							"kindString": "Property",
@@ -23071,10 +23107,10 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1207,
 								1208,
-								1210,
-								1209
+								1209,
+								1211,
+								1210
 							]
 						}
 					],
@@ -23087,7 +23123,7 @@
 					]
 				},
 				{
-					"id": 1231,
+					"id": 1232,
 					"name": "ChannelCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23106,24 +23142,24 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "union",
 								"types": [
 									{
 										"type": "reference",
-										"id": 1066,
+										"id": 1067,
 										"name": "ChannelCreate"
 									},
 									{
 										"type": "reference",
-										"id": 1068,
+										"id": 1069,
 										"name": "ChannelDelete"
 									},
 									{
 										"type": "reference",
-										"id": 1067,
+										"id": 1068,
 										"name": "ChannelUpdate"
 									}
 								]
@@ -23137,7 +23173,7 @@
 					}
 				},
 				{
-					"id": 1232,
+					"id": 1233,
 					"name": "ChannelPinsUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23156,17 +23192,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1069,
+								"id": 1070,
 								"name": "ChannelPinsUpdate"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1233,
+									"id": 1234,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -23175,7 +23211,7 @@
 									},
 									"children": [
 										{
-											"id": 1235,
+											"id": 1236,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23195,7 +23231,7 @@
 											}
 										},
 										{
-											"id": 1234,
+											"id": 1235,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23216,7 +23252,7 @@
 											}
 										},
 										{
-											"id": 1236,
+											"id": 1237,
 											"name": "last_pin_timestamp",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23242,9 +23278,9 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
+												1236,
 												1235,
-												1234,
-												1236
+												1237
 											]
 										}
 									],
@@ -23262,7 +23298,7 @@
 					}
 				},
 				{
-					"id": 1339,
+					"id": 1340,
 					"name": "DispatchPayload",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23281,164 +23317,164 @@
 						"types": [
 							{
 								"type": "reference",
-								"id": 1218,
+								"id": 1219,
 								"name": "ReadyDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1230,
+								"id": 1231,
 								"name": "ResumedDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1231,
+								"id": 1232,
 								"name": "ChannelCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1232,
+								"id": 1233,
 								"name": "ChannelPinsUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1237,
+								"id": 1238,
 								"name": "GuildCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1238,
+								"id": 1239,
 								"name": "GuildDeleteDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1239,
+								"id": 1240,
 								"name": "GuildBanAddDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1243,
+								"id": 1244,
 								"name": "GuildEmojisUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1247,
+								"id": 1248,
 								"name": "GuildIntegrationsUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1250,
+								"id": 1251,
 								"name": "GuildMemberAddDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1253,
+								"id": 1254,
 								"name": "GuildMemberRemoveDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1257,
+								"id": 1258,
 								"name": "GuildMemberUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1264,
+								"id": 1265,
 								"name": "GuildMembersChunkDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1273,
+								"id": 1274,
 								"name": "GuildRoleCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1277,
+								"id": 1278,
 								"name": "GuildRoleDeleteDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1281,
+								"id": 1282,
 								"name": "InviteCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1294,
+								"id": 1295,
 								"name": "InviteDeleteDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1299,
+								"id": 1300,
 								"name": "MessageCreateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1300,
+								"id": 1301,
 								"name": "MessageUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1304,
+								"id": 1305,
 								"name": "MessageDeleteDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1309,
+								"id": 1310,
 								"name": "MessageDeleteBulkDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1314,
+								"id": 1315,
 								"name": "MessageReactionAddDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1315,
+								"id": 1316,
 								"name": "MessageReactionRemoveDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1316,
+								"id": 1317,
 								"name": "MessageReactionRemoveAllDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1317,
+								"id": 1318,
 								"name": "MessageReactionRemoveEmojiDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1320,
+								"id": 1321,
 								"name": "PresenceUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1321,
+								"id": 1322,
 								"name": "TypingStartDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1328,
+								"id": 1329,
 								"name": "UserUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1329,
+								"id": 1330,
 								"name": "VoiceStateUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1330,
+								"id": 1331,
 								"name": "VoiceServerUpdateDispatch"
 							},
 							{
 								"type": "reference",
-								"id": 1335,
+								"id": 1336,
 								"name": "WebhooksUpdateDispatch"
 							}
 						]
 					}
 				},
 				{
-					"id": 1239,
+					"id": 1240,
 					"name": "GuildBanAddDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23457,19 +23493,19 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "union",
 								"types": [
 									{
 										"type": "reference",
-										"id": 1073,
+										"id": 1074,
 										"name": "GuildBanAdd"
 									},
 									{
 										"type": "reference",
-										"id": 1074,
+										"id": 1075,
 										"name": "GuildBanRemove"
 									}
 								]
@@ -23477,7 +23513,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1240,
+									"id": 1241,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -23486,7 +23522,7 @@
 									},
 									"children": [
 										{
-											"id": 1241,
+											"id": 1242,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23506,7 +23542,7 @@
 											}
 										},
 										{
-											"id": 1242,
+											"id": 1243,
 											"name": "user",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23531,8 +23567,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1241,
-												1242
+												1242,
+												1243
 											]
 										}
 									],
@@ -23550,7 +23586,7 @@
 					}
 				},
 				{
-					"id": 1237,
+					"id": 1238,
 					"name": "GuildCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23569,19 +23605,19 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "union",
 								"types": [
 									{
 										"type": "reference",
-										"id": 1070,
+										"id": 1071,
 										"name": "GuildCreate"
 									},
 									{
 										"type": "reference",
-										"id": 1071,
+										"id": 1072,
 										"name": "GuildUpdate"
 									}
 								]
@@ -23595,7 +23631,7 @@
 					}
 				},
 				{
-					"id": 1238,
+					"id": 1239,
 					"name": "GuildDeleteDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23614,11 +23650,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1072,
+								"id": 1073,
 								"name": "GuildDelete"
 							},
 							{
@@ -23630,7 +23666,7 @@
 					}
 				},
 				{
-					"id": 1243,
+					"id": 1244,
 					"name": "GuildEmojisUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23649,17 +23685,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1075,
+								"id": 1076,
 								"name": "GuildEmojisUpdate"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1244,
+									"id": 1245,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -23668,7 +23704,7 @@
 									},
 									"children": [
 										{
-											"id": 1246,
+											"id": 1247,
 											"name": "emojis",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23691,7 +23727,7 @@
 											}
 										},
 										{
-											"id": 1245,
+											"id": 1246,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23716,8 +23752,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1246,
-												1245
+												1247,
+												1246
 											]
 										}
 									],
@@ -23735,7 +23771,7 @@
 					}
 				},
 				{
-					"id": 1247,
+					"id": 1248,
 					"name": "GuildIntegrationsUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23754,17 +23790,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1076,
+								"id": 1077,
 								"name": "GuildIntegrationsUpdate"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1248,
+									"id": 1249,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -23773,7 +23809,7 @@
 									},
 									"children": [
 										{
-											"id": 1249,
+											"id": 1250,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23798,7 +23834,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1249
+												1250
 											]
 										}
 									],
@@ -23816,7 +23852,7 @@
 					}
 				},
 				{
-					"id": 1250,
+					"id": 1251,
 					"name": "GuildMemberAddDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23835,11 +23871,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1077,
+								"id": 1078,
 								"name": "GuildMemberAdd"
 							},
 							{
@@ -23852,7 +23888,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1251,
+											"id": 1252,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -23861,7 +23897,7 @@
 											},
 											"children": [
 												{
-													"id": 1252,
+													"id": 1253,
 													"name": "guild_id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -23886,7 +23922,7 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1252
+														1253
 													]
 												}
 											],
@@ -23906,7 +23942,7 @@
 					}
 				},
 				{
-					"id": 1253,
+					"id": 1254,
 					"name": "GuildMemberRemoveDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -23925,17 +23961,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1078,
+								"id": 1079,
 								"name": "GuildMemberRemove"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1254,
+									"id": 1255,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -23944,7 +23980,7 @@
 									},
 									"children": [
 										{
-											"id": 1255,
+											"id": 1256,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23964,7 +24000,7 @@
 											}
 										},
 										{
-											"id": 1256,
+											"id": 1257,
 											"name": "user",
 											"kind": 32,
 											"kindString": "Variable",
@@ -23989,8 +24025,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1255,
-												1256
+												1256,
+												1257
 											]
 										}
 									],
@@ -24008,7 +24044,7 @@
 					}
 				},
 				{
-					"id": 1257,
+					"id": 1258,
 					"name": "GuildMemberUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24027,17 +24063,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1079,
+								"id": 1080,
 								"name": "GuildMemberUpdate"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1258,
+									"id": 1259,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24046,7 +24082,7 @@
 									},
 									"children": [
 										{
-											"id": 1259,
+											"id": 1260,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24066,7 +24102,7 @@
 											}
 										},
 										{
-											"id": 1262,
+											"id": 1263,
 											"name": "nick",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24096,7 +24132,7 @@
 											}
 										},
 										{
-											"id": 1263,
+											"id": 1264,
 											"name": "premium_since",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24126,7 +24162,7 @@
 											}
 										},
 										{
-											"id": 1260,
+											"id": 1261,
 											"name": "roles",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24149,7 +24185,7 @@
 											}
 										},
 										{
-											"id": 1261,
+											"id": 1262,
 											"name": "user",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24174,11 +24210,11 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1259,
-												1262,
-												1263,
 												1260,
-												1261
+												1263,
+												1264,
+												1261,
+												1262
 											]
 										}
 									],
@@ -24196,7 +24232,7 @@
 					}
 				},
 				{
-					"id": 1264,
+					"id": 1265,
 					"name": "GuildMembersChunkDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24215,17 +24251,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1080,
+								"id": 1081,
 								"name": "GuildMembersChunk"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1265,
+									"id": 1266,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24234,7 +24270,7 @@
 									},
 									"children": [
 										{
-											"id": 1269,
+											"id": 1270,
 											"name": "chunk_count",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24255,7 +24291,7 @@
 											}
 										},
 										{
-											"id": 1268,
+											"id": 1269,
 											"name": "chunk_index",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24276,7 +24312,7 @@
 											}
 										},
 										{
-											"id": 1266,
+											"id": 1267,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24296,7 +24332,7 @@
 											}
 										},
 										{
-											"id": 1267,
+											"id": 1268,
 											"name": "members",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24319,7 +24355,7 @@
 											}
 										},
 										{
-											"id": 1272,
+											"id": 1273,
 											"name": "nonce",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24340,7 +24376,7 @@
 											}
 										},
 										{
-											"id": 1270,
+											"id": 1271,
 											"name": "not_found",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24364,7 +24400,7 @@
 											}
 										},
 										{
-											"id": 1271,
+											"id": 1272,
 											"name": "presences",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24393,13 +24429,13 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1269,
-												1268,
-												1266,
-												1267,
-												1272,
 												1270,
-												1271
+												1269,
+												1267,
+												1268,
+												1273,
+												1271,
+												1272
 											]
 										}
 									],
@@ -24417,7 +24453,7 @@
 					}
 				},
 				{
-					"id": 1273,
+					"id": 1274,
 					"name": "GuildRoleCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24436,19 +24472,19 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "union",
 								"types": [
 									{
 										"type": "reference",
-										"id": 1081,
+										"id": 1082,
 										"name": "GuildRoleCreate"
 									},
 									{
 										"type": "reference",
-										"id": 1082,
+										"id": 1083,
 										"name": "GuildRoleUpdate"
 									}
 								]
@@ -24456,7 +24492,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1274,
+									"id": 1275,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24465,7 +24501,7 @@
 									},
 									"children": [
 										{
-											"id": 1275,
+											"id": 1276,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24485,7 +24521,7 @@
 											}
 										},
 										{
-											"id": 1276,
+											"id": 1277,
 											"name": "role",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24510,8 +24546,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1275,
-												1276
+												1276,
+												1277
 											]
 										}
 									],
@@ -24529,7 +24565,7 @@
 					}
 				},
 				{
-					"id": 1277,
+					"id": 1278,
 					"name": "GuildRoleDeleteDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24548,17 +24584,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1083,
+								"id": 1084,
 								"name": "GuildRoleDelete"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1278,
+									"id": 1279,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24567,7 +24603,7 @@
 									},
 									"children": [
 										{
-											"id": 1279,
+											"id": 1280,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24587,7 +24623,7 @@
 											}
 										},
 										{
-											"id": 1280,
+											"id": 1281,
 											"name": "role_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24612,8 +24648,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1279,
-												1280
+												1280,
+												1281
 											]
 										}
 									],
@@ -24631,7 +24667,7 @@
 					}
 				},
 				{
-					"id": 1281,
+					"id": 1282,
 					"name": "InviteCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24650,17 +24686,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1084,
+								"id": 1085,
 								"name": "InviteCreate"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1282,
+									"id": 1283,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24669,7 +24705,7 @@
 									},
 									"children": [
 										{
-											"id": 1283,
+											"id": 1284,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24689,7 +24725,7 @@
 											}
 										},
 										{
-											"id": 1284,
+											"id": 1285,
 											"name": "code",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24709,7 +24745,7 @@
 											}
 										},
 										{
-											"id": 1285,
+											"id": 1286,
 											"name": "created_at",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24729,7 +24765,7 @@
 											}
 										},
 										{
-											"id": 1286,
+											"id": 1287,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24750,7 +24786,7 @@
 											}
 										},
 										{
-											"id": 1287,
+											"id": 1288,
 											"name": "inviter",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24771,7 +24807,7 @@
 											}
 										},
 										{
-											"id": 1288,
+											"id": 1289,
 											"name": "max_age",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24791,7 +24827,7 @@
 											}
 										},
 										{
-											"id": 1289,
+											"id": 1290,
 											"name": "max_uses",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24811,7 +24847,7 @@
 											}
 										},
 										{
-											"id": 1290,
+											"id": 1291,
 											"name": "target_user",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24832,7 +24868,7 @@
 											}
 										},
 										{
-											"id": 1291,
+											"id": 1292,
 											"name": "target_user_type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24853,7 +24889,7 @@
 											}
 										},
 										{
-											"id": 1292,
+											"id": 1293,
 											"name": "temporary",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24873,7 +24909,7 @@
 											}
 										},
 										{
-											"id": 1293,
+											"id": 1294,
 											"name": "uses",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24898,7 +24934,6 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1283,
 												1284,
 												1285,
 												1286,
@@ -24908,7 +24943,8 @@
 												1290,
 												1291,
 												1292,
-												1293
+												1293,
+												1294
 											]
 										}
 									],
@@ -24926,7 +24962,7 @@
 					}
 				},
 				{
-					"id": 1294,
+					"id": 1295,
 					"name": "InviteDeleteDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -24945,17 +24981,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1085,
+								"id": 1086,
 								"name": "InviteDelete"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1295,
+									"id": 1296,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -24964,7 +25000,7 @@
 									},
 									"children": [
 										{
-											"id": 1296,
+											"id": 1297,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -24984,7 +25020,7 @@
 											}
 										},
 										{
-											"id": 1298,
+											"id": 1299,
 											"name": "code",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25004,7 +25040,7 @@
 											}
 										},
 										{
-											"id": 1297,
+											"id": 1298,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25030,9 +25066,9 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1296,
-												1298,
-												1297
+												1297,
+												1299,
+												1298
 											]
 										}
 									],
@@ -25050,7 +25086,7 @@
 					}
 				},
 				{
-					"id": 1380,
+					"id": 1381,
 					"name": "MasterWorkerMessages",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25070,7 +25106,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1381,
+									"id": 1382,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -25079,7 +25115,7 @@
 									},
 									"children": [
 										{
-											"id": 1382,
+											"id": 1383,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25098,22 +25134,22 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1026,
+														"id": 1027,
 														"name": "Identify"
 													},
 													{
 														"type": "reference",
-														"id": 1025,
+														"id": 1026,
 														"name": "Destroy"
 													},
 													{
 														"type": "reference",
-														"id": 1033,
+														"id": 1034,
 														"name": "Reconnect"
 													},
 													{
 														"type": "reference",
-														"id": 1034,
+														"id": 1035,
 														"name": "FetchSessionData"
 													}
 												]
@@ -25125,7 +25161,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1382
+												1383
 											]
 										}
 									],
@@ -25141,7 +25177,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1383,
+									"id": 1384,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -25150,7 +25186,7 @@
 									},
 									"children": [
 										{
-											"id": 1385,
+											"id": 1386,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25166,12 +25202,12 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1217,
+												"id": 1218,
 												"name": "SendPayload"
 											}
 										},
 										{
-											"id": 1384,
+											"id": 1385,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25187,7 +25223,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1032,
+												"id": 1033,
 												"name": "PayloadDispatch"
 											}
 										}
@@ -25197,8 +25233,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1385,
-												1384
+												1386,
+												1385
 											]
 										}
 									],
@@ -25215,7 +25251,7 @@
 					}
 				},
 				{
-					"id": 1299,
+					"id": 1300,
 					"name": "MessageCreateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25234,11 +25270,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1086,
+								"id": 1087,
 								"name": "MessageCreate"
 							},
 							{
@@ -25250,7 +25286,7 @@
 					}
 				},
 				{
-					"id": 1309,
+					"id": 1310,
 					"name": "MessageDeleteBulkDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25269,17 +25305,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1089,
+								"id": 1090,
 								"name": "MessageDeleteBulk"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1310,
+									"id": 1311,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -25288,7 +25324,7 @@
 									},
 									"children": [
 										{
-											"id": 1312,
+											"id": 1313,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25308,7 +25344,7 @@
 											}
 										},
 										{
-											"id": 1313,
+											"id": 1314,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25329,7 +25365,7 @@
 											}
 										},
 										{
-											"id": 1311,
+											"id": 1312,
 											"name": "ids",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25357,9 +25393,9 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1312,
 												1313,
-												1311
+												1314,
+												1312
 											]
 										}
 									],
@@ -25377,7 +25413,7 @@
 					}
 				},
 				{
-					"id": 1304,
+					"id": 1305,
 					"name": "MessageDeleteDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25396,17 +25432,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1088,
+								"id": 1089,
 								"name": "MessageDelete"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1305,
+									"id": 1306,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -25415,7 +25451,7 @@
 									},
 									"children": [
 										{
-											"id": 1307,
+											"id": 1308,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25435,7 +25471,7 @@
 											}
 										},
 										{
-											"id": 1308,
+											"id": 1309,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25456,7 +25492,7 @@
 											}
 										},
 										{
-											"id": 1306,
+											"id": 1307,
 											"name": "id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -25481,9 +25517,9 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1307,
 												1308,
-												1306
+												1309,
+												1307
 											]
 										}
 									],
@@ -25501,7 +25537,7 @@
 					}
 				},
 				{
-					"id": 1314,
+					"id": 1315,
 					"name": "MessageReactionAddDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25520,11 +25556,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1340,
+						"id": 1341,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1090,
+								"id": 1091,
 								"name": "MessageReactionAdd"
 							}
 						],
@@ -25532,7 +25568,7 @@
 					}
 				},
 				{
-					"id": 1316,
+					"id": 1317,
 					"name": "MessageReactionRemoveAllDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25551,16 +25587,16 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1092,
+								"id": 1093,
 								"name": "MessageReactionRemoveAll"
 							},
 							{
 								"type": "reference",
-								"id": 1184,
+								"id": 1185,
 								"name": "MessageReactionRemoveData"
 							}
 						],
@@ -25568,7 +25604,7 @@
 					}
 				},
 				{
-					"id": 1315,
+					"id": 1316,
 					"name": "MessageReactionRemoveDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25587,11 +25623,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1340,
+						"id": 1341,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1091,
+								"id": 1092,
 								"name": "MessageReactionRemove"
 							},
 							{
@@ -25603,7 +25639,7 @@
 					}
 				},
 				{
-					"id": 1317,
+					"id": 1318,
 					"name": "MessageReactionRemoveEmojiDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25622,11 +25658,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1093,
+								"id": 1094,
 								"name": "MessageReactionRemoveEmoji"
 							},
 							{
@@ -25634,13 +25670,13 @@
 								"types": [
 									{
 										"type": "reference",
-										"id": 1184,
+										"id": 1185,
 										"name": "MessageReactionRemoveData"
 									},
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1318,
+											"id": 1319,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -25649,7 +25685,7 @@
 											},
 											"children": [
 												{
-													"id": 1319,
+													"id": 1320,
 													"name": "emoji",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25674,7 +25710,7 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1319
+														1320
 													]
 												}
 											],
@@ -25694,7 +25730,7 @@
 					}
 				},
 				{
-					"id": 1300,
+					"id": 1301,
 					"name": "MessageUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25713,11 +25749,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1087,
+								"id": 1088,
 								"name": "MessageUpdate"
 							},
 							{
@@ -25726,7 +25762,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1301,
+											"id": 1302,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -25735,7 +25771,7 @@
 											},
 											"children": [
 												{
-													"id": 1303,
+													"id": 1304,
 													"name": "channel_id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25755,7 +25791,7 @@
 													}
 												},
 												{
-													"id": 1302,
+													"id": 1303,
 													"name": "id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25780,8 +25816,8 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1303,
-														1302
+														1304,
+														1303
 													]
 												}
 											],
@@ -25811,7 +25847,7 @@
 					}
 				},
 				{
-					"id": 1320,
+					"id": 1321,
 					"name": "PresenceUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -25830,11 +25866,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1094,
+								"id": 1095,
 								"name": "PresenceUpdate"
 							},
 							{
@@ -25846,26 +25882,26 @@
 					}
 				},
 				{
-					"id": 1340,
+					"id": 1341,
 					"name": "ReactionData",
 					"kind": 4194304,
 					"kindString": "Type alias",
 					"flags": {},
 					"typeParameter": [
 						{
-							"id": 1341,
+							"id": 1342,
 							"name": "E",
 							"kind": 131072,
 							"kindString": "Type parameter",
 							"flags": {},
 							"type": {
 								"type": "reference",
-								"id": 1063,
+								"id": 1064,
 								"name": "WebSocketEvents"
 							}
 						},
 						{
-							"id": 1342,
+							"id": 1343,
 							"name": "O",
 							"kind": 131072,
 							"kindString": "Type parameter",
@@ -25885,14 +25921,14 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "typeParameter",
 								"name": "E",
 								"constraint": {
 									"type": "reference",
-									"id": 1063,
+									"id": 1064,
 									"name": "WebSocketEvents"
 								}
 							},
@@ -25902,14 +25938,14 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1343,
+											"id": 1344,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
 											"flags": {},
 											"children": [
 												{
-													"id": 1345,
+													"id": 1346,
 													"name": "channel_id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25927,7 +25963,7 @@
 													}
 												},
 												{
-													"id": 1349,
+													"id": 1350,
 													"name": "emoji",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25945,7 +25981,7 @@
 													}
 												},
 												{
-													"id": 1347,
+													"id": 1348,
 													"name": "guild_id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25965,7 +26001,7 @@
 													}
 												},
 												{
-													"id": 1348,
+													"id": 1349,
 													"name": "member",
 													"kind": 32,
 													"kindString": "Variable",
@@ -25985,7 +26021,7 @@
 													}
 												},
 												{
-													"id": 1346,
+													"id": 1347,
 													"name": "message_id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -26003,7 +26039,7 @@
 													}
 												},
 												{
-													"id": 1344,
+													"id": 1345,
 													"name": "user_id",
 													"kind": 32,
 													"kindString": "Variable",
@@ -26026,12 +26062,12 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1345,
+														1346,
+														1350,
+														1348,
 														1349,
 														1347,
-														1348,
-														1346,
-														1344
+														1345
 													]
 												}
 											],
@@ -26060,7 +26096,7 @@
 					}
 				},
 				{
-					"id": 1218,
+					"id": 1219,
 					"name": "ReadyDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26079,17 +26115,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1064,
+								"id": 1065,
 								"name": "Ready"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1219,
+									"id": 1220,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26098,7 +26134,7 @@
 									},
 									"children": [
 										{
-											"id": 1228,
+											"id": 1229,
 											"name": "guilds",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26121,7 +26157,7 @@
 											}
 										},
 										{
-											"id": 1227,
+											"id": 1228,
 											"name": "presences",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26140,7 +26176,7 @@
 											}
 										},
 										{
-											"id": 1226,
+											"id": 1227,
 											"name": "private_channels",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26159,7 +26195,7 @@
 											}
 										},
 										{
-											"id": 1225,
+											"id": 1226,
 											"name": "relationships",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26178,7 +26214,7 @@
 											}
 										},
 										{
-											"id": 1224,
+											"id": 1225,
 											"name": "session_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26198,7 +26234,7 @@
 											}
 										},
 										{
-											"id": 1229,
+											"id": 1230,
 											"name": "shard",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26228,7 +26264,7 @@
 											}
 										},
 										{
-											"id": 1223,
+											"id": 1224,
 											"name": "user",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26248,7 +26284,7 @@
 											}
 										},
 										{
-											"id": 1221,
+											"id": 1222,
 											"name": "user_settings",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26265,7 +26301,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 1222,
+													"id": 1223,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -26283,7 +26319,7 @@
 											}
 										},
 										{
-											"id": 1220,
+											"id": 1221,
 											"name": "v",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26308,15 +26344,15 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
+												1229,
 												1228,
 												1227,
 												1226,
 												1225,
+												1230,
 												1224,
-												1229,
-												1223,
-												1221,
-												1220
+												1222,
+												1221
 											]
 										}
 									],
@@ -26334,7 +26370,7 @@
 					}
 				},
 				{
-					"id": 1230,
+					"id": 1231,
 					"name": "ResumedDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26353,11 +26389,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1065,
+								"id": 1066,
 								"name": "Resumed"
 							},
 							{
@@ -26369,7 +26405,7 @@
 					}
 				},
 				{
-					"id": 1217,
+					"id": 1218,
 					"name": "SendPayload",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26388,39 +26424,39 @@
 						"types": [
 							{
 								"type": "reference",
-								"id": 1127,
+								"id": 1128,
 								"name": "WSHeartbeat"
 							},
 							{
 								"type": "reference",
-								"id": 1130,
+								"id": 1131,
 								"name": "Identify"
 							},
 							{
 								"type": "reference",
-								"id": 1168,
+								"id": 1169,
 								"name": "StatusUpdate"
 							},
 							{
 								"type": "reference",
-								"id": 1160,
+								"id": 1161,
 								"name": "VoiceStateUpdate"
 							},
 							{
 								"type": "reference",
-								"id": 1144,
+								"id": 1145,
 								"name": "Resume"
 							},
 							{
 								"type": "reference",
-								"id": 1151,
+								"id": 1152,
 								"name": "RequestGuildMembers"
 							}
 						]
 					}
 				},
 				{
-					"id": 1321,
+					"id": 1322,
 					"name": "TypingStartDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26439,17 +26475,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1095,
+								"id": 1096,
 								"name": "TypingStart"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1322,
+									"id": 1323,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26458,7 +26494,7 @@
 									},
 									"children": [
 										{
-											"id": 1323,
+											"id": 1324,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26478,7 +26514,7 @@
 											}
 										},
 										{
-											"id": 1324,
+											"id": 1325,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26499,7 +26535,7 @@
 											}
 										},
 										{
-											"id": 1327,
+											"id": 1328,
 											"name": "member",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26520,7 +26556,7 @@
 											}
 										},
 										{
-											"id": 1326,
+											"id": 1327,
 											"name": "timestamp",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26540,7 +26576,7 @@
 											}
 										},
 										{
-											"id": 1325,
+											"id": 1326,
 											"name": "user_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26565,11 +26601,11 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1323,
 												1324,
+												1325,
+												1328,
 												1327,
-												1326,
-												1325
+												1326
 											]
 										}
 									],
@@ -26587,7 +26623,7 @@
 					}
 				},
 				{
-					"id": 1328,
+					"id": 1329,
 					"name": "UserUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26606,11 +26642,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1096,
+								"id": 1097,
 								"name": "UserUpdate"
 							},
 							{
@@ -26622,7 +26658,7 @@
 					}
 				},
 				{
-					"id": 1330,
+					"id": 1331,
 					"name": "VoiceServerUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26641,17 +26677,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1098,
+								"id": 1099,
 								"name": "VoiceServerUpdate"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1331,
+									"id": 1332,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26660,7 +26696,7 @@
 									},
 									"children": [
 										{
-											"id": 1334,
+											"id": 1335,
 											"name": "endpoint",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26680,7 +26716,7 @@
 											}
 										},
 										{
-											"id": 1333,
+											"id": 1334,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26700,7 +26736,7 @@
 											}
 										},
 										{
-											"id": 1332,
+											"id": 1333,
 											"name": "token",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26725,9 +26761,9 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
+												1335,
 												1334,
-												1333,
-												1332
+												1333
 											]
 										}
 									],
@@ -26745,7 +26781,7 @@
 					}
 				},
 				{
-					"id": 1329,
+					"id": 1330,
 					"name": "VoiceStateUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26764,11 +26800,11 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1097,
+								"id": 1098,
 								"name": "VoiceStateUpdate"
 							},
 							{
@@ -26780,7 +26816,7 @@
 					}
 				},
 				{
-					"id": 1216,
+					"id": 1217,
 					"name": "WSPayload",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26799,39 +26835,39 @@
 						"types": [
 							{
 								"type": "reference",
-								"id": 1100,
+								"id": 1101,
 								"name": "HelloPayload"
 							},
 							{
 								"type": "reference",
-								"id": 1107,
+								"id": 1108,
 								"name": "Heartbeat"
 							},
 							{
 								"type": "reference",
-								"id": 1112,
+								"id": 1113,
 								"name": "HeartbeatAck"
 							},
 							{
 								"type": "reference",
-								"id": 1117,
+								"id": 1118,
 								"name": "InvalidSession"
 							},
 							{
 								"type": "reference",
-								"id": 1122,
+								"id": 1123,
 								"name": "Reconnect"
 							},
 							{
 								"type": "reference",
-								"id": 1339,
+								"id": 1340,
 								"name": "DispatchPayload"
 							}
 						]
 					}
 				},
 				{
-					"id": 1335,
+					"id": 1336,
 					"name": "WebhooksUpdateDispatch",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26850,17 +26886,17 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1176,
+						"id": 1177,
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 1099,
+								"id": 1100,
 								"name": "WebhooksUpdate"
 							},
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1336,
+									"id": 1337,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26869,7 +26905,7 @@
 									},
 									"children": [
 										{
-											"id": 1338,
+											"id": 1339,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26889,7 +26925,7 @@
 											}
 										},
 										{
-											"id": 1337,
+											"id": 1338,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26914,8 +26950,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1338,
-												1337
+												1339,
+												1338
 											]
 										}
 									],
@@ -26933,7 +26969,7 @@
 					}
 				},
 				{
-					"id": 1350,
+					"id": 1351,
 					"name": "WorkerMasterMessages",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -26953,7 +26989,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1351,
+									"id": 1352,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -26962,7 +26998,7 @@
 									},
 									"children": [
 										{
-											"id": 1353,
+											"id": 1354,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26982,7 +27018,7 @@
 											}
 										},
 										{
-											"id": 1352,
+											"id": 1353,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -26998,7 +27034,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1023,
+												"id": 1024,
 												"name": "Debug"
 											}
 										}
@@ -27008,8 +27044,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1353,
-												1352
+												1354,
+												1353
 											]
 										}
 									],
@@ -27025,7 +27061,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1354,
+									"id": 1355,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27034,7 +27070,7 @@
 									},
 									"children": [
 										{
-											"id": 1356,
+											"id": 1357,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27050,12 +27086,12 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1339,
+												"id": 1340,
 												"name": "DispatchPayload"
 											}
 										},
 										{
-											"id": 1355,
+											"id": 1356,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27071,7 +27107,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1024,
+												"id": 1025,
 												"name": "Dispatch"
 											}
 										}
@@ -27081,8 +27117,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1356,
-												1355
+												1357,
+												1356
 											]
 										}
 									],
@@ -27098,7 +27134,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1357,
+									"id": 1358,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27107,7 +27143,7 @@
 									},
 									"children": [
 										{
-											"id": 1358,
+											"id": 1359,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27126,12 +27162,12 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 1026,
+														"id": 1027,
 														"name": "Identify"
 													},
 													{
 														"type": "reference",
-														"id": 1028,
+														"id": 1029,
 														"name": "ScheduleIdentify"
 													}
 												]
@@ -27143,7 +27179,7 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1358
+												1359
 											]
 										}
 									],
@@ -27159,7 +27195,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1359,
+									"id": 1360,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27168,7 +27204,7 @@
 									},
 									"children": [
 										{
-											"id": 1361,
+											"id": 1362,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27188,7 +27224,7 @@
 											}
 										},
 										{
-											"id": 1360,
+											"id": 1361,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27204,7 +27240,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1027,
+												"id": 1028,
 												"name": "UpdatePing"
 											}
 										}
@@ -27214,8 +27250,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1361,
-												1360
+												1362,
+												1361
 											]
 										}
 									],
@@ -27231,7 +27267,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1362,
+									"id": 1363,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27240,7 +27276,7 @@
 									},
 									"children": [
 										{
-											"id": 1364,
+											"id": 1365,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27256,12 +27292,12 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1213,
+												"id": 1214,
 												"name": "GatewayStatus"
 											}
 										},
 										{
-											"id": 1363,
+											"id": 1364,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27277,7 +27313,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1029,
+												"id": 1030,
 												"name": "GatewayStatus"
 											}
 										}
@@ -27287,8 +27323,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1364,
-												1363
+												1365,
+												1364
 											]
 										}
 									],
@@ -27304,7 +27340,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1365,
+									"id": 1366,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27313,7 +27349,7 @@
 									},
 									"children": [
 										{
-											"id": 1367,
+											"id": 1368,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27330,7 +27366,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 1368,
+													"id": 1369,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -27339,7 +27375,7 @@
 													},
 													"children": [
 														{
-															"id": 1369,
+															"id": 1370,
 															"name": "code",
 															"kind": 32,
 															"kindString": "Variable",
@@ -27359,7 +27395,7 @@
 															}
 														},
 														{
-															"id": 1370,
+															"id": 1371,
 															"name": "reason",
 															"kind": 32,
 															"kindString": "Variable",
@@ -27384,8 +27420,8 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1369,
-																1370
+																1370,
+																1371
 															]
 														}
 													],
@@ -27400,7 +27436,7 @@
 											}
 										},
 										{
-											"id": 1366,
+											"id": 1367,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27416,7 +27452,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1030,
+												"id": 1031,
 												"name": "CannotReconnect"
 											}
 										}
@@ -27426,8 +27462,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1367,
-												1366
+												1368,
+												1367
 											]
 										}
 									],
@@ -27443,7 +27479,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1371,
+									"id": 1372,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27452,7 +27488,7 @@
 									},
 									"children": [
 										{
-											"id": 1373,
+											"id": 1374,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27473,7 +27509,7 @@
 											}
 										},
 										{
-											"id": 1372,
+											"id": 1373,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27489,7 +27525,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1031,
+												"id": 1032,
 												"name": "ConnectionStatusUpdate"
 											}
 										}
@@ -27499,8 +27535,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1373,
-												1372
+												1374,
+												1373
 											]
 										}
 									],
@@ -27516,7 +27552,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1374,
+									"id": 1375,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27525,7 +27561,7 @@
 									},
 									"children": [
 										{
-											"id": 1376,
+											"id": 1377,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27541,12 +27577,12 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1217,
+												"id": 1218,
 												"name": "SendPayload"
 											}
 										},
 										{
-											"id": 1375,
+											"id": 1376,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27562,7 +27598,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1032,
+												"id": 1033,
 												"name": "PayloadDispatch"
 											}
 										}
@@ -27572,8 +27608,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1376,
-												1375
+												1377,
+												1376
 											]
 										}
 									],
@@ -27589,7 +27625,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1377,
+									"id": 1378,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -27598,7 +27634,7 @@
 									},
 									"children": [
 										{
-											"id": 1379,
+											"id": 1380,
 											"name": "data",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27614,12 +27650,12 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1203,
+												"id": 1204,
 												"name": "SessionDetails"
 											}
 										},
 										{
-											"id": 1378,
+											"id": 1379,
 											"name": "type",
 											"kind": 32,
 											"kindString": "Variable",
@@ -27635,7 +27671,7 @@
 											],
 											"type": {
 												"type": "reference",
-												"id": 1034,
+												"id": 1035,
 												"name": "FetchSessionData"
 											}
 										}
@@ -27645,8 +27681,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												1379,
-												1378
+												1380,
+												1379
 											]
 										}
 									],
@@ -27668,79 +27704,79 @@
 					"title": "Enumerations",
 					"kind": 4,
 					"children": [
-						1213,
-						1022,
-						1051,
-						1035,
-						1063,
-						1017
+						1214,
+						1023,
+						1052,
+						1036,
+						1064,
+						1018
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1171,
-						1176,
-						1107,
-						1112,
-						1100,
-						1130,
-						1117,
-						1184,
-						1122,
-						1151,
-						1144,
-						1203,
-						1168,
-						1188,
-						1160,
-						1127,
-						1193,
-						1206
+						1172,
+						1177,
+						1108,
+						1113,
+						1101,
+						1131,
+						1118,
+						1185,
+						1123,
+						1152,
+						1145,
+						1204,
+						1169,
+						1189,
+						1161,
+						1128,
+						1194,
+						1207
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						1231,
 						1232,
-						1339,
-						1239,
-						1237,
+						1233,
+						1340,
+						1240,
 						1238,
-						1243,
-						1247,
-						1250,
-						1253,
-						1257,
-						1264,
-						1273,
-						1277,
-						1281,
-						1294,
-						1380,
-						1299,
-						1309,
-						1304,
-						1314,
-						1316,
+						1239,
+						1244,
+						1248,
+						1251,
+						1254,
+						1258,
+						1265,
+						1274,
+						1278,
+						1282,
+						1295,
+						1381,
+						1300,
+						1310,
+						1305,
 						1315,
 						1317,
-						1300,
-						1320,
-						1340,
-						1218,
-						1230,
-						1217,
+						1316,
+						1318,
+						1301,
 						1321,
-						1328,
-						1330,
+						1341,
+						1219,
+						1231,
+						1218,
+						1322,
 						1329,
-						1216,
-						1335,
-						1350
+						1331,
+						1330,
+						1217,
+						1336,
+						1351
 					]
 				}
 			],
@@ -29795,12 +29831,12 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				1481,
-				1386,
+				1482,
+				1387,
 				129,
 				64,
-				1540,
-				1016,
+				1541,
+				1017,
 				115,
 				1
 			]
