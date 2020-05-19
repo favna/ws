@@ -60,7 +60,7 @@
   "dependencies": {
     "@klasa/async-queue": "^0.0.1",
     "@klasa/bitfield": "^0.0.2",
-    "@klasa/cache": "^0.0.2",
+    "@klasa/cache": "^0.0.3",
     "@klasa/utils": "^0.0.5",
     "ws": "^7.3.0"
   },
