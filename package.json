@@ -55,6 +55,7 @@
       "rewritePaths": {
         "test/": "dist/test/"
       }
+    }
   },
   "dependencies": {
     "@klasa/async-queue": "^0.0.1",
