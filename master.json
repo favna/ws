@@ -7,7 +7,7 @@
 	"children": [
 		{
 			"id": 1482,
-			"name": "\"index\"",
+			"name": "\"src/index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -672,7 +672,7 @@
 		},
 		{
 			"id": 1387,
-			"name": "\"lib/WebSocketConnection\"",
+			"name": "\"src/lib/WebSocketConnection\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -2603,7 +2603,7 @@
 		},
 		{
 			"id": 129,
-			"name": "\"lib/WebSocketManager\"",
+			"name": "\"src/lib/WebSocketManager\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -17659,7 +17659,7 @@
 		},
 		{
 			"id": 64,
-			"name": "\"lib/WebSocketShard\"",
+			"name": "\"src/lib/WebSocketShard\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -18707,7 +18707,7 @@
 		},
 		{
 			"id": 1541,
-			"name": "\"lib/Worker\"",
+			"name": "\"src/lib/Worker\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -18832,7 +18832,7 @@
 		},
 		{
 			"id": 1017,
-			"name": "\"types/InternalWebSocket\"",
+			"name": "\"src/types/InternalWebSocket\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -27790,7 +27790,7 @@
 		},
 		{
 			"id": 115,
-			"name": "\"util/Constants\"",
+			"name": "\"src/util/Constants\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -28190,7 +28190,7 @@
 		},
 		{
 			"id": 1,
-			"name": "\"util/Intents\"",
+			"name": "\"src/util/Intents\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
@@ -29824,6 +29824,23 @@
 					"character": 0
 				}
 			]
+		},
+		{
+			"id": 1547,
+			"name": "\"test/Util\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/runner/work/ws/ws/test/Util.ts",
+			"sources": [
+				{
+					"fileName": "test/Util.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
 		}
 	],
 	"groups": [
@@ -29838,7 +29855,8 @@
 				1541,
 				1017,
 				115,
-				1
+				1,
+				1547
 			]
 		}
 	]
