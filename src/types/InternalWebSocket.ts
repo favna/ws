@@ -111,7 +111,7 @@ export const enum WebSocketEvents {
 }
 
 export type WSPayload = HelloPayload | Heartbeat | HeartbeatAck | InvalidSession | Reconnect | DispatchPayload;
-export type SendPayload = WSHeartbeat | Identify | StatusUpdate | VoiceStateUpdate | Resume | RequestGuildMembers;
+export type SendPayload = WSHeartbeat | Identify | PresenceUpdate | VoiceStateUpdate | Resume | RequestGuildMembers;
 
 // #region Basic payloads
 export interface HelloPayload extends BasePayload {
@@ -436,12 +436,12 @@ export type DispatchPayload =
 // #endregion Dispatch
 
 // #region Sendables
-interface WSHeartbeat {
+export interface WSHeartbeat {
 	op: OpCodes.HEARTBEAT;
 	d: number;
 }
 
-interface Identify {
+export interface Identify {
 	op: OpCodes.IDENTIFY;
 	d: {
 		token: string,
@@ -452,12 +452,12 @@ interface Identify {
 		},
 		large_threshold?: number,
 		shard?: [number, number],
-		presence?: StatusUpdateData,
+		presence?: PresenceUpdateData,
 		intents?: number
 	};
 }
 
-interface Resume {
+export interface Resume {
 	op: OpCodes.RESUME;
 	d: {
 		token: string,
@@ -466,7 +466,7 @@ interface Resume {
 	};
 }
 
-interface RequestGuildMembers {
+export interface RequestGuildMembers {
 	op: OpCodes.REQUEST_GUILD_MEMBERS;
 	d: {
 		guild_id: string | string[],
@@ -477,7 +477,7 @@ interface RequestGuildMembers {
 	};
 }
 
-interface VoiceStateUpdate {
+export interface VoiceStateUpdate {
 	op: OpCodes.VOICE_STATE_UPDATE;
 	d: {
 		guild_id: string,
@@ -487,9 +487,9 @@ interface VoiceStateUpdate {
 	};
 }
 
-interface StatusUpdate {
+export interface PresenceUpdate {
 	op: OpCodes.STATUS_UPDATE;
-	d: StatusUpdateData;
+	d: PresenceUpdateData;
 }
 // #endregion Sendables
 
@@ -524,7 +524,7 @@ interface MessageReactionRemoveData {
 	guild_id?: string;
 }
 
-interface StatusUpdateData {
+export interface PresenceUpdateData {
 	since: number | null;
 	game: APIActivityData | null;
 	status: 'online' | 'dnd' | 'idle' | 'invisible' | 'offline';
@@ -539,9 +539,10 @@ export interface WSIdentify {
 	};
 	large_threshold?: number;
 	shard?: [number, number];
-	presence?: StatusUpdateData;
+	presence?: PresenceUpdateData;
 	intents?: number;
 }
+
 export interface SessionDetails {
 	session_id: string;
 	seq: number;
