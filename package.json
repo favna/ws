@@ -2,10 +2,11 @@
   "name": "@klasa/ws",
   "version": "0.0.10",
   "description": "WebSocket manager that handles spawning and maintaining a connection to the Discord gateway",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "yarn build-dist",
     "build": "tsc",
+    "build-dist": "tsc -b src",
     "test": "ava",
     "test:lint": "eslint --ext ts src test",
     "test:coverage": "npx nyc check-coverage --lines 0 --functions 0 --branches 0",
@@ -21,7 +22,10 @@
     "node": ">=12.0.0"
   },
   "files": [
-    "dist/src/*"
+    "dist/",
+    "!dist/src",
+    "!dist/test",
+    "!dist/tsconfig.tsbuildinfo"
   ],
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
@@ -53,7 +57,7 @@
         "ts"
       ],
       "rewritePaths": {
-        "test/": "dist/test/"
+        "test/": "test-build/"
       }
     }
   },
