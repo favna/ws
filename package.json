@@ -21,7 +21,7 @@
     "node": ">=12.0.0"
   },
   "files": [
-    "dist/*"
+    "dist/src/*"
   ],
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
