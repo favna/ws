@@ -46,7 +46,7 @@
 					"target": 1340
 				},
 				{
-					"id": 1537,
+					"id": 1544,
 					"name": "GatewayStatus",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -196,7 +196,17 @@
 					"target": 1101
 				},
 				{
-					"id": 1540,
+					"id": 1533,
+					"name": "Identify",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1131
+				},
+				{
+					"id": 1547,
 					"name": "Intents",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -206,7 +216,7 @@
 					"target": 2
 				},
 				{
-					"id": 1539,
+					"id": 1546,
 					"name": "IntentsResolvable",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -256,7 +266,7 @@
 					"target": 1295
 				},
 				{
-					"id": 1535,
+					"id": 1542,
 					"name": "MasterWorkerMessages",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -356,6 +366,26 @@
 					"target": 1052
 				},
 				{
+					"id": 1537,
+					"name": "PresenceUpdate",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1169
+				},
+				{
+					"id": 1538,
+					"name": "PresenceUpdateData",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1189
+				},
+				{
 					"id": 1525,
 					"name": "PresenceUpdateDispatch",
 					"kind": 16777216,
@@ -386,6 +416,26 @@
 					"target": 1123
 				},
 				{
+					"id": 1535,
+					"name": "RequestGuildMembers",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1152
+				},
+				{
+					"id": 1534,
+					"name": "Resume",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1145
+				},
+				{
 					"id": 1501,
 					"name": "ResumedDispatch",
 					"kind": 16777216,
@@ -406,7 +456,7 @@
 					"target": 1218
 				},
 				{
-					"id": 1533,
+					"id": 1540,
 					"name": "SessionDetails",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -446,6 +496,16 @@
 					"target": 1331
 				},
 				{
+					"id": 1536,
+					"name": "VoiceStateUpdate",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1161
+				},
+				{
 					"id": 1528,
 					"name": "VoiceStateUpdateDispatch",
 					"kind": 16777216,
@@ -467,6 +527,16 @@
 				},
 				{
 					"id": 1532,
+					"name": "WSHeartbeat",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1128
+				},
+				{
+					"id": 1539,
 					"name": "WSIdentify",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -486,7 +556,7 @@
 					"target": 130
 				},
 				{
-					"id": 1538,
+					"id": 1545,
 					"name": "WSOptionsDefaults",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -506,7 +576,7 @@
 					"target": 1217
 				},
 				{
-					"id": 1536,
+					"id": 1543,
 					"name": "WSWorkerData",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -586,7 +656,7 @@
 					"target": 1336
 				},
 				{
-					"id": 1534,
+					"id": 1541,
 					"name": "WorkerMasterMessages",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -604,7 +674,7 @@
 						1502,
 						1503,
 						1531,
-						1537,
+						1544,
 						1506,
 						1504,
 						1505,
@@ -619,13 +689,14 @@
 						1496,
 						1497,
 						1495,
-						1540,
-						1539,
+						1533,
+						1547,
+						1546,
 						1489,
 						1498,
 						1515,
 						1516,
-						1535,
+						1542,
 						1517,
 						1520,
 						1519,
@@ -635,22 +706,28 @@
 						1524,
 						1518,
 						1491,
+						1537,
+						1538,
 						1525,
 						1500,
 						1499,
+						1535,
+						1534,
 						1501,
 						1494,
-						1533,
+						1540,
 						1526,
 						1527,
 						1529,
+						1536,
 						1528,
 						1490,
 						1532,
+						1539,
 						1484,
-						1538,
+						1545,
 						1493,
-						1536,
+						1543,
 						1483,
 						1492,
 						1485,
@@ -658,7 +735,7 @@
 						1487,
 						1486,
 						1530,
-						1534
+						1541
 					]
 				}
 			],
@@ -831,7 +908,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1128,
+								"id": 1391,
 								"name": "WSHeartbeat"
 							}
 						},
@@ -18706,7 +18783,7 @@
 			]
 		},
 		{
-			"id": 1541,
+			"id": 1548,
 			"name": "\"src/lib/Worker\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -18716,7 +18793,7 @@
 			"originalName": "/home/runner/work/ws/ws/src/lib/Worker.ts",
 			"children": [
 				{
-					"id": 1546,
+					"id": 1553,
 					"name": "connection",
 					"kind": 32,
 					"kindString": "Variable",
@@ -18738,7 +18815,7 @@
 					"defaultValue": "new WebSocketConnection(parentPort, typedWorkerData)"
 				},
 				{
-					"id": 1542,
+					"id": 1549,
 					"name": "typedWorkerData",
 					"kind": 32,
 					"kindString": "Variable",
@@ -18760,21 +18837,21 @@
 					"defaultValue": "workerData as WSWorkerData"
 				},
 				{
-					"id": 1543,
+					"id": 1550,
 					"name": "checkMainThread",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"signatures": [
 						{
-							"id": 1544,
+							"id": 1551,
 							"name": "checkMainThread",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 1545,
+									"id": 1552,
 									"name": "port",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -18810,15 +18887,15 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1546,
-						1542
+						1553,
+						1549
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1543
+						1550
 					]
 				}
 			],
@@ -18860,7 +18937,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 600,
+									"line": 601,
 									"character": 15
 								}
 							]
@@ -18876,7 +18953,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 599,
+									"line": 600,
 									"character": 6
 								}
 							]
@@ -18895,7 +18972,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 598,
+							"line": 599,
 							"character": 31
 						}
 					]
@@ -21197,14 +21274,18 @@
 					"name": "Identify",
 					"kind": 256,
 					"kindString": "Interface",
-					"flags": {},
+					"flags": {
+						"isExported": true
+					},
 					"children": [
 						{
 							"id": 1133,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -21219,7 +21300,9 @@
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
-									"flags": {},
+									"flags": {
+										"isExported": true
+									},
 									"children": [
 										{
 											"id": 1144,
@@ -21227,6 +21310,7 @@
 											"kind": 32,
 											"kindString": "Variable",
 											"flags": {
+												"isExported": true,
 												"isOptional": true
 											},
 											"sources": [
@@ -21247,6 +21331,7 @@
 											"kind": 32,
 											"kindString": "Variable",
 											"flags": {
+												"isExported": true,
 												"isOptional": true
 											},
 											"sources": [
@@ -21267,6 +21352,7 @@
 											"kind": 32,
 											"kindString": "Variable",
 											"flags": {
+												"isExported": true,
 												"isOptional": true
 											},
 											"sources": [
@@ -21279,7 +21365,7 @@
 											"type": {
 												"type": "reference",
 												"id": 1189,
-												"name": "StatusUpdateData"
+												"name": "PresenceUpdateData"
 											}
 										},
 										{
@@ -21287,7 +21373,9 @@
 											"name": "properties",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -21302,14 +21390,18 @@
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
-													"flags": {},
+													"flags": {
+														"isExported": true
+													},
 													"children": [
 														{
 															"id": 1139,
 															"name": "$browser",
 															"kind": 32,
 															"kindString": "Variable",
-															"flags": {},
+															"flags": {
+																"isExported": true
+															},
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
@@ -21327,7 +21419,9 @@
 															"name": "$os",
 															"kind": 32,
 															"kindString": "Variable",
-															"flags": {},
+															"flags": {
+																"isExported": true
+															},
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
@@ -21345,7 +21439,9 @@
 															"name": "device",
 															"kind": 32,
 															"kindString": "Variable",
-															"flags": {},
+															"flags": {
+																"isExported": true
+															},
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
@@ -21386,6 +21482,7 @@
 											"kind": 32,
 											"kindString": "Variable",
 											"flags": {
+												"isExported": true,
 												"isOptional": true
 											},
 											"sources": [
@@ -21414,7 +21511,9 @@
 											"name": "token",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -21457,7 +21556,9 @@
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -21486,7 +21587,7 @@
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
 							"line": 444,
-							"character": 18
+							"character": 25
 						}
 					]
 				},
@@ -21712,6 +21813,225 @@
 					]
 				},
 				{
+					"id": 1169,
+					"name": "PresenceUpdate",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 1171,
+							"name": "d",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/types/InternalWebSocket.ts",
+									"line": 492,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 1189,
+								"name": "PresenceUpdateData"
+							}
+						},
+						{
+							"id": 1170,
+							"name": "op",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/types/InternalWebSocket.ts",
+									"line": 491,
+									"character": 3
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 1056,
+								"name": "STATUS_UPDATE"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								1171,
+								1170
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/types/InternalWebSocket.ts",
+							"line": 490,
+							"character": 31
+						}
+					]
+				},
+				{
+					"id": 1189,
+					"name": "PresenceUpdateData",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 1193,
+							"name": "afk",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/types/InternalWebSocket.ts",
+									"line": 531,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 1191,
+							"name": "game",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/types/InternalWebSocket.ts",
+									"line": 529,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "APIActivityData"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
+							}
+						},
+						{
+							"id": 1190,
+							"name": "since",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/types/InternalWebSocket.ts",
+									"line": 528,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
+							}
+						},
+						{
+							"id": 1192,
+							"name": "status",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/types/InternalWebSocket.ts",
+									"line": 530,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "stringLiteral",
+										"value": "online"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "dnd"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "idle"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "invisible"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "offline"
+									}
+								]
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								1193,
+								1191,
+								1190,
+								1192
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/types/InternalWebSocket.ts",
+							"line": 527,
+							"character": 35
+						}
+					]
+				},
+				{
 					"id": 1123,
 					"name": "Reconnect",
 					"kind": 256,
@@ -21854,14 +22174,18 @@
 					"name": "RequestGuildMembers",
 					"kind": 256,
 					"kindString": "Interface",
-					"flags": {},
+					"flags": {
+						"isExported": true
+					},
 					"children": [
 						{
 							"id": 1154,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -21876,14 +22200,18 @@
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
-									"flags": {},
+									"flags": {
+										"isExported": true
+									},
 									"children": [
 										{
 											"id": 1156,
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -21913,7 +22241,9 @@
 											"name": "limit",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -21932,6 +22262,7 @@
 											"kind": 32,
 											"kindString": "Variable",
 											"flags": {
+												"isExported": true,
 												"isOptional": true
 											},
 											"sources": [
@@ -21952,6 +22283,7 @@
 											"kind": 32,
 											"kindString": "Variable",
 											"flags": {
+												"isExported": true,
 												"isOptional": true
 											},
 											"sources": [
@@ -21972,6 +22304,7 @@
 											"kind": 32,
 											"kindString": "Variable",
 											"flags": {
+												"isExported": true,
 												"isOptional": true
 											},
 											"sources": [
@@ -22027,7 +22360,9 @@
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -22056,7 +22391,7 @@
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
 							"line": 469,
-							"character": 29
+							"character": 36
 						}
 					]
 				},
@@ -22065,14 +22400,18 @@
 					"name": "Resume",
 					"kind": 256,
 					"kindString": "Interface",
-					"flags": {},
+					"flags": {
+						"isExported": true
+					},
 					"children": [
 						{
 							"id": 1147,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -22087,14 +22426,18 @@
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
-									"flags": {},
+									"flags": {
+										"isExported": true
+									},
 									"children": [
 										{
 											"id": 1151,
 											"name": "seq",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -22112,7 +22455,9 @@
 											"name": "session_id",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -22130,7 +22475,9 @@
 											"name": "token",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -22170,7 +22517,9 @@
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -22199,7 +22548,7 @@
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
 							"line": 460,
-							"character": 16
+							"character": 23
 						}
 					]
 				},
@@ -22223,7 +22572,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 547,
+									"line": 548,
 									"character": 4
 								}
 							],
@@ -22243,7 +22592,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 546,
+									"line": 547,
 									"character": 11
 								}
 							],
@@ -22266,211 +22615,8 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 545,
+							"line": 546,
 							"character": 31
-						}
-					]
-				},
-				{
-					"id": 1169,
-					"name": "StatusUpdate",
-					"kind": 256,
-					"kindString": "Interface",
-					"flags": {},
-					"children": [
-						{
-							"id": 1171,
-							"name": "d",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 492,
-									"character": 2
-								}
-							],
-							"type": {
-								"type": "reference",
-								"id": 1189,
-								"name": "StatusUpdateData"
-							}
-						},
-						{
-							"id": 1170,
-							"name": "op",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 491,
-									"character": 3
-								}
-							],
-							"type": {
-								"type": "reference",
-								"id": 1056,
-								"name": "STATUS_UPDATE"
-							}
-						}
-					],
-					"groups": [
-						{
-							"title": "Properties",
-							"kind": 1024,
-							"children": [
-								1171,
-								1170
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 490,
-							"character": 22
-						}
-					]
-				},
-				{
-					"id": 1189,
-					"name": "StatusUpdateData",
-					"kind": 256,
-					"kindString": "Interface",
-					"flags": {},
-					"children": [
-						{
-							"id": 1193,
-							"name": "afk",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 531,
-									"character": 4
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "boolean"
-							}
-						},
-						{
-							"id": 1191,
-							"name": "game",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 529,
-									"character": 5
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "reference",
-										"name": "APIActivityData"
-									},
-									{
-										"type": "intrinsic",
-										"name": "null"
-									}
-								]
-							}
-						},
-						{
-							"id": 1190,
-							"name": "since",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 528,
-									"character": 6
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "intrinsic",
-										"name": "null"
-									}
-								]
-							}
-						},
-						{
-							"id": 1192,
-							"name": "status",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 530,
-									"character": 7
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "stringLiteral",
-										"value": "online"
-									},
-									{
-										"type": "stringLiteral",
-										"value": "dnd"
-									},
-									{
-										"type": "stringLiteral",
-										"value": "idle"
-									},
-									{
-										"type": "stringLiteral",
-										"value": "invisible"
-									},
-									{
-										"type": "stringLiteral",
-										"value": "offline"
-									}
-								]
-							}
-						}
-					],
-					"groups": [
-						{
-							"title": "Properties",
-							"kind": 1024,
-							"children": [
-								1193,
-								1191,
-								1190,
-								1192
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 527,
-							"character": 26
 						}
 					]
 				},
@@ -22479,14 +22625,18 @@
 					"name": "VoiceStateUpdate",
 					"kind": 256,
 					"kindString": "Interface",
-					"flags": {},
+					"flags": {
+						"isExported": true
+					},
 					"children": [
 						{
 							"id": 1163,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -22501,14 +22651,18 @@
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
-									"flags": {},
+									"flags": {
+										"isExported": true
+									},
 									"children": [
 										{
 											"id": 1166,
 											"name": "channel_id",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -22535,7 +22689,9 @@
 											"name": "guild_id",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -22553,7 +22709,9 @@
 											"name": "self_deaf",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -22571,7 +22729,9 @@
 											"name": "self_mute",
 											"kind": 32,
 											"kindString": "Variable",
-											"flags": {},
+											"flags": {
+												"isExported": true
+											},
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
@@ -22612,7 +22772,9 @@
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -22641,7 +22803,7 @@
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
 							"line": 480,
-							"character": 26
+							"character": 33
 						}
 					]
 				},
@@ -22650,14 +22812,18 @@
 					"name": "WSHeartbeat",
 					"kind": 256,
 					"kindString": "Interface",
-					"flags": {},
+					"flags": {
+						"isExported": true
+					},
 					"children": [
 						{
 							"id": 1130,
 							"name": "d",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -22675,7 +22841,9 @@
 							"name": "op",
 							"kind": 1024,
 							"kindString": "Property",
-							"flags": {},
+							"flags": {
+								"isExported": true
+							},
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
@@ -22704,7 +22872,7 @@
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
 							"line": 439,
-							"character": 21
+							"character": 28
 						}
 					]
 				},
@@ -22778,7 +22946,7 @@
 							"type": {
 								"type": "reference",
 								"id": 1189,
-								"name": "StatusUpdateData"
+								"name": "PresenceUpdateData"
 							}
 						},
 						{
@@ -22961,7 +23129,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 592,
+									"line": 593,
 									"character": 11
 								}
 							],
@@ -22981,7 +23149,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 593,
+									"line": 594,
 									"character": 15
 								}
 							],
@@ -23001,7 +23169,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 595,
+									"line": 596,
 									"character": 8
 								}
 							],
@@ -23041,7 +23209,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 595,
+															"line": 596,
 															"character": 39
 														}
 													],
@@ -23072,7 +23240,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 595,
+													"line": 596,
 													"character": 31
 												}
 											]
@@ -23092,7 +23260,7 @@
 							"sources": [
 								{
 									"fileName": "src/types/InternalWebSocket.ts",
-									"line": 594,
+									"line": 595,
 									"character": 6
 								}
 							],
@@ -23117,7 +23285,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 591,
+							"line": 592,
 							"character": 29
 						}
 					]
@@ -25096,7 +25264,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 584,
+							"line": 585,
 							"character": 32
 						}
 					],
@@ -25125,7 +25293,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 585,
+													"line": 586,
 													"character": 5
 												}
 											],
@@ -25168,7 +25336,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 584,
+											"line": 585,
 											"character": 34
 										}
 									]
@@ -25196,7 +25364,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 588,
+													"line": 589,
 													"character": 5
 												}
 											],
@@ -25217,7 +25385,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 587,
+													"line": 588,
 													"character": 5
 												}
 											],
@@ -25241,7 +25409,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 586,
+											"line": 587,
 											"character": 3
 										}
 									]
@@ -26435,7 +26603,7 @@
 							{
 								"type": "reference",
 								"id": 1169,
-								"name": "StatusUpdate"
+								"name": "PresenceUpdate"
 							},
 							{
 								"type": "reference",
@@ -26979,7 +27147,7 @@
 					"sources": [
 						{
 							"fileName": "src/types/InternalWebSocket.ts",
-							"line": 553,
+							"line": 554,
 							"character": 32
 						}
 					],
@@ -27008,7 +27176,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 555,
+													"line": 556,
 													"character": 5
 												}
 											],
@@ -27028,7 +27196,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 554,
+													"line": 555,
 													"character": 5
 												}
 											],
@@ -27052,7 +27220,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 553,
+											"line": 554,
 											"character": 34
 										}
 									]
@@ -27080,7 +27248,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 558,
+													"line": 559,
 													"character": 5
 												}
 											],
@@ -27101,7 +27269,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 557,
+													"line": 558,
 													"character": 5
 												}
 											],
@@ -27125,7 +27293,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 556,
+											"line": 557,
 											"character": 3
 										}
 									]
@@ -27153,7 +27321,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 560,
+													"line": 561,
 													"character": 5
 												}
 											],
@@ -27186,7 +27354,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 559,
+											"line": 560,
 											"character": 3
 										}
 									]
@@ -27214,7 +27382,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 563,
+													"line": 564,
 													"character": 5
 												}
 											],
@@ -27234,7 +27402,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 562,
+													"line": 563,
 													"character": 5
 												}
 											],
@@ -27258,7 +27426,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 561,
+											"line": 562,
 											"character": 3
 										}
 									]
@@ -27286,7 +27454,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 566,
+													"line": 567,
 													"character": 5
 												}
 											],
@@ -27307,7 +27475,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 565,
+													"line": 566,
 													"character": 5
 												}
 											],
@@ -27331,7 +27499,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 564,
+											"line": 565,
 											"character": 3
 										}
 									]
@@ -27359,7 +27527,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 569,
+													"line": 570,
 													"character": 5
 												}
 											],
@@ -27385,7 +27553,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 570,
+																	"line": 571,
 																	"character": 6
 																}
 															],
@@ -27405,7 +27573,7 @@
 															"sources": [
 																{
 																	"fileName": "src/types/InternalWebSocket.ts",
-																	"line": 571,
+																	"line": 572,
 																	"character": 8
 																}
 															],
@@ -27428,7 +27596,7 @@
 													"sources": [
 														{
 															"fileName": "src/types/InternalWebSocket.ts",
-															"line": 569,
+															"line": 570,
 															"character": 6
 														}
 													]
@@ -27446,7 +27614,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 568,
+													"line": 569,
 													"character": 5
 												}
 											],
@@ -27470,7 +27638,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 567,
+											"line": 568,
 											"character": 3
 										}
 									]
@@ -27498,7 +27666,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 575,
+													"line": 576,
 													"character": 5
 												}
 											],
@@ -27519,7 +27687,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 574,
+													"line": 575,
 													"character": 5
 												}
 											],
@@ -27543,7 +27711,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 573,
+											"line": 574,
 											"character": 3
 										}
 									]
@@ -27571,7 +27739,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 578,
+													"line": 579,
 													"character": 5
 												}
 											],
@@ -27592,7 +27760,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 577,
+													"line": 578,
 													"character": 5
 												}
 											],
@@ -27616,7 +27784,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 576,
+											"line": 577,
 											"character": 3
 										}
 									]
@@ -27644,7 +27812,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 581,
+													"line": 582,
 													"character": 5
 												}
 											],
@@ -27665,7 +27833,7 @@
 											"sources": [
 												{
 													"fileName": "src/types/InternalWebSocket.ts",
-													"line": 580,
+													"line": 581,
 													"character": 5
 												}
 											],
@@ -27689,7 +27857,7 @@
 									"sources": [
 										{
 											"fileName": "src/types/InternalWebSocket.ts",
-											"line": 579,
+											"line": 580,
 											"character": 3
 										}
 									]
@@ -27724,12 +27892,12 @@
 						1131,
 						1118,
 						1185,
+						1169,
+						1189,
 						1123,
 						1152,
 						1145,
 						1204,
-						1169,
-						1189,
 						1161,
 						1128,
 						1194,
@@ -29826,7 +29994,7 @@
 			]
 		},
 		{
-			"id": 1547,
+			"id": 1554,
 			"name": "\"test/Util\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -29852,11 +30020,11 @@
 				1387,
 				129,
 				64,
-				1541,
+				1548,
 				1017,
 				115,
 				1,
-				1547
+				1554
 			]
 		}
 	]
