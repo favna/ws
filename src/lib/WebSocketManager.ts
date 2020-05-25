@@ -65,6 +65,14 @@ export class WebSocketManager extends EventEmitter {
 	}
 
 	/**
+	 * Returns the average ping of all the shards.
+	 */
+	public get ping(): number {
+		const sum = this.shards.reduce((a, b) => a + b.ping, 0);
+		return sum / this.shards.size;
+	}
+
+	/**
 	 * The token to use for websocket connections
 	 */
 	public set token(token: string) {
