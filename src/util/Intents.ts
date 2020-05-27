@@ -1,6 +1,24 @@
 import { BitField, BitFieldObject } from '@klasa/bitfield';
 
-export type IntentsResolvable = keyof typeof Intents.FLAGS | number | BitFieldObject | ((keyof typeof Intents.FLAGS) | number | BitFieldObject)[];
+export const enum IntentsFlags {
+	Guilds = 'GUILDS',
+	GuildMembers = 'GUILD_MEMBERS',
+	GuildBans = 'GUILD_BANS',
+	GuildEmojis = 'GUILD_EMOJIS',
+	GuildIntegrations = 'GUILD_INTEGRATIONS',
+	GuildWebhooks = 'GUILD_WEBHOOKS',
+	GuildInvites = 'GUILD_INVITES',
+	GuildVoiceStates = 'GUILD_VOICE_STATES',
+	GuildPresences = 'GUILD_PRESENCES',
+	GuildMessages ='GUILD_MESSAGES',
+	GuildMessageReactions = 'GUILD_MESSAGE_REACTIONS',
+	GuildMessageTyping = 'GUILD_MESSAGE_TYPING',
+	DirectMessages = 'DIRECT_MESSAGES',
+	DirectMessageReactions = 'DIRECT_MESSAGE_REACTIONS',
+	DirectMessageTyping = 'DIRECT_MESSAGE_TYPING'
+}
+
+export type IntentsResolvable = IntentsFlags | number | BitFieldObject | (IntentsFlags | number | BitFieldObject)[];
 
 /* eslint-disable no-bitwise */
 
@@ -24,78 +42,78 @@ export class Intents extends BitField<IntentsResolvable> {
 		 * - CHANNEL_DELETE
 		 * - CHANNEL_PINS_UPDATE
 		 */
-		GUILDS: 1 << 0,
+		[IntentsFlags.Guilds]: 1 << 0,
 		/**
 		 * - GUILD_MEMBER_ADD
 		 * - GUILD_MEMBER_UPDATE
 		 * - GUILD_MEMBER_REMOVE
 		 */
-		GUILD_MEMBERS: 1 << 1,
+		[IntentsFlags.GuildMembers]: 1 << 1,
 		/**
 		 * - GUILD_BAN_ADD
 		 * - GUILD_BAN_REMOVE
 		 */
-		GUILD_BANS: 1 << 2,
+		[IntentsFlags.GuildBans]: 1 << 2,
 		/**
 		 * - GUILD_EMOJIS_UPDATE
 		 */
-		GUILD_EMOJIS: 1 << 3,
+		[IntentsFlags.GuildEmojis]: 1 << 3,
 		/**
 		 * - GUILD_INTEGRATIONS_UPDATE
 		 */
-		GUILD_INTEGRATIONS: 1 << 4,
+		[IntentsFlags.GuildIntegrations]: 1 << 4,
 		/**
 		 * - WEBHOOKS_UPDATE
 		 */
-		GUILD_WEBHOOKS: 1 << 5,
+		[IntentsFlags.GuildWebhooks]: 1 << 5,
 		/**
 		 * - INVITE_CREATE
 		 * - INVITE_DELETE
 		 */
-		GUILD_INVITES: 1 << 6,
+		[IntentsFlags.GuildInvites]: 1 << 6,
 		/**
 		 * - VOICE_STATE_UPDATE
 		 */
-		GUILD_VOICE_STATES: 1 << 7,
+		[IntentsFlags.GuildVoiceStates]: 1 << 7,
 		/**
 		 * - PRESENCE_UPDATE
 		 */
-		GUILD_PRESENCES: 1 << 8,
+		[IntentsFlags.GuildPresences]: 1 << 8,
 		/**
 		 * - MESSAGE_CREATE
 		 * - MESSAGE_UPDATE
 		 * - MESSAGE_DELETE
 		 */
-		GUILD_MESSAGES: 1 << 9,
+		[IntentsFlags.GuildMessages]: 1 << 9,
 		/**
 		 * - MESSAGE_REACTION_ADD
 		 * - MESSAGE_REACTION_REMOVE
 		 * - MESSAGE_REACTION_REMOVE_ALL
 		 * - MESSAGE_REACTION_REMOVE_EMOJI
 		 */
-		GUILD_MESSAGE_REACTIONS: 1 << 10,
+		[IntentsFlags.GuildMessageReactions]: 1 << 10,
 		/**
 		 * - TYPING_START
 		 */
-		GUILD_MESSAGE_TYPING: 1 << 11,
+		[IntentsFlags.GuildMessageTyping]: 1 << 11,
 		/**
 		 * - CHANNEL_CREATE
 		 * - MESSAGE_UPDATE
 		 * - MESSAGE_DELETE
 		 * - CHANNEL_PINS_UPDATE
 		 */
-		DIRECT_MESSAGES: 1 << 12,
+		[IntentsFlags.DirectMessages]: 1 << 12,
 		/**
 		 * - MESSAGE_REACTION_ADD
 		 * - MESSAGE_REACTION_REMOVE
 		 * - MESSAGE_REACTION_REMOVE_ALL
 		 * - MESSAGE_REACTION_REMOVE_EMOJI
 		 */
-		DIRECT_MESSAGE_REACTIONS: 1 << 13,
+		[IntentsFlags.DirectMessageReactions]: 1 << 13,
 		/**
 		 * - TYPING_START
 		 */
-		DIRECT_MESSAGE_TYPING: 1 << 14
+		[IntentsFlags.DirectMessageTyping]: 1 << 14
 	} as const;
 
 	/**
@@ -112,24 +130,22 @@ export class Intents extends BitField<IntentsResolvable> {
 	 * - DIRECT_MESSAGES
 	 * - DIRECT_MESSAGE_REACTIONS
 	 */
-	public static DEFAULT = Intents.FLAGS.GUILDS |
-		Intents.FLAGS.GUILD_BANS |
-		Intents.FLAGS.GUILD_EMOJIS |
-		Intents.FLAGS.GUILD_INTEGRATIONS |
-		Intents.FLAGS.GUILD_WEBHOOKS |
-		Intents.FLAGS.GUILD_INVITES |
-		Intents.FLAGS.GUILD_VOICE_STATES |
-		Intents.FLAGS.GUILD_MESSAGES |
-		Intents.FLAGS.GUILD_MESSAGE_REACTIONS |
-		Intents.FLAGS.DIRECT_MESSAGES |
-		Intents.FLAGS.DIRECT_MESSAGE_REACTIONS;
+	public static DEFAULT = Intents.FLAGS[IntentsFlags.Guilds] |
+		Intents.FLAGS[IntentsFlags.GuildBans] |
+		Intents.FLAGS[IntentsFlags.GuildEmojis] |
+		Intents.FLAGS[IntentsFlags.GuildIntegrations] |
+		Intents.FLAGS[IntentsFlags.GuildWebhooks] |
+		Intents.FLAGS[IntentsFlags.GuildInvites] |
+		Intents.FLAGS[IntentsFlags.GuildVoiceStates] |
+		Intents.FLAGS[IntentsFlags.GuildMessages] |
+		Intents.FLAGS[IntentsFlags.GuildMessageReactions] |
+		Intents.FLAGS[IntentsFlags.DirectMessages] |
+		Intents.FLAGS[IntentsFlags.DirectMessageReactions];
 
 	/**
 	 * Project-Blue default intents, with the addition of the `GUILD_MEMBERS` flag
 	 * Note: You need to enable support for it in the developer page of your bot
 	 */
-	public static DEFAULT_WITH_MEMBERS = Intents.DEFAULT | Intents.FLAGS.GUILD_MEMBERS;
+	public static DEFAULT_WITH_MEMBERS = Intents.DEFAULT | Intents.FLAGS[IntentsFlags.GuildMembers];
 
 }
-
-/* eslint-enable no-bitwise */
