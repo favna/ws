@@ -26,7 +26,7 @@
   "devDependencies": {
     "@ava/typescript": "^1.1.1",
     "@klasa/dapi-types": "0.2.0",
-    "@klasa/rest": "0.4.0",
+    "@klasa/rest": "0.4.2",
     "@types/node": "^14.0.5",
     "@types/ws": "^7.2.4",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
@@ -65,7 +65,7 @@
     "ws": "^7.3.0"
   },
   "peerDependencies": {
-    "@klasa/rest": "^0.4.0"
+    "@klasa/rest": "^0.4.2"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.1",
