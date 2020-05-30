@@ -217,11 +217,6 @@
   resolved "https://registry.yarnpkg.com/@klasa/bitfield/-/bitfield-0.0.3.tgz#8a3495b3600d6dd7066b770f05e250307b560890"
   integrity sha512-U8xrqbfg8Eqq+IL4TMy7rDG+QlJjQPGVel1aqVcIqJV2/XpQvsqIBz0UMUO3mEw7UsLN5E3Z71QpSIDvCfJWrg==
 
-"@klasa/cache@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@klasa/cache/-/cache-0.0.2.tgz#8e23691762f3a547370507f0617c69e7d18039a0"
-  integrity sha512-HmXjFOq1gSHxByBEKEIo7j5V63p12eYTSTAs6v0/qWKCUjemwSBadBg/nO0A8qZbP0sVyihk2BAsszPl+qhBDg==
-
 "@klasa/cache@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@klasa/cache/-/cache-0.0.3.tgz#824595f247fbd6204a6278eae988d22eb783d00b"
@@ -232,16 +227,16 @@
   resolved "https://registry.yarnpkg.com/@klasa/dapi-types/-/dapi-types-0.2.0.tgz#660b7f688cc9ec31e2d194b7bb9723cec0d28ae0"
   integrity sha512-JPuqL0I7e1BCu9szsXq/owp/Ni8YHmsIHfNDQPy84qdNoRLyPcBrlwgmck9RrI5h/S5/LLNJ9Hu6Oy8bMYDqFw==
 
-"@klasa/rest@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@klasa/rest/-/rest-0.4.0.tgz#e1165f4283131a05631313d7525474cbcf0a88d1"
-  integrity sha512-jF2QybJ7sCshQ6jb0RBpAL/cljzaGXJVS7V85RQCwbKO4CJFpKufOMHuTgAjUj9a6iWgXfNkpmftmkQJBUNpAw==
+"@klasa/rest@0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@klasa/rest/-/rest-0.4.2.tgz#947b4c070b01c6d33378cb1c276b0bfa456a61b3"
+  integrity sha512-AROo78txB1pre19lvU7VBJy5U9aUBujOeQPFbyz1b4mw8Oxv8BPUUzxUNa5ZTpvUlq9G+EgDkwKlnTBVeuB1uA==
   dependencies:
     "@klasa/async-queue" "^0.0.1"
-    "@klasa/cache" "^0.0.2"
+    "@klasa/cache" "^0.0.3"
     "@klasa/snowflake" "^0.0.1"
     "@klasa/timer-manager" "^0.0.1"
-    "@klasa/utils" "^0.0.4"
+    "@klasa/utils" "^0.0.8"
     abort-controller "^3.0.0"
     form-data "^3.0.0"
     node-fetch "^2.6.0"
@@ -255,11 +250,6 @@
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@klasa/timer-manager/-/timer-manager-0.0.1.tgz#977903d92453e9602c1803af15f1713d5ca028b9"
   integrity sha512-1ElnhLXzqv4Iod/GS7+joZX71rhSxHBVDoTX8gnXF55BKXihv/p5tF3ddfx7Rn0kzUSQwJwJkyMO6QyaXMcB6A==
-
-"@klasa/utils@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@klasa/utils/-/utils-0.0.4.tgz#4bf010b09d0f93b39245523ed22a09571d56508c"
-  integrity sha512-9gZSGN/As3sxZumZ9ZwyQ+KcNSenzY8tR1orRakv8HKK0WH0gG7QrsP/1O2TD4uHxUyr8dysCjt73RYPfzuDWQ==
 
 "@klasa/utils@^0.0.8":
   version "0.0.8"
@@ -333,10 +323,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^14.0.5":
-  version "14.0.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.5.tgz#3d03acd3b3414cf67faf999aed11682ed121f22b"
-  integrity sha512-90hiq6/VqtQgX8Sp0EzeIsv3r+ellbGj4URKj5j30tLlZvRUpnAe9YbYnjl3pJM93GyXU0tghHhvXHq+5rnCKA==
+"@types/node@*", "@types/node@^14.0.6":
+  version "14.0.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.6.tgz#f9e178b2da31a4b0ec60b64649e244c31ce18daf"
+  integrity sha512-FbNmu4F67d3oZMWBV6Y4MaPER+0EpE9eIYf2yaHhCWovc1dlXCZkqGX4NLHfVVr6umt20TNBdRzrNJIzIKfdbw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
