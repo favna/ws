@@ -70,6 +70,6 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.1",
     "utf-8-validate": "^5.0.2",
-    "zlib-sync": "^0.1.6"
+    "zlib-sync": "^0.1.7"
   }
 }
