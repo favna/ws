@@ -1,4 +1,4 @@
-import {
+import type {
 	APIChannelData,
 	APIEmojiData,
 	APIEmojiPartial,
@@ -13,9 +13,8 @@ import {
 	APIActivityData,
 	InviteTargetUserType
 } from '@klasa/dapi-types';
-
-import { WSOptions } from '../lib/WebSocketManager';
-import { WebSocketShardStatus } from '../lib/WebSocketShard';
+import type { WSOptions } from '../lib/WebSocketManager';
+import type { WebSocketShardStatus } from '../lib/WebSocketShard';
 
 export const enum WebSocketManagerEvents {
 	Debug = 'debug',
